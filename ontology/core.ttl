@@ -1,0 +1,30 @@
+@prefix fx:   <https://example.org/fluxa/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# The enterprise ontology: one shared vocabulary that PLM, ERP, MES and CRM all map onto.
+
+fx:Item          a owl:Class ; rdfs:comment "Anything that appears in a bill of materials." .
+fx:Product       a owl:Class ; rdfs:subClassOf fx:Item ; rdfs:comment "A sellable pump model (PLM)." .
+fx:Assembly      a owl:Class ; rdfs:subClassOf fx:Item ; rdfs:comment "A built unit made of parts or other assemblies (PLM)." .
+fx:Part          a owl:Class ; rdfs:subClassOf fx:Item ; rdfs:comment "A purchased component (PLM, ERP, MES)." .
+fx:Supplier      a owl:Class ; rdfs:comment "A company we buy parts from. ERP may hold several vendor records for one supplier." .
+fx:Customer      a owl:Class ; rdfs:comment "An account that owns installed pumps (CRM)." .
+fx:Installation  a owl:Class ; rdfs:comment "One serial-numbered pump at a customer site (CRM)." .
+fx:QualityIssue  a owl:Class ; rdfs:comment "A nonconformance report against a part (MES)." .
+
+fx:hasComponent  a owl:ObjectProperty, owl:TransitiveProperty ;
+    rdfs:domain fx:Item ; rdfs:range fx:Item ;
+    rdfs:comment "BOM parent to child. Transitive: a product contains every part in its sub-assemblies." .
+fx:suppliedBy    a owl:ObjectProperty ; rdfs:domain fx:Part ; rdfs:range fx:Supplier .
+fx:ofProduct     a owl:ObjectProperty ; rdfs:domain fx:Installation ; rdfs:range fx:Product .
+fx:ownedBy       a owl:ObjectProperty ; rdfs:domain fx:Installation ; rdfs:range fx:Customer .
+fx:concerns      a owl:ObjectProperty ; rdfs:domain fx:QualityIssue ; rdfs:range fx:Part .
+fx:status        a owl:DatatypeProperty ; rdfs:domain fx:QualityIssue ; rdfs:range xsd:string .
+fx:defect        a owl:DatatypeProperty ; rdfs:domain fx:QualityIssue ; rdfs:range xsd:string .
+fx:sourceRecord  a owl:DatatypeProperty ;
+    rdfs:comment "Provenance: which source-system record was resolved to this entity, and how." .
+
+# skos:altLabel carries every spelling a source system used for the entity.

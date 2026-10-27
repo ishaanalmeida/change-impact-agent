@@ -1,0 +1,141 @@
+item_id,item_type,description
+FX-150,product,FluxaPro 150
+FX-200,product,FluxaPro 200
+FX-250,product,FluxaPro 250
+AL-80,product,AquaLine 80
+AL-120,product,AquaLine 120
+HD-400,product,HydroDrive 400
+HD-600,product,HydroDrive 600
+CB-50,product,ChemBoost 50
+CB-90,product,ChemBoost 90
+SW-300,product,SeaWater 300
+ASM-0001,assembly,Assembly 0001
+ASM-0002,assembly,Assembly 0002
+ASM-0003,assembly,Assembly 0003
+ASM-0004,assembly,Assembly 0004
+ASM-0005,assembly,Assembly 0005
+ASM-0006,assembly,Assembly 0006
+ASM-0007,assembly,Assembly 0007
+ASM-0008,assembly,Assembly 0008
+ASM-0009,assembly,Assembly 0009
+ASM-0010,assembly,Assembly 0010
+ASM-0011,assembly,Assembly 0011
+ASM-0012,assembly,Assembly 0012
+ASM-0013,assembly,Assembly 0013
+ASM-0014,assembly,Assembly 0014
+ASM-0015,assembly,Assembly 0015
+ASM-0016,assembly,Assembly 0016
+ASM-0017,assembly,Assembly 0017
+ASM-0018,assembly,Assembly 0018
+ASM-0019,assembly,Assembly 0019
+ASM-0020,assembly,Assembly 0020
+ASM-0021,assembly,Assembly 0021
+ASM-0022,assembly,Assembly 0022
+ASM-0023,assembly,Assembly 0023
+ASM-0024,assembly,Assembly 0024
+ASM-0025,assembly,Assembly 0025
+ASM-0026,assembly,Assembly 0026
+ASM-0027,assembly,Assembly 0027
+ASM-0028,assembly,Assembly 0028
+ASM-0029,assembly,Assembly 0029
+ASM-0030,assembly,Assembly 0030
+PRT-10001,part,Shaft 35mm stainless
+PRT-10002,part,Controller PCB rev 16
+PRT-10003,part,Mechanical seal 25mm carbon/SiC
+PRT-10004,part,Mechanical seal 65mm carbon/SiC
+PRT-10005,part,Ball bearing 623-2RS
+PRT-10006,part,O-ring 20mm NBR
+PRT-10007,part,Motor 7kW IE4 2-pole
+PRT-10008,part,Frequency drive 10kW
+PRT-10009,part,Shaft 45mm stainless
+PRT-10010,part,O-ring 32mm EPDM
+PRT-10011,part,Volute casing DN125 stainless
+PRT-10012,part,Shaft 25mm duplex
+PRT-10013,part,Motor 11kW IE4 2-pole
+PRT-10014,part,Ball bearing 629-2RS
+PRT-10015,part,Fastener kit M6 galvanised
+PRT-10016,part,Frequency drive 16kW
+PRT-10017,part,Ball bearing 6310-ZZ
+PRT-10018,part,O-ring 90mm EPDM
+PRT-10019,part,Fastener kit M20 galvanised
+PRT-10020,part,O-ring 45mm FKM
+PRT-10021,part,O-ring 45mm NBR
+PRT-10022,part,Volute casing DN50 stainless
+PRT-10023,part,Impeller 250mm bronze
+PRT-10024,part,Impeller 150mm cast iron
+PRT-10025,part,O-ring 75mm FKM
+PRT-10026,part,Frequency drive 6kW
+PRT-10027,part,Pressure sensor 0-25 bar
+PRT-10028,part,Mechanical seal 35mm carbon/SiC
+PRT-10029,part,Shaft 25mm stainless
+PRT-10030,part,Mechanical seal 35mm SiC/SiC
+PRT-10031,part,Fastener kit M10 galvanised
+PRT-10032,part,Motor 45kW IE4 2-pole
+PRT-10033,part,Controller PCB rev 40
+PRT-10034,part,Ball bearing 638-ZZ
+PRT-10035,part,Mechanical seal 55mm carbon/SiC
+PRT-10036,part,Mechanical seal 45mm SiC/SiC
+PRT-10037,part,Mechanical seal 55mm SiC/SiC
+PRT-10038,part,Fastener kit M10 A4
+PRT-10039,part,Ball bearing 636-ZZ
+PRT-10040,part,Ball bearing 625-2RS
+PRT-10041,part,Impeller 220mm stainless
+PRT-10042,part,Fastener kit M8 galvanised
+PRT-10043,part,O-ring 90mm NBR
+PRT-10044,part,Impeller 150mm bronze
+PRT-10045,part,O-ring 32mm FKM
+PRT-10046,part,Shaft 45mm duplex
+PRT-10047,part,O-ring 45mm EPDM
+PRT-10048,part,Pressure sensor 0-40 bar
+PRT-10049,part,Fastener kit M16 A4
+PRT-10050,part,Ball bearing 628-2RS
+PRT-10051,part,Ball bearing 626-2RS
+PRT-10052,part,O-ring 60mm NBR
+PRT-10053,part,Fastener kit M16 galvanised
+PRT-10054,part,Controller PCB rev 25
+PRT-10055,part,Mechanical seal 25mm SiC/SiC
+PRT-10056,part,Impeller 300mm stainless
+PRT-10057,part,Motor 15kW IE3 4-pole
+PRT-10058,part,Fastener kit M20 A4
+PRT-10059,part,Volute casing DN100 stainless
+PRT-10060,part,Controller PCB rev 6
+PRT-10061,part,Ball bearing 627-2RS
+PRT-10062,part,Motor 45kW IE3 4-pole
+PRT-10063,part,Volute casing DN150 cast iron
+PRT-10064,part,Impeller 120mm bronze
+PRT-10065,part,Ball bearing 634-ZZ
+PRT-10066,part,Pressure sensor 0-16 bar
+PRT-10067,part,O-ring 32mm NBR
+PRT-10068,part,Motor 11kW IE3 4-pole
+PRT-10069,part,O-ring 20mm FKM
+PRT-10070,part,Pressure sensor 0-10 bar
+PRT-10071,part,Volute casing DN150 stainless
+PRT-10072,part,Impeller 180mm bronze
+PRT-10073,part,Fastener kit M8 A4
+PRT-10074,part,Motor 30kW IE4 2-pole
+PRT-10075,part,Motor 4kW IE3 4-pole
+PRT-10076,part,O-ring 75mm EPDM
+PRT-10077,part,Ball bearing 624-2RS
+PRT-10078,part,Motor 30kW IE3 4-pole
+PRT-10079,part,Fastener kit M12 galvanised
+PRT-10080,part,Fastener kit M12 A4
+PRT-10081,part,Ball bearing 633-ZZ
+PRT-10082,part,Volute casing DN80 cast iron
+PRT-10083,part,Pressure sensor 0-6 bar
+PRT-10084,part,Shaft 35mm duplex
+PRT-10085,part,Ball bearing 639-ZZ
+PRT-10086,part,Impeller 180mm cast iron
+PRT-10087,part,O-ring 60mm EPDM
+PRT-10088,part,Motor 4kW IE4 2-pole
+PRT-10089,part,Impeller 220mm bronze
+PRT-10090,part,Motor 15kW IE4 2-pole
+PRT-10091,part,Impeller 150mm stainless
+PRT-10092,part,Volute casing DN200 stainless
+PRT-10093,part,Fastener kit M6 A4
+PRT-10094,part,Mechanical seal 45mm carbon/SiC
+PRT-10095,part,O-ring 75mm NBR
+PRT-10096,part,Mechanical seal 65mm SiC/SiC
+PRT-10097,part,Volute casing DN100 cast iron
+PRT-10098,part,Volute casing DN50 cast iron
+PRT-10099,part,Controller PCB rev 10
+PRT-10100,part,Motor 7kW IE3 4-pole

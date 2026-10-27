@@ -1,0 +1,368 @@
+entity,system,record,method,score
+SUP-vortex-seals-gmbh,ERP,V0001 'VORTEX SEALS GMBH',vendor name cluster,
+SUP-tampere-seal-systems-oy,ERP,V0002 'Tampere Seal Systems Oy',vendor name cluster,
+SUP-tampere-seal-systems-oy,ERP,V0003 'Tampere Seal Systems',vendor name cluster,
+SUP-rhone-polymers-sas,ERP,V0004 'Rhone Polymers SAS',vendor name cluster,
+SUP-nordic-castings-ab,ERP,V0005 'Nordic Castings AB',vendor name cluster,
+SUP-nordic-castings-ab,ERP,V0006 'Nordic Castings AB',vendor name cluster,
+SUP-nordic-coatings,ERP,V0007 'Nordic Coatings',vendor name cluster,
+SUP-nordic-coatings,ERP,V0008 'NORDIC COATINGS',vendor name cluster,
+SUP-baltic-impellers,ERP,V0010 'BALTIC IMPELLERS',vendor name cluster,
+SUP-ligure-valvole-s-p-a,ERP,V0011 'LIGURE VALVOLE S.P.A.',vendor name cluster,
+SUP-ligure-valvole-s-p-a,ERP,V0012 'LIGURE VALVOLE S.P.A.',vendor name cluster,
+SUP-silesia-tseel-sp-z-o-o,ERP,V0013 'Silesia tSeel Sp. z o.o.',vendor name cluster,
+SUP-silesia-tseel-sp-z-o-o,ERP,V0014 'Silesia Steel Sp z oo',vendor name cluster,
+SUP-lombardia-shafts-spa,ERP,V0015 'Lombadria Shafts S.p.A.',vendor name cluster,
+SUP-lombardia-shafts-spa,ERP,V0016 'Lombardia Shafts SpA',vendor name cluster,
+SUP-ardennes-bearings-s-a,ERP,V0017 'Ardennes Bearings S.A.',vendor name cluster,
+SUP-midlands-fasteners,ERP,V0018 'Midlands Fasteners',vendor name cluster,
+SUP-brabant-motorworks-bv,ERP,V0019 'Brabant Motorworks BV',vendor name cluster,
+SUP-twente-elektro-b-v,ERP,V0020 'TWENTE ELEKTRO B.V.',vendor name cluster,
+SUP-bavaria-sensorik-ag,ERP,V0021 'Bavaria Sensorik AG',vendor name cluster,
+SUP-bavaria-sensorik-ag,ERP,V0022 'BAVARIA SENSORIK',vendor name cluster,
+SUP-kempen-electronics-b-v,ERP,V0023 'KEMPEN ELECTRONICS B.V.',vendor name cluster,
+SUP-kempen-electronics-b-v,ERP,V0024 'Kempen Electronics B.V.',vendor name cluster,
+PRT-10001,ERP,10001-00,material number key,
+PRT-10002,ERP,10002-00,material number key,
+PRT-10003,ERP,10003-00,material number key,
+PRT-10004,ERP,10004-00,material number key,
+PRT-10005,ERP,10005-00,material number key,
+PRT-10006,ERP,10006-00,material number key,
+PRT-10007,ERP,10007-00,material number key,
+PRT-10008,ERP,10008-00,material number key,
+PRT-10008,ERP,10008,material number key,
+PRT-10009,ERP,10009-00,material number key,
+PRT-10010,ERP,10010-00,material number key,
+PRT-10011,ERP,10011-00,material number key,
+PRT-10012,ERP,10012-00,material number key,
+PRT-10013,ERP,10013-00,material number key,
+PRT-10014,ERP,10014,material number key,
+PRT-10014,ERP,10014-00,material number key,
+PRT-10015,ERP,10015-00,material number key,
+PRT-10016,ERP,10016-00,material number key,
+PRT-10017,ERP,10017,material number key,
+PRT-10018,ERP,10018-00,material number key,
+PRT-10019,ERP,10019-00,material number key,
+PRT-10020,ERP,10020-00,material number key,
+PRT-10020,ERP,10020-00,material number key,
+PRT-10021,ERP,10021-00,material number key,
+PRT-10021,ERP,10021-00,material number key,
+PRT-10022,ERP,10022-00,material number key,
+PRT-10022,ERP,10022-00,material number key,
+PRT-10023,ERP,10023,material number key,
+PRT-10024,ERP,10024-00,material number key,
+PRT-10024,ERP,10024-00,material number key,
+PRT-10025,ERP,10025-00,material number key,
+PRT-10025,ERP,10025-00,material number key,
+PRT-10026,ERP,10026-00,material number key,
+PRT-10027,ERP,10027-00,material number key,
+PRT-10028,ERP,10028-00,material number key,
+PRT-10029,ERP,10029-00,material number key,
+PRT-10029,ERP,10029,material number key,
+PRT-10030,ERP,10030-00,material number key,
+PRT-10031,ERP,10031-00,material number key,
+PRT-10031,ERP,10031-00,material number key,
+PRT-10032,ERP,10032-00,material number key,
+PRT-10033,ERP,10033-00,material number key,
+PRT-10034,ERP,10034-00,material number key,
+PRT-10035,ERP,10035-00,material number key,
+PRT-10036,ERP,10036-00,material number key,
+PRT-10037,ERP,10037-00,material number key,
+PRT-10038,ERP,10038,material number key,
+PRT-10038,ERP,10038-00,material number key,
+PRT-10039,ERP,10039-00,material number key,
+PRT-10040,ERP,10040-00,material number key,
+PRT-10041,ERP,10041,material number key,
+PRT-10042,ERP,10042-00,material number key,
+PRT-10043,ERP,10043-00,material number key,
+PRT-10044,ERP,10044-00,material number key,
+PRT-10045,ERP,10045,material number key,
+PRT-10046,ERP,10046-00,material number key,
+PRT-10047,ERP,10047,material number key,
+PRT-10048,ERP,10048-00,material number key,
+PRT-10048,ERP,10048-00,material number key,
+PRT-10049,ERP,10049-00,material number key,
+PRT-10049,ERP,10049-00,material number key,
+PRT-10050,ERP,10050-00,material number key,
+PRT-10051,ERP,10051-00,material number key,
+PRT-10051,ERP,10051-00,material number key,
+PRT-10052,ERP,10052-00,material number key,
+PRT-10053,ERP,10053-00,material number key,
+PRT-10054,ERP,10054-00,material number key,
+PRT-10054,ERP,10054-00,material number key,
+PRT-10055,ERP,10055-00,material number key,
+PRT-10055,ERP,10055-00,material number key,
+PRT-10056,ERP,10056-00,material number key,
+PRT-10057,ERP,10057-00,material number key,
+PRT-10057,ERP,10057-00,material number key,
+PRT-10058,ERP,10058-00,material number key,
+PRT-10059,ERP,10059-00,material number key,
+PRT-10060,ERP,10060-00,material number key,
+PRT-10061,ERP,10061-00,material number key,
+PRT-10062,ERP,10062,material number key,
+PRT-10063,ERP,10063-00,material number key,
+PRT-10064,ERP,10064-00,material number key,
+PRT-10065,ERP,10065-00,material number key,
+PRT-10066,ERP,10066,material number key,
+PRT-10067,ERP,10067-00,material number key,
+PRT-10068,ERP,10068-00,material number key,
+PRT-10069,ERP,10069-00,material number key,
+PRT-10069,ERP,10069-00,material number key,
+PRT-10070,ERP,10070-00,material number key,
+PRT-10071,ERP,10071-00,material number key,
+PRT-10072,ERP,10072-00,material number key,
+PRT-10073,ERP,10073,material number key,
+PRT-10074,ERP,10074-00,material number key,
+PRT-10074,ERP,10074-00,material number key,
+PRT-10075,ERP,10075-00,material number key,
+PRT-10076,ERP,10076-00,material number key,
+PRT-10077,ERP,10077-00,material number key,
+PRT-10078,ERP,10078,material number key,
+PRT-10079,ERP,10079,material number key,
+PRT-10079,ERP,10079-00,material number key,
+PRT-10080,ERP,10080-00,material number key,
+PRT-10081,ERP,10081-00,material number key,
+PRT-10082,ERP,10082-00,material number key,
+PRT-10082,ERP,10082-00,material number key,
+PRT-10083,ERP,10083-00,material number key,
+PRT-10084,ERP,10084-00,material number key,
+PRT-10084,ERP,10084,material number key,
+PRT-10085,ERP,10085-00,material number key,
+PRT-10086,ERP,10086-00,material number key,
+PRT-10087,ERP,10087-00,material number key,
+PRT-10088,ERP,10088-00,material number key,
+PRT-10089,ERP,10089,material number key,
+PRT-10090,ERP,10090-00,material number key,
+PRT-10091,ERP,10091-00,material number key,
+PRT-10091,ERP,10091-00,material number key,
+PRT-10092,ERP,10092-00,material number key,
+PRT-10093,ERP,10093,material number key,
+PRT-10094,ERP,10094-00,material number key,
+PRT-10095,ERP,10095-00,material number key,
+PRT-10096,ERP,10096-00,material number key,
+PRT-10096,ERP,10096-00,material number key,
+PRT-10097,ERP,10097-00,material number key,
+PRT-10097,ERP,10097-00,material number key,
+PRT-10098,ERP,10098-00,material number key,
+PRT-10099,ERP,10099-00,material number key,
+PRT-10100,ERP,10100-00,material number key,
+NC-5001,MES,NC-5001 'PRT-10096',part number key,
+NC-5002,MES,NC-5002 'PRT-10024',part number key,
+NC-5003,MES,NC-5003 'PRT-10056',part number key,
+NC-5004,MES,NC-5004 'PRT-10012',part number key,
+NC-5005,MES,NC-5005 'Fastener kit M8 galvanised',description match,100
+NC-5006,MES,NC-5006 'CONTROLLER PCB REV 40',description match,100
+NC-5007,MES,NC-5007 'O-RING 20MM FKM',description match,100
+NC-5008,MES,NC-5008 'PRT-10050',part number key,
+NC-5009,MES,NC-5009 'prt10058',part number key,
+NC-5010,MES,NC-5010 'prt10053',part number key,
+NC-5011,MES,NC-5011 'PRT-10054',part number key,
+NC-5012,MES,NC-5012 'prt10089',part number key,
+NC-5013,MES,NC-5013 'PRT-10047',part number key,
+NC-5014,MES,NC-5014 'PRT-10040',part number key,
+NC-5015,MES,NC-5015 'impeller 220mm bronze',description match,100
+NC-5016,MES,NC-5016 'PRT-10021',part number key,
+NC-5017,MES,NC-5017 'PRT-10065',part number key,
+NC-5018,MES,NC-5018 '10081',part number key,
+NC-5019,MES,NC-5019 'PRT-10089',part number key,
+NC-5020,MES,NC-5020 'prt10040',part number key,
+NC-5021,MES,NC-5021 'prt10051',part number key,
+NC-5022,MES,NC-5022 'IMPELLER 250MM BRONZE',description match,100
+NC-5023,MES,NC-5023 '10066',part number key,
+NC-5024,MES,NC-5024 'prt10019',part number key,
+NC-5025,MES,NC-5025 'PRT-10013',part number key,
+NC-5026,MES,NC-5026 'PRT-10060',part number key,
+NC-5027,MES,NC-5027 '10084',part number key,
+NC-5028,MES,NC-5028 'PRT-10092',part number key,
+NC-5029,MES,NC-5029 'prt10005',part number key,
+NC-5030,MES,NC-5030 'prt10025',part number key,
+NC-5031,MES,NC-5031 'prt10029',part number key,
+NC-5032,MES,NC-5032 'PRT-10007',part number key,
+NC-5033,MES,NC-5033 'o-ring 20mm nbr',description match,100
+NC-5034,MES,NC-5034 'PRT-10059',part number key,
+NC-5035,MES,NC-5035 'PRT-10064',part number key,
+NC-5036,MES,NC-5036 '10087',part number key,
+NC-5037,MES,NC-5037 'PRT-10052',part number key,
+NC-5038,MES,NC-5038 'PRT-10012',part number key,
+NC-5039,MES,NC-5039 'Impeller 150mm CI',description match,100
+NC-5040,MES,NC-5040 'PRT-10069',part number key,
+NC-5041,MES,NC-5041 'Frequency drive 16kW',description match,100
+NC-5042,MES,NC-5042 'PRT-10025',part number key,
+NC-5043,MES,NC-5043 'PRT-10056',part number key,
+NC-5044,MES,NC-5044 'PRT-10044',part number key,
+NC-5045,MES,NC-5045 'PRT-10012',part number key,
+NC-5046,MES,NC-5046 'PRT-10072',part number key,
+NC-5047,MES,NC-5047 'PRT-10021',part number key,
+NC-5048,MES,NC-5048 'fastener kit m16 a4',description match,100
+NC-5049,MES,NC-5049 '10030',part number key,
+NC-5050,MES,NC-5050 '10076',part number key,
+NC-5051,MES,NC-5051 'prt10017',part number key,
+NC-5052,MES,NC-5052 'PRT-10095',part number key,
+NC-5053,MES,NC-5053 'PRT-10040',part number key,
+NC-5054,MES,NC-5054 'Impeller 220 mm bronze',description match,100
+NC-5055,MES,NC-5055 '10014',part number key,
+NC-5056,MES,NC-5056 'prt10025',part number key,
+NC-5057,MES,NC-5057 'mech. seal 55 mm sic/sic',description match,90
+NC-5058,MES,NC-5058 'PRT-10036',part number key,
+NC-5059,MES,NC-5059 '10053',part number key,
+NC-5060,MES,NC-5060 'o-ring 60 mm nbr',description match,100
+NC-5061,MES,NC-5061 'prt10035',part number key,
+NC-5062,MES,NC-5062 'PRT-10006',part number key,
+NC-5063,MES,NC-5063 'PRT-10097',part number key,
+NC-5064,MES,NC-5064 'prt10071',part number key,
+NC-5065,MES,NC-5065 '10073',part number key,
+NC-5066,MES,NC-5066 'prt10086',part number key,
+NC-5067,MES,NC-5067 'PRT-10098',part number key,
+NC-5068,MES,NC-5068 'prt10075',part number key,
+NC-5069,MES,NC-5069 'PRT-10005',part number key,
+NC-5070,MES,NC-5070 'PRT-10096',part number key,
+SN24000,CRM,SN24000 'SEAWATER-300',product name,exact after normalising
+SN24001,CRM,SN24001 'SeaWater 300 pump unit',product name,exact after normalising
+SN24002,CRM,SN24002 'HydroDrive600',product name,exact after normalising
+SN24003,CRM,SN24003 'Hydro Drive 400',product name,exact after normalising
+SN24004,CRM,SN24004 'HydroDrive 400 pump unit',product name,exact after normalising
+SN24005,CRM,SN24005 'FluxaPro150',product name,exact after normalising
+SN24006,CRM,SN24006 'FluxaPro 200 pump unit',product name,exact after normalising
+SN24007,CRM,SN24007 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24008,CRM,SN24008 'HYDRODRIVE-600',product name,exact after normalising
+SN24009,CRM,SN24009 'HYDRODRIVE-400',product name,exact after normalising
+SN24010,CRM,SN24010 'AquaLine120',product name,exact after normalising
+SN24011,CRM,SN24011 'ChemBoost50',product name,exact after normalising
+SN24012,CRM,SN24012 'AquaLine 120',product name,exact after normalising
+SN24013,CRM,SN24013 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24014,CRM,SN24014 'FluxaPro200',product name,exact after normalising
+SN24015,CRM,SN24015 'SeaWa ter 300',product name,exact after normalising
+SN24016,CRM,SN24016 'SeaWater 300',product name,exact after normalising
+SN24017,CRM,SN24017 'ChemBoost50',product name,exact after normalising
+SN24018,CRM,SN24018 'HYDRODRIVE-600',product name,exact after normalising
+SN24019,CRM,SN24019 'AQUALINE-120',product name,exact after normalising
+SN24020,CRM,SN24020 'HydroDrive 600',product name,exact after normalising
+SN24021,CRM,SN24021 'SeaWater 300 pump unit',product name,exact after normalising
+SN24022,CRM,SN24022 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24023,CRM,SN24023 'HydroDrive 600',product name,exact after normalising
+SN24024,CRM,SN24024 'HydroDrive 600 pump unit',product name,exact after normalising
+SN24025,CRM,SN24025 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24026,CRM,SN24026 'FluxaPro 250',product name,exact after normalising
+SN24027,CRM,SN24027 'FluxaPro 200',product name,exact after normalising
+SN24028,CRM,SN24028 'ChemB oost 50',product name,exact after normalising
+SN24029,CRM,SN24029 'CHEMBOOST-50',product name,exact after normalising
+SN24030,CRM,SN24030 'Fluxa Pro 250',product name,exact after normalising
+SN24031,CRM,SN24031 'ChemBoost 50',product name,exact after normalising
+SN24032,CRM,SN24032 'FluxaPro 150',product name,exact after normalising
+SN24033,CRM,SN24033 'SEAWATER-300',product name,exact after normalising
+SN24034,CRM,SN24034 'SeaWa ter 300',product name,exact after normalising
+SN24035,CRM,SN24035 'HydroDrive 400 pump unit',product name,exact after normalising
+SN24036,CRM,SN24036 'FLUXAPRO-250',product name,exact after normalising
+SN24037,CRM,SN24037 'FluxaPro 250 pump unit',product name,exact after normalising
+SN24038,CRM,SN24038 'AQUALINE-120',product name,exact after normalising
+SN24039,CRM,SN24039 'Fluxa Pro 150',product name,exact after normalising
+SN24040,CRM,SN24040 'Fluxa Pro 150',product name,exact after normalising
+SN24041,CRM,SN24041 'AquaLine 80 pump unit',product name,exact after normalising
+SN24042,CRM,SN24042 'AquaLine 80',product name,exact after normalising
+SN24043,CRM,SN24043 'AquaLine120',product name,exact after normalising
+SN24044,CRM,SN24044 'Fluxa Pro 150',product name,exact after normalising
+SN24045,CRM,SN24045 'AQUALINE-120',product name,exact after normalising
+SN24046,CRM,SN24046 'FluxaPro 200 pump unit',product name,exact after normalising
+SN24047,CRM,SN24047 'AquaLine 80 pump unit',product name,exact after normalising
+SN24048,CRM,SN24048 'AquaLine 80 pump unit',product name,exact after normalising
+SN24049,CRM,SN24049 'ChemBoost 90',product name,exact after normalising
+SN24050,CRM,SN24050 'Hydro Drive 600',product name,exact after normalising
+SN24051,CRM,SN24051 'ChemBoost50',product name,exact after normalising
+SN24052,CRM,SN24052 'AQUALINE-80',product name,exact after normalising
+SN24053,CRM,SN24053 'SeaWater 300 pump unit',product name,exact after normalising
+SN24054,CRM,SN24054 'FluxaPro 250 pump unit',product name,exact after normalising
+SN24055,CRM,SN24055 'FluxaPro 200',product name,exact after normalising
+SN24056,CRM,SN24056 'HYDRODRIVE-400',product name,exact after normalising
+SN24057,CRM,SN24057 'ChemBoost 90',product name,exact after normalising
+SN24058,CRM,SN24058 'AquaL ine 80',product name,exact after normalising
+SN24059,CRM,SN24059 'AquaLine 80 pump unit',product name,exact after normalising
+SN24060,CRM,SN24060 'CHEMBOOST-50',product name,exact after normalising
+SN24061,CRM,SN24061 'HydroDrive 400 pump unit',product name,exact after normalising
+SN24062,CRM,SN24062 'Fluxa Pro 150',product name,exact after normalising
+SN24063,CRM,SN24063 'ChemB oost 50',product name,exact after normalising
+SN24064,CRM,SN24064 'HYDRODRIVE-600',product name,exact after normalising
+SN24065,CRM,SN24065 'SeaWa ter 300',product name,exact after normalising
+SN24066,CRM,SN24066 'FLUXAPRO-250',product name,exact after normalising
+SN24067,CRM,SN24067 'AQUALINE-80',product name,exact after normalising
+SN24068,CRM,SN24068 'FluxaPro 150',product name,exact after normalising
+SN24069,CRM,SN24069 'ChemBoost 90',product name,exact after normalising
+SN24070,CRM,SN24070 'HYDRODRIVE-400',product name,exact after normalising
+SN24071,CRM,SN24071 'SeaWater 300 pump unit',product name,exact after normalising
+SN24072,CRM,SN24072 'HydroDrive 400',product name,exact after normalising
+SN24073,CRM,SN24073 'ChemBoost 50 pump unit',product name,exact after normalising
+SN24074,CRM,SN24074 'FluxaPro250',product name,exact after normalising
+SN24075,CRM,SN24075 'Fluxa Pro 250',product name,exact after normalising
+SN24076,CRM,SN24076 'FluxaPro 250 pump unit',product name,exact after normalising
+SN24077,CRM,SN24077 'FLUXAPRO-200',product name,exact after normalising
+SN24078,CRM,SN24078 'ChemBoost50',product name,exact after normalising
+SN24079,CRM,SN24079 'AquaLine 80 pump unit',product name,exact after normalising
+SN24080,CRM,SN24080 'FLUXAPRO-250',product name,exact after normalising
+SN24081,CRM,SN24081 'HydroDrive 600',product name,exact after normalising
+SN24082,CRM,SN24082 'SeaWater300',product name,exact after normalising
+SN24083,CRM,SN24083 'ChemBoost 50 pump unit',product name,exact after normalising
+SN24084,CRM,SN24084 'FluxaPro200',product name,exact after normalising
+SN24085,CRM,SN24085 'CHEMBOOST-50',product name,exact after normalising
+SN24086,CRM,SN24086 'HydroDrive400',product name,exact after normalising
+SN24087,CRM,SN24087 'FluxaPro 200 pump unit',product name,exact after normalising
+SN24088,CRM,SN24088 'FluxaPro 150',product name,exact after normalising
+SN24089,CRM,SN24089 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24090,CRM,SN24090 'CHEMBOOST-90',product name,exact after normalising
+SN24091,CRM,SN24091 'FLUXAPRO-150',product name,exact after normalising
+SN24092,CRM,SN24092 'Fluxa Pro 250',product name,exact after normalising
+SN24093,CRM,SN24093 'FluxaPro 250',product name,exact after normalising
+SN24094,CRM,SN24094 'ChemBoost50',product name,exact after normalising
+SN24095,CRM,SN24095 'SeaWater300',product name,exact after normalising
+SN24096,CRM,SN24096 'FluxaPro 200',product name,exact after normalising
+SN24097,CRM,SN24097 'HydroDrive 400 pump unit',product name,exact after normalising
+SN24098,CRM,SN24098 'FluxaPro150',product name,exact after normalising
+SN24099,CRM,SN24099 'AquaL ine 120',product name,exact after normalising
+SN24100,CRM,SN24100 'Fluxa Pro 150',product name,exact after normalising
+SN24101,CRM,SN24101 'Fluxa Pro 150',product name,exact after normalising
+SN24102,CRM,SN24102 'FLUXAPRO-200',product name,exact after normalising
+SN24103,CRM,SN24103 'HYDRODRIVE-600',product name,exact after normalising
+SN24104,CRM,SN24104 'ChemB oost 50',product name,exact after normalising
+SN24105,CRM,SN24105 'FluxaPro 250',product name,exact after normalising
+SN24106,CRM,SN24106 'SeaWater 300',product name,exact after normalising
+SN24107,CRM,SN24107 'AquaLine 120',product name,exact after normalising
+SN24108,CRM,SN24108 'AquaL ine 80',product name,exact after normalising
+SN24109,CRM,SN24109 'SeaWater 300 pump unit',product name,exact after normalising
+SN24110,CRM,SN24110 'HydroDrive 400',product name,exact after normalising
+SN24111,CRM,SN24111 'Fluxa Pro 200',product name,exact after normalising
+SN24112,CRM,SN24112 'AquaLine 120',product name,exact after normalising
+SN24113,CRM,SN24113 'FluxaPro250',product name,exact after normalising
+SN24114,CRM,SN24114 'SeaWater300',product name,exact after normalising
+SN24115,CRM,SN24115 'HydroDrive 600 pump unit',product name,exact after normalising
+SN24116,CRM,SN24116 'HydroDrive400',product name,exact after normalising
+SN24117,CRM,SN24117 'HydroDrive 600 pump unit',product name,exact after normalising
+SN24118,CRM,SN24118 'FLUXAPRO-150',product name,exact after normalising
+SN24119,CRM,SN24119 'HydroDrive 600',product name,exact after normalising
+SN24120,CRM,SN24120 'FluxaPro 250 pump unit',product name,exact after normalising
+SN24121,CRM,SN24121 'ChemBoost90',product name,exact after normalising
+SN24122,CRM,SN24122 'HydroDrive 600',product name,exact after normalising
+SN24123,CRM,SN24123 'SeaWa ter 300',product name,exact after normalising
+SN24124,CRM,SN24124 'SeaWater 300',product name,exact after normalising
+SN24125,CRM,SN24125 'FluxaPro 150',product name,exact after normalising
+SN24126,CRM,SN24126 'FluxaPro200',product name,exact after normalising
+SN24127,CRM,SN24127 'FluxaPro 150',product name,exact after normalising
+SN24128,CRM,SN24128 'SeaWater 300 pump unit',product name,exact after normalising
+SN24129,CRM,SN24129 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24130,CRM,SN24130 'AquaLine 120',product name,exact after normalising
+SN24131,CRM,SN24131 'ChemB oost 90',product name,exact after normalising
+SN24132,CRM,SN24132 'SeaWater300',product name,exact after normalising
+SN24133,CRM,SN24133 'Hydro Drive 400',product name,exact after normalising
+SN24134,CRM,SN24134 'ChemBoost50',product name,exact after normalising
+SN24135,CRM,SN24135 'AquaL ine 80',product name,exact after normalising
+SN24136,CRM,SN24136 'FluxaPro150',product name,exact after normalising
+SN24137,CRM,SN24137 'CHEMBOOST-90',product name,exact after normalising
+SN24138,CRM,SN24138 'AquaLine 80',product name,exact after normalising
+SN24139,CRM,SN24139 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24140,CRM,SN24140 'FluxaPro 150 pump unit',product name,exact after normalising
+SN24141,CRM,SN24141 'FluxaPro200',product name,exact after normalising
+SN24142,CRM,SN24142 'HydroDrive400',product name,exact after normalising
+SN24143,CRM,SN24143 'SeaWater 300 pump unit',product name,exact after normalising
+SN24144,CRM,SN24144 'FluxaPro 250',product name,exact after normalising
+SN24145,CRM,SN24145 'ChemBoost 90 pump unit',product name,exact after normalising
+SN24146,CRM,SN24146 'SEAWATER-300',product name,exact after normalising
+SN24147,CRM,SN24147 'SeaWater 300 pump unit',product name,exact after normalising
+SN24148,CRM,SN24148 'CHEMBOOST-50',product name,exact after normalising
+SN24149,CRM,SN24149 'HYDRODRIVE-600',product name,exact after normalising

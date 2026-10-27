@@ -1,0 +1,2519 @@
+{
+ "part_suppliers": {
+  "PRT-10001": [
+   "Nordic Coatings AB"
+  ],
+  "PRT-10002": [
+   "Kempen Electronics B.V."
+  ],
+  "PRT-10003": [
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10004": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10005": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10006": [
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10007": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10008": [
+   "Kempen Electronics B.V.",
+   "Twente Elektro B.V."
+  ],
+  "PRT-10009": [
+   "Lombardia Shafts S.p.A."
+  ],
+  "PRT-10010": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10011": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10012": [
+   "Lombardia Shafts S.p.A."
+  ],
+  "PRT-10013": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10014": [
+   "Midlands Fasteners Ltd",
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10015": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10016": [
+   "Bavaria Sensorik AG"
+  ],
+  "PRT-10017": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10018": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10019": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10020": [
+   "Vortex Seals GmbH",
+   "Tampere Seal Systems Oy"
+  ],
+  "PRT-10021": [
+   "Vortex Seals GmbH",
+   "Tampere Seal Systems Oy"
+  ],
+  "PRT-10022": [
+   "Ligure Valvole S.p.A.",
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10023": [
+   "Nordic Coatings AB"
+  ],
+  "PRT-10024": [
+   "Baltic Impellers OU",
+   "Nordic Castings AB"
+  ],
+  "PRT-10025": [
+   "Tampere Seal Systems Oy",
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10026": [
+   "Kempen Electronics B.V."
+  ],
+  "PRT-10027": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10028": [
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10029": [
+   "Nordic Coatings AB",
+   "Lombardia Shafts S.p.A."
+  ],
+  "PRT-10030": [
+   "Tampere Seal Systems Oy"
+  ],
+  "PRT-10031": [
+   "Silesia Steel Sp. z o.o.",
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10032": [
+   "Brabant Motorworks B.V."
+  ],
+  "PRT-10033": [
+   "Kempen Electronics B.V."
+  ],
+  "PRT-10034": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10035": [
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10036": [
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10037": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10038": [
+   "Silesia Steel Sp. z o.o.",
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10039": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10040": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10041": [
+   "Nordic Castings AB"
+  ],
+  "PRT-10042": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10043": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10044": [
+   "Nordic Castings AB"
+  ],
+  "PRT-10045": [
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10046": [
+   "Nordic Coatings AB"
+  ],
+  "PRT-10047": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10048": [
+   "Twente Elektro B.V.",
+   "Kempen Electronics B.V."
+  ],
+  "PRT-10049": [
+   "Silesia Steel Sp. z o.o.",
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10050": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10051": [
+   "Ardennes Bearings S.A.",
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10052": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10053": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10054": [
+   "Twente Elektro B.V.",
+   "Bavaria Sensorik AG"
+  ],
+  "PRT-10055": [
+   "Tampere Seal Systems Oy",
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10056": [
+   "Nordic Castings AB"
+  ],
+  "PRT-10057": [
+   "Brabant Motorworks B.V.",
+   "Twente Elektro B.V."
+  ],
+  "PRT-10058": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10059": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10060": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10061": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10062": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10063": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10064": [
+   "Nordic Castings AB"
+  ],
+  "PRT-10065": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10066": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10067": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10068": [
+   "Brabant Motorworks B.V."
+  ],
+  "PRT-10069": [
+   "Rhone Polymers SAS",
+   "Vortex Seals GmbH"
+  ],
+  "PRT-10070": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10071": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10072": [
+   "Nordic Castings AB"
+  ],
+  "PRT-10073": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10074": [
+   "Brabant Motorworks B.V.",
+   "Twente Elektro B.V."
+  ],
+  "PRT-10075": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10076": [
+   "Tampere Seal Systems Oy"
+  ],
+  "PRT-10077": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10078": [
+   "Brabant Motorworks B.V."
+  ],
+  "PRT-10079": [
+   "Midlands Fasteners Ltd",
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10080": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10081": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10082": [
+   "Nordic Castings AB",
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10083": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10084": [
+   "Silesia Steel Sp. z o.o.",
+   "Nordic Coatings AB"
+  ],
+  "PRT-10085": [
+   "Ardennes Bearings S.A."
+  ],
+  "PRT-10086": [
+   "Nordic Coatings AB"
+  ],
+  "PRT-10087": [
+   "Rhone Polymers SAS"
+  ],
+  "PRT-10088": [
+   "Brabant Motorworks B.V."
+  ],
+  "PRT-10089": [
+   "Nordic Coatings AB"
+  ],
+  "PRT-10090": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10091": [
+   "Baltic Impellers OU",
+   "Nordic Coatings AB"
+  ],
+  "PRT-10092": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10093": [
+   "Midlands Fasteners Ltd"
+  ],
+  "PRT-10094": [
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10095": [
+   "Tampere Seal Systems Oy"
+  ],
+  "PRT-10096": [
+   "Vortex Seals GmbH",
+   "Ligure Valvole S.p.A."
+  ],
+  "PRT-10097": [
+   "Ligure Valvole S.p.A.",
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10098": [
+   "Silesia Steel Sp. z o.o."
+  ],
+  "PRT-10099": [
+   "Twente Elektro B.V."
+  ],
+  "PRT-10100": [
+   "Twente Elektro B.V."
+  ]
+ },
+ "vendor_supplier": {
+  "V0001": "Vortex Seals GmbH",
+  "V0002": "Tampere Seal Systems Oy",
+  "V0003": "Tampere Seal Systems Oy",
+  "V0004": "Rhone Polymers SAS",
+  "V0005": "Nordic Castings AB",
+  "V0006": "Nordic Castings AB",
+  "V0007": "Nordic Coatings AB",
+  "V0008": "Nordic Coatings AB",
+  "V0009": "Baltic Impellers OU",
+  "V0010": "Baltic Impellers OU",
+  "V0011": "Ligure Valvole S.p.A.",
+  "V0012": "Ligure Valvole S.p.A.",
+  "V0013": "Silesia Steel Sp. z o.o.",
+  "V0014": "Silesia Steel Sp. z o.o.",
+  "V0015": "Lombardia Shafts S.p.A.",
+  "V0016": "Lombardia Shafts S.p.A.",
+  "V0017": "Ardennes Bearings S.A.",
+  "V0018": "Midlands Fasteners Ltd",
+  "V0019": "Brabant Motorworks B.V.",
+  "V0020": "Twente Elektro B.V.",
+  "V0021": "Bavaria Sensorik AG",
+  "V0022": "Bavaria Sensorik AG",
+  "V0023": "Kempen Electronics B.V.",
+  "V0024": "Kempen Electronics B.V."
+ },
+ "bom": [
+  [
+   "ASM-0001",
+   "PRT-10016",
+   2
+  ],
+  [
+   "ASM-0001",
+   "PRT-10017",
+   5
+  ],
+  [
+   "ASM-0001",
+   "PRT-10042",
+   5
+  ],
+  [
+   "ASM-0001",
+   "PRT-10064",
+   5
+  ],
+  [
+   "ASM-0001",
+   "PRT-10066",
+   5
+  ],
+  [
+   "ASM-0001",
+   "PRT-10090",
+   6
+  ],
+  [
+   "ASM-0001",
+   "PRT-10093",
+   5
+  ],
+  [
+   "ASM-0002",
+   "PRT-10002",
+   5
+  ],
+  [
+   "ASM-0002",
+   "PRT-10010",
+   4
+  ],
+  [
+   "ASM-0002",
+   "PRT-10014",
+   8
+  ],
+  [
+   "ASM-0002",
+   "PRT-10020",
+   4
+  ],
+  [
+   "ASM-0002",
+   "PRT-10021",
+   3
+  ],
+  [
+   "ASM-0002",
+   "PRT-10034",
+   4
+  ],
+  [
+   "ASM-0002",
+   "PRT-10056",
+   4
+  ],
+  [
+   "ASM-0002",
+   "PRT-10070",
+   3
+  ],
+  [
+   "ASM-0002",
+   "PRT-10072",
+   5
+  ],
+  [
+   "ASM-0002",
+   "PRT-10075",
+   4
+  ],
+  [
+   "ASM-0002",
+   "PRT-10085",
+   6
+  ],
+  [
+   "ASM-0003",
+   "PRT-10027",
+   2
+  ],
+  [
+   "ASM-0003",
+   "PRT-10039",
+   7
+  ],
+  [
+   "ASM-0003",
+   "PRT-10043",
+   5
+  ],
+  [
+   "ASM-0003",
+   "PRT-10045",
+   4
+  ],
+  [
+   "ASM-0003",
+   "PRT-10055",
+   4
+  ],
+  [
+   "ASM-0003",
+   "PRT-10074",
+   2
+  ],
+  [
+   "ASM-0003",
+   "PRT-10078",
+   8
+  ],
+  [
+   "ASM-0003",
+   "PRT-10089",
+   1
+  ],
+  [
+   "ASM-0003",
+   "PRT-10092",
+   2
+  ],
+  [
+   "ASM-0003",
+   "PRT-10099",
+   1
+  ],
+  [
+   "ASM-0004",
+   "PRT-10002",
+   8
+  ],
+  [
+   "ASM-0004",
+   "PRT-10026",
+   4
+  ],
+  [
+   "ASM-0004",
+   "PRT-10041",
+   8
+  ],
+  [
+   "ASM-0004",
+   "PRT-10048",
+   6
+  ],
+  [
+   "ASM-0004",
+   "PRT-10078",
+   1
+  ],
+  [
+   "ASM-0004",
+   "PRT-10095",
+   5
+  ],
+  [
+   "ASM-0005",
+   "PRT-10012",
+   4
+  ],
+  [
+   "ASM-0005",
+   "PRT-10018",
+   2
+  ],
+  [
+   "ASM-0005",
+   "PRT-10042",
+   1
+  ],
+  [
+   "ASM-0006",
+   "PRT-10006",
+   4
+  ],
+  [
+   "ASM-0006",
+   "PRT-10022",
+   4
+  ],
+  [
+   "ASM-0006",
+   "PRT-10028",
+   2
+  ],
+  [
+   "ASM-0006",
+   "PRT-10031",
+   6
+  ],
+  [
+   "ASM-0006",
+   "PRT-10040",
+   3
+  ],
+  [
+   "ASM-0006",
+   "PRT-10047",
+   8
+  ],
+  [
+   "ASM-0006",
+   "PRT-10059",
+   5
+  ],
+  [
+   "ASM-0007",
+   "PRT-10011",
+   1
+  ],
+  [
+   "ASM-0007",
+   "PRT-10015",
+   2
+  ],
+  [
+   "ASM-0007",
+   "PRT-10026",
+   6
+  ],
+  [
+   "ASM-0007",
+   "PRT-10030",
+   4
+  ],
+  [
+   "ASM-0007",
+   "PRT-10050",
+   1
+  ],
+  [
+   "ASM-0007",
+   "PRT-10058",
+   6
+  ],
+  [
+   "ASM-0007",
+   "PRT-10062",
+   6
+  ],
+  [
+   "ASM-0007",
+   "PRT-10066",
+   3
+  ],
+  [
+   "ASM-0007",
+   "PRT-10077",
+   1
+  ],
+  [
+   "ASM-0008",
+   "PRT-10007",
+   4
+  ],
+  [
+   "ASM-0008",
+   "PRT-10021",
+   5
+  ],
+  [
+   "ASM-0008",
+   "PRT-10068",
+   1
+  ],
+  [
+   "ASM-0008",
+   "PRT-10094",
+   4
+  ],
+  [
+   "ASM-0008",
+   "PRT-10097",
+   1
+  ],
+  [
+   "ASM-0009",
+   "PRT-10044",
+   6
+  ],
+  [
+   "ASM-0009",
+   "PRT-10053",
+   7
+  ],
+  [
+   "ASM-0009",
+   "PRT-10076",
+   6
+  ],
+  [
+   "ASM-0009",
+   "PRT-10082",
+   3
+  ],
+  [
+   "ASM-0009",
+   "PRT-10086",
+   5
+  ],
+  [
+   "ASM-0009",
+   "PRT-10088",
+   2
+  ],
+  [
+   "ASM-0009",
+   "PRT-10099",
+   4
+  ],
+  [
+   "ASM-0010",
+   "PRT-10001",
+   1
+  ],
+  [
+   "ASM-0010",
+   "PRT-10035",
+   8
+  ],
+  [
+   "ASM-0010",
+   "PRT-10053",
+   8
+  ],
+  [
+   "ASM-0010",
+   "PRT-10084",
+   2
+  ],
+  [
+   "ASM-0010",
+   "PRT-10089",
+   7
+  ],
+  [
+   "ASM-0011",
+   "PRT-10025",
+   2
+  ],
+  [
+   "ASM-0011",
+   "PRT-10029",
+   7
+  ],
+  [
+   "ASM-0011",
+   "PRT-10038",
+   3
+  ],
+  [
+   "ASM-0011",
+   "PRT-10062",
+   2
+  ],
+  [
+   "ASM-0011",
+   "PRT-10063",
+   3
+  ],
+  [
+   "ASM-0011",
+   "PRT-10080",
+   7
+  ],
+  [
+   "ASM-0011",
+   "PRT-10083",
+   5
+  ],
+  [
+   "ASM-0011",
+   "PRT-10087",
+   7
+  ],
+  [
+   "ASM-0012",
+   "PRT-10021",
+   5
+  ],
+  [
+   "ASM-0012",
+   "PRT-10037",
+   5
+  ],
+  [
+   "ASM-0012",
+   "PRT-10042",
+   7
+  ],
+  [
+   "ASM-0012",
+   "PRT-10046",
+   1
+  ],
+  [
+   "ASM-0012",
+   "PRT-10052",
+   5
+  ],
+  [
+   "ASM-0012",
+   "PRT-10059",
+   6
+  ],
+  [
+   "ASM-0012",
+   "PRT-10064",
+   7
+  ],
+  [
+   "ASM-0012",
+   "PRT-10070",
+   7
+  ],
+  [
+   "ASM-0012",
+   "PRT-10081",
+   1
+  ],
+  [
+   "ASM-0013",
+   "PRT-10010",
+   6
+  ],
+  [
+   "ASM-0013",
+   "PRT-10013",
+   4
+  ],
+  [
+   "ASM-0013",
+   "PRT-10014",
+   7
+  ],
+  [
+   "ASM-0013",
+   "PRT-10023",
+   7
+  ],
+  [
+   "ASM-0013",
+   "PRT-10036",
+   4
+  ],
+  [
+   "ASM-0013",
+   "PRT-10051",
+   1
+  ],
+  [
+   "ASM-0013",
+   "PRT-10069",
+   7
+  ],
+  [
+   "ASM-0013",
+   "PRT-10071",
+   3
+  ],
+  [
+   "ASM-0013",
+   "PRT-10098",
+   7
+  ],
+  [
+   "ASM-0014",
+   "PRT-10009",
+   2
+  ],
+  [
+   "ASM-0014",
+   "PRT-10011",
+   2
+  ],
+  [
+   "ASM-0014",
+   "PRT-10019",
+   7
+  ],
+  [
+   "ASM-0014",
+   "PRT-10047",
+   6
+  ],
+  [
+   "ASM-0014",
+   "PRT-10054",
+   8
+  ],
+  [
+   "ASM-0014",
+   "PRT-10067",
+   3
+  ],
+  [
+   "ASM-0014",
+   "PRT-10080",
+   3
+  ],
+  [
+   "ASM-0014",
+   "PRT-10100",
+   1
+  ],
+  [
+   "ASM-0015",
+   "PRT-10013",
+   1
+  ],
+  [
+   "ASM-0015",
+   "PRT-10024",
+   3
+  ],
+  [
+   "ASM-0015",
+   "PRT-10033",
+   7
+  ],
+  [
+   "ASM-0015",
+   "PRT-10039",
+   2
+  ],
+  [
+   "ASM-0015",
+   "PRT-10061",
+   6
+  ],
+  [
+   "ASM-0015",
+   "PRT-10073",
+   3
+  ],
+  [
+   "ASM-0015",
+   "PRT-10097",
+   3
+  ],
+  [
+   "ASM-0016",
+   "PRT-10004",
+   6
+  ],
+  [
+   "ASM-0016",
+   "PRT-10008",
+   5
+  ],
+  [
+   "ASM-0016",
+   "PRT-10057",
+   3
+  ],
+  [
+   "ASM-0016",
+   "PRT-10064",
+   3
+  ],
+  [
+   "ASM-0016",
+   "PRT-10065",
+   2
+  ],
+  [
+   "ASM-0016",
+   "PRT-10091",
+   2
+  ],
+  [
+   "ASM-0016",
+   "PRT-10096",
+   7
+  ],
+  [
+   "ASM-0017",
+   "PRT-10023",
+   8
+  ],
+  [
+   "ASM-0017",
+   "PRT-10030",
+   4
+  ],
+  [
+   "ASM-0017",
+   "PRT-10032",
+   5
+  ],
+  [
+   "ASM-0018",
+   "PRT-10049",
+   3
+  ],
+  [
+   "ASM-0018",
+   "PRT-10054",
+   1
+  ],
+  [
+   "ASM-0018",
+   "PRT-10060",
+   8
+  ],
+  [
+   "ASM-0019",
+   "PRT-10080",
+   6
+  ],
+  [
+   "ASM-0019",
+   "PRT-10087",
+   1
+  ],
+  [
+   "ASM-0020",
+   "PRT-10003",
+   7
+  ],
+  [
+   "ASM-0020",
+   "PRT-10005",
+   2
+  ],
+  [
+   "ASM-0020",
+   "PRT-10011",
+   3
+  ],
+  [
+   "ASM-0020",
+   "PRT-10017",
+   4
+  ],
+  [
+   "ASM-0020",
+   "PRT-10079",
+   7
+  ],
+  [
+   "ASM-0020",
+   "PRT-10084",
+   4
+  ],
+  [
+   "ASM-0020",
+   "PRT-10091",
+   8
+  ],
+  [
+   "ASM-0020",
+   "PRT-10096",
+   3
+  ],
+  [
+   "ASM-0021",
+   "ASM-0002",
+   1
+  ],
+  [
+   "ASM-0021",
+   "ASM-0013",
+   1
+  ],
+  [
+   "ASM-0021",
+   "PRT-10021",
+   3
+  ],
+  [
+   "ASM-0021",
+   "PRT-10050",
+   1
+  ],
+  [
+   "ASM-0022",
+   "ASM-0008",
+   1
+  ],
+  [
+   "ASM-0022",
+   "ASM-0007",
+   1
+  ],
+  [
+   "ASM-0023",
+   "ASM-0011",
+   1
+  ],
+  [
+   "ASM-0023",
+   "ASM-0004",
+   1
+  ],
+  [
+   "ASM-0023",
+   "PRT-10077",
+   4
+  ],
+  [
+   "ASM-0024",
+   "ASM-0014",
+   1
+  ],
+  [
+   "ASM-0024",
+   "ASM-0010",
+   1
+  ],
+  [
+   "ASM-0024",
+   "ASM-0008",
+   1
+  ],
+  [
+   "ASM-0024",
+   "PRT-10050",
+   3
+  ],
+  [
+   "ASM-0025",
+   "ASM-0017",
+   1
+  ],
+  [
+   "ASM-0025",
+   "ASM-0015",
+   1
+  ],
+  [
+   "ASM-0025",
+   "ASM-0006",
+   1
+  ],
+  [
+   "ASM-0026",
+   "ASM-0020",
+   1
+  ],
+  [
+   "ASM-0026",
+   "ASM-0016",
+   1
+  ],
+  [
+   "ASM-0026",
+   "PRT-10031",
+   4
+  ],
+  [
+   "ASM-0027",
+   "ASM-0006",
+   1
+  ],
+  [
+   "ASM-0027",
+   "ASM-0016",
+   1
+  ],
+  [
+   "ASM-0027",
+   "ASM-0013",
+   1
+  ],
+  [
+   "ASM-0028",
+   "ASM-0005",
+   1
+  ],
+  [
+   "ASM-0028",
+   "ASM-0012",
+   1
+  ],
+  [
+   "ASM-0028",
+   "PRT-10047",
+   1
+  ],
+  [
+   "ASM-0029",
+   "ASM-0017",
+   1
+  ],
+  [
+   "ASM-0029",
+   "ASM-0020",
+   1
+  ],
+  [
+   "ASM-0029",
+   "ASM-0002",
+   1
+  ],
+  [
+   "ASM-0030",
+   "ASM-0003",
+   1
+  ],
+  [
+   "ASM-0030",
+   "ASM-0011",
+   1
+  ],
+  [
+   "ASM-0030",
+   "PRT-10066",
+   1
+  ],
+  [
+   "ASM-0030",
+   "PRT-10011",
+   4
+  ],
+  [
+   "FX-150",
+   "ASM-0021",
+   1
+  ],
+  [
+   "FX-150",
+   "PRT-10025",
+   1
+  ],
+  [
+   "FX-200",
+   "ASM-0028",
+   1
+  ],
+  [
+   "FX-200",
+   "ASM-0006",
+   1
+  ],
+  [
+   "FX-200",
+   "PRT-10009",
+   1
+  ],
+  [
+   "FX-250",
+   "ASM-0030",
+   1
+  ],
+  [
+   "FX-250",
+   "ASM-0025",
+   1
+  ],
+  [
+   "FX-250",
+   "PRT-10079",
+   1
+  ],
+  [
+   "FX-250",
+   "PRT-10036",
+   1
+  ],
+  [
+   "AL-80",
+   "ASM-0023",
+   1
+  ],
+  [
+   "AL-80",
+   "ASM-0025",
+   1
+  ],
+  [
+   "AL-80",
+   "ASM-0016",
+   1
+  ],
+  [
+   "AL-80",
+   "ASM-0007",
+   1
+  ],
+  [
+   "AL-80",
+   "PRT-10079",
+   1
+  ],
+  [
+   "AL-80",
+   "PRT-10065",
+   1
+  ],
+  [
+   "AL-120",
+   "ASM-0026",
+   1
+  ],
+  [
+   "AL-120",
+   "ASM-0002",
+   1
+  ],
+  [
+   "AL-120",
+   "PRT-10024",
+   1
+  ],
+  [
+   "HD-400",
+   "ASM-0023",
+   1
+  ],
+  [
+   "HD-400",
+   "ASM-0025",
+   1
+  ],
+  [
+   "HD-400",
+   "ASM-0011",
+   1
+  ],
+  [
+   "HD-400",
+   "ASM-0013",
+   1
+  ],
+  [
+   "HD-400",
+   "PRT-10034",
+   1
+  ],
+  [
+   "HD-600",
+   "ASM-0029",
+   1
+  ],
+  [
+   "HD-600",
+   "PRT-10058",
+   1
+  ],
+  [
+   "HD-600",
+   "PRT-10072",
+   1
+  ],
+  [
+   "CB-50",
+   "ASM-0025",
+   1
+  ],
+  [
+   "CB-50",
+   "ASM-0013",
+   1
+  ],
+  [
+   "CB-50",
+   "ASM-0012",
+   1
+  ],
+  [
+   "CB-50",
+   "PRT-10049",
+   1
+  ],
+  [
+   "CB-50",
+   "PRT-10048",
+   1
+  ],
+  [
+   "CB-90",
+   "ASM-0026",
+   1
+  ],
+  [
+   "CB-90",
+   "ASM-0003",
+   1
+  ],
+  [
+   "CB-90",
+   "PRT-10030",
+   1
+  ],
+  [
+   "CB-90",
+   "PRT-10023",
+   1
+  ],
+  [
+   "SW-300",
+   "ASM-0025",
+   1
+  ],
+  [
+   "SW-300",
+   "ASM-0009",
+   1
+  ],
+  [
+   "SW-300",
+   "ASM-0010",
+   1
+  ],
+  [
+   "SW-300",
+   "PRT-10094",
+   1
+  ],
+  [
+   "SW-300",
+   "PRT-10001",
+   1
+  ]
+ ],
+ "installations": [
+  {
+   "serial": "SN24000",
+   "product": "SW-300",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24001",
+   "product": "SW-300",
+   "customer": "Utrecht Data Cooling"
+  },
+  {
+   "serial": "SN24002",
+   "product": "HD-600",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24003",
+   "product": "HD-400",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24004",
+   "product": "HD-400",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24005",
+   "product": "FX-150",
+   "customer": "Zeeland Desalination"
+  },
+  {
+   "serial": "SN24006",
+   "product": "FX-200",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24007",
+   "product": "CB-90",
+   "customer": "Zeeland Desalination"
+  },
+  {
+   "serial": "SN24008",
+   "product": "HD-600",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24009",
+   "product": "HD-400",
+   "customer": "Utrecht Data Cooling"
+  },
+  {
+   "serial": "SN24010",
+   "product": "AL-120",
+   "customer": "Waal Gravel Works"
+  },
+  {
+   "serial": "SN24011",
+   "product": "CB-50",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24012",
+   "product": "AL-120",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24013",
+   "product": "CB-90",
+   "customer": "Groningen District Heating"
+  },
+  {
+   "serial": "SN24014",
+   "product": "FX-200",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24015",
+   "product": "SW-300",
+   "customer": "Maasvlakte Chemicals"
+  },
+  {
+   "serial": "SN24016",
+   "product": "SW-300",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24017",
+   "product": "CB-50",
+   "customer": "Limburg Paper Mill"
+  },
+  {
+   "serial": "SN24018",
+   "product": "HD-600",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24019",
+   "product": "AL-120",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24020",
+   "product": "HD-600",
+   "customer": "Maasvlakte Chemicals"
+  },
+  {
+   "serial": "SN24021",
+   "product": "SW-300",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24022",
+   "product": "CB-90",
+   "customer": "Maasvlakte Chemicals"
+  },
+  {
+   "serial": "SN24023",
+   "product": "HD-600",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24024",
+   "product": "HD-600",
+   "customer": "Rijn Chemical Park"
+  },
+  {
+   "serial": "SN24025",
+   "product": "CB-90",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24026",
+   "product": "FX-250",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24027",
+   "product": "FX-200",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24028",
+   "product": "CB-50",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24029",
+   "product": "CB-50",
+   "customer": "Limburg Paper Mill"
+  },
+  {
+   "serial": "SN24030",
+   "product": "FX-250",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24031",
+   "product": "CB-50",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24032",
+   "product": "FX-150",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24033",
+   "product": "SW-300",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24034",
+   "product": "SW-300",
+   "customer": "Limburg Paper Mill"
+  },
+  {
+   "serial": "SN24035",
+   "product": "HD-400",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24036",
+   "product": "FX-250",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24037",
+   "product": "FX-250",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24038",
+   "product": "AL-120",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24039",
+   "product": "FX-150",
+   "customer": "Rijn Chemical Park"
+  },
+  {
+   "serial": "SN24040",
+   "product": "FX-150",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24041",
+   "product": "AL-80",
+   "customer": "Groningen District Heating"
+  },
+  {
+   "serial": "SN24042",
+   "product": "AL-80",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24043",
+   "product": "AL-120",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24044",
+   "product": "FX-150",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24045",
+   "product": "AL-120",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24046",
+   "product": "FX-200",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24047",
+   "product": "AL-80",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24048",
+   "product": "AL-80",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24049",
+   "product": "CB-90",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24050",
+   "product": "HD-600",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24051",
+   "product": "CB-50",
+   "customer": "Waal Gravel Works"
+  },
+  {
+   "serial": "SN24052",
+   "product": "AL-80",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24053",
+   "product": "SW-300",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24054",
+   "product": "FX-250",
+   "customer": "Twente Textiles"
+  },
+  {
+   "serial": "SN24055",
+   "product": "FX-200",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24056",
+   "product": "HD-400",
+   "customer": "Rijn Chemical Park"
+  },
+  {
+   "serial": "SN24057",
+   "product": "CB-90",
+   "customer": "Rijn Chemical Park"
+  },
+  {
+   "serial": "SN24058",
+   "product": "AL-80",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24059",
+   "product": "AL-80",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24060",
+   "product": "CB-50",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24061",
+   "product": "HD-400",
+   "customer": "Zeeland Desalination"
+  },
+  {
+   "serial": "SN24062",
+   "product": "FX-150",
+   "customer": "Maasvlakte Chemicals"
+  },
+  {
+   "serial": "SN24063",
+   "product": "CB-50",
+   "customer": "Utrecht Data Cooling"
+  },
+  {
+   "serial": "SN24064",
+   "product": "HD-600",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24065",
+   "product": "SW-300",
+   "customer": "Twente Textiles"
+  },
+  {
+   "serial": "SN24066",
+   "product": "FX-250",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24067",
+   "product": "AL-80",
+   "customer": "Limburg Paper Mill"
+  },
+  {
+   "serial": "SN24068",
+   "product": "FX-150",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24069",
+   "product": "CB-90",
+   "customer": "Utrecht Data Cooling"
+  },
+  {
+   "serial": "SN24070",
+   "product": "HD-400",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24071",
+   "product": "SW-300",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24072",
+   "product": "HD-400",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24073",
+   "product": "CB-50",
+   "customer": "Groningen District Heating"
+  },
+  {
+   "serial": "SN24074",
+   "product": "FX-250",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24075",
+   "product": "FX-250",
+   "customer": "Twente Textiles"
+  },
+  {
+   "serial": "SN24076",
+   "product": "FX-250",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24077",
+   "product": "FX-200",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24078",
+   "product": "CB-50",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24079",
+   "product": "AL-80",
+   "customer": "Maasvlakte Chemicals"
+  },
+  {
+   "serial": "SN24080",
+   "product": "FX-250",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24081",
+   "product": "HD-600",
+   "customer": "Twente Textiles"
+  },
+  {
+   "serial": "SN24082",
+   "product": "SW-300",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24083",
+   "product": "CB-50",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24084",
+   "product": "FX-200",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24085",
+   "product": "CB-50",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24086",
+   "product": "HD-400",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24087",
+   "product": "FX-200",
+   "customer": "Groningen District Heating"
+  },
+  {
+   "serial": "SN24088",
+   "product": "FX-150",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24089",
+   "product": "CB-90",
+   "customer": "Kempen Breweries"
+  },
+  {
+   "serial": "SN24090",
+   "product": "CB-90",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24091",
+   "product": "FX-150",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24092",
+   "product": "FX-250",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24093",
+   "product": "FX-250",
+   "customer": "Zeeland Desalination"
+  },
+  {
+   "serial": "SN24094",
+   "product": "CB-50",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24095",
+   "product": "SW-300",
+   "customer": "Zeeland Desalination"
+  },
+  {
+   "serial": "SN24096",
+   "product": "FX-200",
+   "customer": "Waal Gravel Works"
+  },
+  {
+   "serial": "SN24097",
+   "product": "HD-400",
+   "customer": "Kempen Breweries"
+  },
+  {
+   "serial": "SN24098",
+   "product": "FX-150",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24099",
+   "product": "AL-120",
+   "customer": "Twente Textiles"
+  },
+  {
+   "serial": "SN24100",
+   "product": "FX-150",
+   "customer": "Limburg Paper Mill"
+  },
+  {
+   "serial": "SN24101",
+   "product": "FX-150",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24102",
+   "product": "FX-200",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24103",
+   "product": "HD-600",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24104",
+   "product": "CB-50",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24105",
+   "product": "FX-250",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24106",
+   "product": "SW-300",
+   "customer": "Limburg Paper Mill"
+  },
+  {
+   "serial": "SN24107",
+   "product": "AL-120",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24108",
+   "product": "AL-80",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24109",
+   "product": "SW-300",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24110",
+   "product": "HD-400",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24111",
+   "product": "FX-200",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24112",
+   "product": "AL-120",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24113",
+   "product": "FX-250",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24114",
+   "product": "SW-300",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24115",
+   "product": "HD-600",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24116",
+   "product": "HD-400",
+   "customer": "Kempen Breweries"
+  },
+  {
+   "serial": "SN24117",
+   "product": "HD-600",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24118",
+   "product": "FX-150",
+   "customer": "Kempen Breweries"
+  },
+  {
+   "serial": "SN24119",
+   "product": "HD-600",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24120",
+   "product": "FX-250",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24121",
+   "product": "CB-90",
+   "customer": "Polder Utilities"
+  },
+  {
+   "serial": "SN24122",
+   "product": "HD-600",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24123",
+   "product": "SW-300",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24124",
+   "product": "SW-300",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24125",
+   "product": "FX-150",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24126",
+   "product": "FX-200",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24127",
+   "product": "FX-150",
+   "customer": "Rijn Chemical Park"
+  },
+  {
+   "serial": "SN24128",
+   "product": "SW-300",
+   "customer": "Noord Food Ingredients"
+  },
+  {
+   "serial": "SN24129",
+   "product": "CB-90",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24130",
+   "product": "AL-120",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24131",
+   "product": "CB-90",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24132",
+   "product": "SW-300",
+   "customer": "Twente Textiles"
+  },
+  {
+   "serial": "SN24133",
+   "product": "HD-400",
+   "customer": "Brabant Pharma Fill"
+  },
+  {
+   "serial": "SN24134",
+   "product": "CB-50",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24135",
+   "product": "AL-80",
+   "customer": "Zeeland Desalination"
+  },
+  {
+   "serial": "SN24136",
+   "product": "FX-150",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24137",
+   "product": "CB-90",
+   "customer": "Kempen Breweries"
+  },
+  {
+   "serial": "SN24138",
+   "product": "AL-80",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24139",
+   "product": "CB-90",
+   "customer": "Veluwe Dairy Cooperative"
+  },
+  {
+   "serial": "SN24140",
+   "product": "FX-150",
+   "customer": "Waal Gravel Works"
+  },
+  {
+   "serial": "SN24141",
+   "product": "FX-200",
+   "customer": "Waal Gravel Works"
+  },
+  {
+   "serial": "SN24142",
+   "product": "HD-400",
+   "customer": "IJssel Steelworks"
+  },
+  {
+   "serial": "SN24143",
+   "product": "SW-300",
+   "customer": "Flevo Greenhouses"
+  },
+  {
+   "serial": "SN24144",
+   "product": "FX-250",
+   "customer": "Delta Fish Processing"
+  },
+  {
+   "serial": "SN24145",
+   "product": "CB-90",
+   "customer": "Amstel Water Board"
+  },
+  {
+   "serial": "SN24146",
+   "product": "SW-300",
+   "customer": "Schelde Shipyards"
+  },
+  {
+   "serial": "SN24147",
+   "product": "SW-300",
+   "customer": "Drenthe Biogas"
+  },
+  {
+   "serial": "SN24148",
+   "product": "CB-50",
+   "customer": "Haven Terminals"
+  },
+  {
+   "serial": "SN24149",
+   "product": "HD-600",
+   "customer": "Waal Gravel Works"
+  }
+ ],
+ "issues": [
+  {
+   "nc_id": "NC-5001",
+   "part": "PRT-10096",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5002",
+   "part": "PRT-10024",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5003",
+   "part": "PRT-10056",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5004",
+   "part": "PRT-10012",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5005",
+   "part": "PRT-10042",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5006",
+   "part": "PRT-10033",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5007",
+   "part": "PRT-10069",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5008",
+   "part": "PRT-10050",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5009",
+   "part": "PRT-10058",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5010",
+   "part": "PRT-10053",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5011",
+   "part": "PRT-10054",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5012",
+   "part": "PRT-10089",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5013",
+   "part": "PRT-10047",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5014",
+   "part": "PRT-10040",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5015",
+   "part": "PRT-10089",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5016",
+   "part": "PRT-10021",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5017",
+   "part": "PRT-10065",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5018",
+   "part": "PRT-10081",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5019",
+   "part": "PRT-10089",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5020",
+   "part": "PRT-10040",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5021",
+   "part": "PRT-10051",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5022",
+   "part": "PRT-10023",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5023",
+   "part": "PRT-10066",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5024",
+   "part": "PRT-10019",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5025",
+   "part": "PRT-10013",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5026",
+   "part": "PRT-10060",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5027",
+   "part": "PRT-10084",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5028",
+   "part": "PRT-10092",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5029",
+   "part": "PRT-10005",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5030",
+   "part": "PRT-10025",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5031",
+   "part": "PRT-10029",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5032",
+   "part": "PRT-10007",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5033",
+   "part": "PRT-10006",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5034",
+   "part": "PRT-10059",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5035",
+   "part": "PRT-10064",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5036",
+   "part": "PRT-10087",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5037",
+   "part": "PRT-10052",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5038",
+   "part": "PRT-10012",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5039",
+   "part": "PRT-10024",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5040",
+   "part": "PRT-10069",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5041",
+   "part": "PRT-10016",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5042",
+   "part": "PRT-10025",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5043",
+   "part": "PRT-10056",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5044",
+   "part": "PRT-10044",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5045",
+   "part": "PRT-10012",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5046",
+   "part": "PRT-10072",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5047",
+   "part": "PRT-10021",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5048",
+   "part": "PRT-10049",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5049",
+   "part": "PRT-10030",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5050",
+   "part": "PRT-10076",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5051",
+   "part": "PRT-10017",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5052",
+   "part": "PRT-10095",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5053",
+   "part": "PRT-10040",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5054",
+   "part": "PRT-10089",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5055",
+   "part": "PRT-10014",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5056",
+   "part": "PRT-10025",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5057",
+   "part": "PRT-10037",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5058",
+   "part": "PRT-10036",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5059",
+   "part": "PRT-10053",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5060",
+   "part": "PRT-10052",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5061",
+   "part": "PRT-10035",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5062",
+   "part": "PRT-10006",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5063",
+   "part": "PRT-10097",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5064",
+   "part": "PRT-10071",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5065",
+   "part": "PRT-10073",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5066",
+   "part": "PRT-10086",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5067",
+   "part": "PRT-10098",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5068",
+   "part": "PRT-10075",
+   "status": "closed"
+  },
+  {
+   "nc_id": "NC-5069",
+   "part": "PRT-10005",
+   "status": "open"
+  },
+  {
+   "nc_id": "NC-5070",
+   "part": "PRT-10096",
+   "status": "open"
+  }
+ ],
+ "suppliers": [
+  "Vortex Seals GmbH",
+  "Tampere Seal Systems Oy",
+  "Rhone Polymers SAS",
+  "Nordic Castings AB",
+  "Nordic Coatings AB",
+  "Baltic Impellers OU",
+  "Ligure Valvole S.p.A.",
+  "Silesia Steel Sp. z o.o.",
+  "Lombardia Shafts S.p.A.",
+  "Ardennes Bearings S.A.",
+  "Midlands Fasteners Ltd",
+  "Brabant Motorworks B.V.",
+  "Twente Elektro B.V.",
+  "Bavaria Sensorik AG",
+  "Kempen Electronics B.V."
+ ],
+ "products": {
+  "FX-150": "FluxaPro 150",
+  "FX-200": "FluxaPro 200",
+  "FX-250": "FluxaPro 250",
+  "AL-80": "AquaLine 80",
+  "AL-120": "AquaLine 120",
+  "HD-400": "HydroDrive 400",
+  "HD-600": "HydroDrive 600",
+  "CB-50": "ChemBoost 50",
+  "CB-90": "ChemBoost 90",
+  "SW-300": "SeaWater 300"
+ }
+}

@@ -1,0 +1,2391 @@
+@prefix fx: <https://example.org/fluxa/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fx:ASM-0001 a fx:Assembly ;
+    rdfs:label "Assembly 0001" ;
+    fx:hasComponent fx:PRT-10016,
+        fx:PRT-10017,
+        fx:PRT-10042,
+        fx:PRT-10064,
+        fx:PRT-10066,
+        fx:PRT-10090,
+        fx:PRT-10093 .
+
+fx:ASM-0018 a fx:Assembly ;
+    rdfs:label "Assembly 0018" ;
+    fx:hasComponent fx:PRT-10049,
+        fx:PRT-10054,
+        fx:PRT-10060 .
+
+fx:ASM-0019 a fx:Assembly ;
+    rdfs:label "Assembly 0019" ;
+    fx:hasComponent fx:PRT-10080,
+        fx:PRT-10087 .
+
+fx:ASM-0022 a fx:Assembly ;
+    rdfs:label "Assembly 0022" ;
+    fx:hasComponent fx:ASM-0007,
+        fx:ASM-0008 .
+
+fx:ASM-0024 a fx:Assembly ;
+    rdfs:label "Assembly 0024" ;
+    fx:hasComponent fx:ASM-0008,
+        fx:ASM-0010,
+        fx:ASM-0014,
+        fx:PRT-10050 .
+
+fx:ASM-0027 a fx:Assembly ;
+    rdfs:label "Assembly 0027" ;
+    fx:hasComponent fx:ASM-0006,
+        fx:ASM-0013,
+        fx:ASM-0016 .
+
+fx:NC-5001 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10096 ;
+    fx:defect "face wear" ;
+    fx:sourceRecord "MES:NC-5001 'PRT-10096' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5002 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10024 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5002 'PRT-10024' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5003 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10056 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5003 'PRT-10056' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5004 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10012 ;
+    fx:defect "dimension out of tolerance" ;
+    fx:sourceRecord "MES:NC-5004 'PRT-10012' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5005 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10042 ;
+    fx:defect "thread damage" ;
+    fx:sourceRecord "MES:NC-5005 'Fastener kit M8 galvanised' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5006 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10033 ;
+    fx:defect "sensor drift" ;
+    fx:sourceRecord "MES:NC-5006 'CONTROLLER PCB REV 40' (description match 100)" ;
+    fx:status "closed" .
+
+fx:NC-5007 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10069 ;
+    fx:defect "swelling after chemical exposure" ;
+    fx:sourceRecord "MES:NC-5007 'O-RING 20MM FKM' (description match 100)" ;
+    fx:status "closed" .
+
+fx:NC-5008 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10050 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5008 'PRT-10050' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5009 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10058 ;
+    fx:defect "thread damage" ;
+    fx:sourceRecord "MES:NC-5009 'prt10058' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5010 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10053 ;
+    fx:defect "thread damage" ;
+    fx:sourceRecord "MES:NC-5010 'prt10053' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5011 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10054 ;
+    fx:defect "sensor drift" ;
+    fx:sourceRecord "MES:NC-5011 'PRT-10054' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5012 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10089 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5012 'prt10089' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5013 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10047 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5013 'PRT-10047' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5014 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10040 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5014 'PRT-10040' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5015 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10089 ;
+    fx:defect "cavitation erosion" ;
+    fx:sourceRecord "MES:NC-5015 'impeller 220mm bronze' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5016 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10021 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5016 'PRT-10021' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5017 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10065 ;
+    fx:defect "bearing noise" ;
+    fx:sourceRecord "MES:NC-5017 'PRT-10065' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5018 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10081 ;
+    fx:defect "bearing noise" ;
+    fx:sourceRecord "MES:NC-5018 '10081' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5019 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10089 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5019 'PRT-10089' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5020 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10040 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5020 'prt10040' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5021 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10051 ;
+    fx:defect "bearing noise" ;
+    fx:sourceRecord "MES:NC-5021 'prt10051' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5022 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10023 ;
+    fx:defect "cavitation erosion" ;
+    fx:sourceRecord "MES:NC-5022 'IMPELLER 250MM BRONZE' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5023 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10066 ;
+    fx:defect "PCB solder fault" ;
+    fx:sourceRecord "MES:NC-5023 '10066' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5024 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10019 ;
+    fx:defect "thread damage" ;
+    fx:sourceRecord "MES:NC-5024 'prt10019' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5025 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10013 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5025 'PRT-10013' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5026 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10060 ;
+    fx:defect "PCB solder fault" ;
+    fx:sourceRecord "MES:NC-5026 'PRT-10060' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5027 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10084 ;
+    fx:defect "dimension out of tolerance" ;
+    fx:sourceRecord "MES:NC-5027 '10084' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5028 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10092 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5028 'PRT-10092' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5029 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10005 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5029 'prt10005' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5030 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10025 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5030 'prt10025' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5031 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10029 ;
+    fx:defect "corrosion" ;
+    fx:sourceRecord "MES:NC-5031 'prt10029' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5032 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10007 ;
+    fx:defect "winding insulation fault" ;
+    fx:sourceRecord "MES:NC-5032 'PRT-10007' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5033 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10006 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5033 'o-ring 20mm nbr' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5034 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10059 ;
+    fx:defect "corrosion" ;
+    fx:sourceRecord "MES:NC-5034 'PRT-10059' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5035 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10064 ;
+    fx:defect "imbalance" ;
+    fx:sourceRecord "MES:NC-5035 'PRT-10064' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5036 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10087 ;
+    fx:defect "swelling after chemical exposure" ;
+    fx:sourceRecord "MES:NC-5036 '10087' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5037 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10052 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5037 'PRT-10052' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5038 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10012 ;
+    fx:defect "corrosion" ;
+    fx:sourceRecord "MES:NC-5038 'PRT-10012' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5039 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10024 ;
+    fx:defect "imbalance" ;
+    fx:sourceRecord "MES:NC-5039 'Impeller 150mm CI' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5040 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10069 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5040 'PRT-10069' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5041 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10016 ;
+    fx:defect "sensor drift" ;
+    fx:sourceRecord "MES:NC-5041 'Frequency drive 16kW' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5042 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10025 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5042 'PRT-10025' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5043 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10056 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5043 'PRT-10056' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5044 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10044 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5044 'PRT-10044' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5045 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10012 ;
+    fx:defect "dimension out of tolerance" ;
+    fx:sourceRecord "MES:NC-5045 'PRT-10012' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5046 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10072 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5046 'PRT-10072' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5047 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10021 ;
+    fx:defect "swelling after chemical exposure" ;
+    fx:sourceRecord "MES:NC-5047 'PRT-10021' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5048 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10049 ;
+    fx:defect "thread damage" ;
+    fx:sourceRecord "MES:NC-5048 'fastener kit m16 a4' (description match 100)" ;
+    fx:status "closed" .
+
+fx:NC-5049 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10030 ;
+    fx:defect "face wear" ;
+    fx:sourceRecord "MES:NC-5049 '10030' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5050 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10076 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5050 '10076' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5051 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10017 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5051 'prt10017' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5052 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10095 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5052 'PRT-10095' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5053 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10040 ;
+    fx:defect "bearing noise" ;
+    fx:sourceRecord "MES:NC-5053 'PRT-10040' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5054 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10089 ;
+    fx:defect "cavitation erosion" ;
+    fx:sourceRecord "MES:NC-5054 'Impeller 220 mm bronze' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5055 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10014 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5055 '10014' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5056 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10025 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5056 'prt10025' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5057 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10037 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5057 'mech. seal 55 mm sic/sic' (description match 90)" ;
+    fx:status "open" .
+
+fx:NC-5058 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10036 ;
+    fx:defect "face wear" ;
+    fx:sourceRecord "MES:NC-5058 'PRT-10036' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5059 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10053 ;
+    fx:defect "thread damage" ;
+    fx:sourceRecord "MES:NC-5059 '10053' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5060 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10052 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5060 'o-ring 60 mm nbr' (description match 100)" ;
+    fx:status "open" .
+
+fx:NC-5061 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10035 ;
+    fx:defect "face wear" ;
+    fx:sourceRecord "MES:NC-5061 'prt10035' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5062 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10006 ;
+    fx:defect "leak at seal face" ;
+    fx:sourceRecord "MES:NC-5062 'PRT-10006' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5063 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10097 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5063 'PRT-10097' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5064 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10071 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5064 'prt10071' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5065 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10073 ;
+    fx:defect "corrosion" ;
+    fx:sourceRecord "MES:NC-5065 '10073' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5066 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10086 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5066 'prt10086' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5067 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10098 ;
+    fx:defect "porosity in casting" ;
+    fx:sourceRecord "MES:NC-5067 'PRT-10098' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5068 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10075 ;
+    fx:defect "winding insulation fault" ;
+    fx:sourceRecord "MES:NC-5068 'prt10075' (part number key)" ;
+    fx:status "closed" .
+
+fx:NC-5069 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10005 ;
+    fx:defect "overheating" ;
+    fx:sourceRecord "MES:NC-5069 'PRT-10005' (part number key)" ;
+    fx:status "open" .
+
+fx:NC-5070 a fx:QualityIssue ;
+    fx:concerns fx:PRT-10096 ;
+    fx:defect "face wear" ;
+    fx:sourceRecord "MES:NC-5070 'PRT-10096' (part number key)" ;
+    fx:status "open" .
+
+fx:SN24000 a fx:Installation ;
+    rdfs:label "SN24000 at Polder Utilities, Groningen" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24000 'SEAWATER-300' (product name exact after normalising)" .
+
+fx:SN24001 a fx:Installation ;
+    rdfs:label "SN24001 at Utrecht Data Cooling, Duisburg" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-utrecht-data-cooling ;
+    fx:sourceRecord "CRM:SN24001 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24002 a fx:Installation ;
+    rdfs:label "SN24002 at Delta Fish Processing, Eindhoven" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24002 'HydroDrive600' (product name exact after normalising)" .
+
+fx:SN24003 a fx:Installation ;
+    rdfs:label "SN24003 at Polder Utilities, Rotterdam" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24003 'Hydro Drive 400' (product name exact after normalising)" .
+
+fx:SN24004 a fx:Installation ;
+    rdfs:label "SN24004 at Drenthe Biogas, Zwolle" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24004 'HydroDrive 400 pump unit' (product name exact after normalising)" .
+
+fx:SN24005 a fx:Installation ;
+    rdfs:label "SN24005 at Zeeland Desalination, Utrecht" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-zeeland-desalination ;
+    fx:sourceRecord "CRM:SN24005 'FluxaPro150' (product name exact after normalising)" .
+
+fx:SN24006 a fx:Installation ;
+    rdfs:label "SN24006 at IJssel Steelworks, Venlo" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24006 'FluxaPro 200 pump unit' (product name exact after normalising)" .
+
+fx:SN24007 a fx:Installation ;
+    rdfs:label "SN24007 at Zeeland Desalination, Duisburg" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-zeeland-desalination ;
+    fx:sourceRecord "CRM:SN24007 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24008 a fx:Installation ;
+    rdfs:label "SN24008 at Flevo Greenhouses, Rotterdam" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24008 'HYDRODRIVE-600' (product name exact after normalising)" .
+
+fx:SN24009 a fx:Installation ;
+    rdfs:label "SN24009 at Utrecht Data Cooling, Utrecht" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-utrecht-data-cooling ;
+    fx:sourceRecord "CRM:SN24009 'HYDRODRIVE-400' (product name exact after normalising)" .
+
+fx:SN24010 a fx:Installation ;
+    rdfs:label "SN24010 at Waal Gravel Works, Venlo" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-waal-gravel-works ;
+    fx:sourceRecord "CRM:SN24010 'AquaLine120' (product name exact after normalising)" .
+
+fx:SN24011 a fx:Installation ;
+    rdfs:label "SN24011 at Drenthe Biogas, Venlo" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24011 'ChemBoost50' (product name exact after normalising)" .
+
+fx:SN24012 a fx:Installation ;
+    rdfs:label "SN24012 at Schelde Shipyards, Eindhoven" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24012 'AquaLine 120' (product name exact after normalising)" .
+
+fx:SN24013 a fx:Installation ;
+    rdfs:label "SN24013 at Groningen District Heating, Rotterdam" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-groningen-district-heating ;
+    fx:sourceRecord "CRM:SN24013 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24014 a fx:Installation ;
+    rdfs:label "SN24014 at Polder Utilities, Rotterdam" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24014 'FluxaPro200' (product name exact after normalising)" .
+
+fx:SN24015 a fx:Installation ;
+    rdfs:label "SN24015 at Maasvlakte Chemicals, Utrecht" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-maasvlakte-chemicals ;
+    fx:sourceRecord "CRM:SN24015 'SeaWa ter 300' (product name exact after normalising)" .
+
+fx:SN24016 a fx:Installation ;
+    rdfs:label "SN24016 at Veluwe Dairy Cooperative, Antwerp" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24016 'SeaWater 300' (product name exact after normalising)" .
+
+fx:SN24017 a fx:Installation ;
+    rdfs:label "SN24017 at Limburg Paper Mill, Eindhoven" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-limburg-paper-mill ;
+    fx:sourceRecord "CRM:SN24017 'ChemBoost50' (product name exact after normalising)" .
+
+fx:SN24018 a fx:Installation ;
+    rdfs:label "SN24018 at Drenthe Biogas, Rotterdam" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24018 'HYDRODRIVE-600' (product name exact after normalising)" .
+
+fx:SN24019 a fx:Installation ;
+    rdfs:label "SN24019 at Noord Food Ingredients, Duisburg" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24019 'AQUALINE-120' (product name exact after normalising)" .
+
+fx:SN24020 a fx:Installation ;
+    rdfs:label "SN24020 at Maasvlakte Chemicals, Venlo" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-maasvlakte-chemicals ;
+    fx:sourceRecord "CRM:SN24020 'HydroDrive 600' (product name exact after normalising)" .
+
+fx:SN24021 a fx:Installation ;
+    rdfs:label "SN24021 at Amstel Water Board, Rotterdam" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24021 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24022 a fx:Installation ;
+    rdfs:label "SN24022 at Maasvlakte Chemicals, Eindhoven" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-maasvlakte-chemicals ;
+    fx:sourceRecord "CRM:SN24022 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24023 a fx:Installation ;
+    rdfs:label "SN24023 at Brabant Pharma Fill, Eindhoven" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24023 'HydroDrive 600' (product name exact after normalising)" .
+
+fx:SN24024 a fx:Installation ;
+    rdfs:label "SN24024 at Rijn Chemical Park, Groningen" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-rijn-chemical-park ;
+    fx:sourceRecord "CRM:SN24024 'HydroDrive 600 pump unit' (product name exact after normalising)" .
+
+fx:SN24025 a fx:Installation ;
+    rdfs:label "SN24025 at Drenthe Biogas, Eindhoven" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24025 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24026 a fx:Installation ;
+    rdfs:label "SN24026 at Polder Utilities, Utrecht" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24026 'FluxaPro 250' (product name exact after normalising)" .
+
+fx:SN24027 a fx:Installation ;
+    rdfs:label "SN24027 at Veluwe Dairy Cooperative, Antwerp" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24027 'FluxaPro 200' (product name exact after normalising)" .
+
+fx:SN24028 a fx:Installation ;
+    rdfs:label "SN24028 at Polder Utilities, Duisburg" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24028 'ChemB oost 50' (product name exact after normalising)" .
+
+fx:SN24029 a fx:Installation ;
+    rdfs:label "SN24029 at Limburg Paper Mill, Rotterdam" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-limburg-paper-mill ;
+    fx:sourceRecord "CRM:SN24029 'CHEMBOOST-50' (product name exact after normalising)" .
+
+fx:SN24030 a fx:Installation ;
+    rdfs:label "SN24030 at Veluwe Dairy Cooperative, Duisburg" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24030 'Fluxa Pro 250' (product name exact after normalising)" .
+
+fx:SN24031 a fx:Installation ;
+    rdfs:label "SN24031 at Brabant Pharma Fill, Duisburg" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24031 'ChemBoost 50' (product name exact after normalising)" .
+
+fx:SN24032 a fx:Installation ;
+    rdfs:label "SN24032 at Polder Utilities, Rotterdam" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24032 'FluxaPro 150' (product name exact after normalising)" .
+
+fx:SN24033 a fx:Installation ;
+    rdfs:label "SN24033 at Veluwe Dairy Cooperative, Utrecht" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24033 'SEAWATER-300' (product name exact after normalising)" .
+
+fx:SN24034 a fx:Installation ;
+    rdfs:label "SN24034 at Limburg Paper Mill, Zwolle" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-limburg-paper-mill ;
+    fx:sourceRecord "CRM:SN24034 'SeaWa ter 300' (product name exact after normalising)" .
+
+fx:SN24035 a fx:Installation ;
+    rdfs:label "SN24035 at IJssel Steelworks, Zwolle" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24035 'HydroDrive 400 pump unit' (product name exact after normalising)" .
+
+fx:SN24036 a fx:Installation ;
+    rdfs:label "SN24036 at Schelde Shipyards, Eindhoven" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24036 'FLUXAPRO-250' (product name exact after normalising)" .
+
+fx:SN24037 a fx:Installation ;
+    rdfs:label "SN24037 at Delta Fish Processing, Zwolle" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24037 'FluxaPro 250 pump unit' (product name exact after normalising)" .
+
+fx:SN24038 a fx:Installation ;
+    rdfs:label "SN24038 at Amstel Water Board, Venlo" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24038 'AQUALINE-120' (product name exact after normalising)" .
+
+fx:SN24039 a fx:Installation ;
+    rdfs:label "SN24039 at Rijn Chemical Park, Venlo" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-rijn-chemical-park ;
+    fx:sourceRecord "CRM:SN24039 'Fluxa Pro 150' (product name exact after normalising)" .
+
+fx:SN24040 a fx:Installation ;
+    rdfs:label "SN24040 at Schelde Shipyards, Duisburg" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24040 'Fluxa Pro 150' (product name exact after normalising)" .
+
+fx:SN24041 a fx:Installation ;
+    rdfs:label "SN24041 at Groningen District Heating, Utrecht" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-groningen-district-heating ;
+    fx:sourceRecord "CRM:SN24041 'AquaLine 80 pump unit' (product name exact after normalising)" .
+
+fx:SN24042 a fx:Installation ;
+    rdfs:label "SN24042 at Brabant Pharma Fill, Duisburg" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24042 'AquaLine 80' (product name exact after normalising)" .
+
+fx:SN24043 a fx:Installation ;
+    rdfs:label "SN24043 at Flevo Greenhouses, Utrecht" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24043 'AquaLine120' (product name exact after normalising)" .
+
+fx:SN24044 a fx:Installation ;
+    rdfs:label "SN24044 at Haven Terminals, Groningen" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24044 'Fluxa Pro 150' (product name exact after normalising)" .
+
+fx:SN24045 a fx:Installation ;
+    rdfs:label "SN24045 at Noord Food Ingredients, Zwolle" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24045 'AQUALINE-120' (product name exact after normalising)" .
+
+fx:SN24046 a fx:Installation ;
+    rdfs:label "SN24046 at Noord Food Ingredients, Zwolle" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24046 'FluxaPro 200 pump unit' (product name exact after normalising)" .
+
+fx:SN24047 a fx:Installation ;
+    rdfs:label "SN24047 at Haven Terminals, Rotterdam" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24047 'AquaLine 80 pump unit' (product name exact after normalising)" .
+
+fx:SN24048 a fx:Installation ;
+    rdfs:label "SN24048 at Flevo Greenhouses, Rotterdam" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24048 'AquaLine 80 pump unit' (product name exact after normalising)" .
+
+fx:SN24049 a fx:Installation ;
+    rdfs:label "SN24049 at Veluwe Dairy Cooperative, Venlo" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24049 'ChemBoost 90' (product name exact after normalising)" .
+
+fx:SN24050 a fx:Installation ;
+    rdfs:label "SN24050 at Amstel Water Board, Duisburg" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24050 'Hydro Drive 600' (product name exact after normalising)" .
+
+fx:SN24051 a fx:Installation ;
+    rdfs:label "SN24051 at Waal Gravel Works, Antwerp" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-waal-gravel-works ;
+    fx:sourceRecord "CRM:SN24051 'ChemBoost50' (product name exact after normalising)" .
+
+fx:SN24052 a fx:Installation ;
+    rdfs:label "SN24052 at Veluwe Dairy Cooperative, Groningen" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24052 'AQUALINE-80' (product name exact after normalising)" .
+
+fx:SN24053 a fx:Installation ;
+    rdfs:label "SN24053 at Amstel Water Board, Venlo" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24053 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24054 a fx:Installation ;
+    rdfs:label "SN24054 at Twente Textiles, Rotterdam" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-twente-textiles ;
+    fx:sourceRecord "CRM:SN24054 'FluxaPro 250 pump unit' (product name exact after normalising)" .
+
+fx:SN24055 a fx:Installation ;
+    rdfs:label "SN24055 at IJssel Steelworks, Zwolle" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24055 'FluxaPro 200' (product name exact after normalising)" .
+
+fx:SN24056 a fx:Installation ;
+    rdfs:label "SN24056 at Rijn Chemical Park, Rotterdam" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-rijn-chemical-park ;
+    fx:sourceRecord "CRM:SN24056 'HYDRODRIVE-400' (product name exact after normalising)" .
+
+fx:SN24057 a fx:Installation ;
+    rdfs:label "SN24057 at Rijn Chemical Park, Rotterdam" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-rijn-chemical-park ;
+    fx:sourceRecord "CRM:SN24057 'ChemBoost 90' (product name exact after normalising)" .
+
+fx:SN24058 a fx:Installation ;
+    rdfs:label "SN24058 at Amstel Water Board, Zwolle" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24058 'AquaL ine 80' (product name exact after normalising)" .
+
+fx:SN24059 a fx:Installation ;
+    rdfs:label "SN24059 at Flevo Greenhouses, Duisburg" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24059 'AquaLine 80 pump unit' (product name exact after normalising)" .
+
+fx:SN24060 a fx:Installation ;
+    rdfs:label "SN24060 at Amstel Water Board, Groningen" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24060 'CHEMBOOST-50' (product name exact after normalising)" .
+
+fx:SN24061 a fx:Installation ;
+    rdfs:label "SN24061 at Zeeland Desalination, Groningen" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-zeeland-desalination ;
+    fx:sourceRecord "CRM:SN24061 'HydroDrive 400 pump unit' (product name exact after normalising)" .
+
+fx:SN24062 a fx:Installation ;
+    rdfs:label "SN24062 at Maasvlakte Chemicals, Rotterdam" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-maasvlakte-chemicals ;
+    fx:sourceRecord "CRM:SN24062 'Fluxa Pro 150' (product name exact after normalising)" .
+
+fx:SN24063 a fx:Installation ;
+    rdfs:label "SN24063 at Utrecht Data Cooling, Eindhoven" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-utrecht-data-cooling ;
+    fx:sourceRecord "CRM:SN24063 'ChemB oost 50' (product name exact after normalising)" .
+
+fx:SN24064 a fx:Installation ;
+    rdfs:label "SN24064 at Drenthe Biogas, Eindhoven" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24064 'HYDRODRIVE-600' (product name exact after normalising)" .
+
+fx:SN24065 a fx:Installation ;
+    rdfs:label "SN24065 at Twente Textiles, Eindhoven" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-twente-textiles ;
+    fx:sourceRecord "CRM:SN24065 'SeaWa ter 300' (product name exact after normalising)" .
+
+fx:SN24066 a fx:Installation ;
+    rdfs:label "SN24066 at Brabant Pharma Fill, Groningen" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24066 'FLUXAPRO-250' (product name exact after normalising)" .
+
+fx:SN24067 a fx:Installation ;
+    rdfs:label "SN24067 at Limburg Paper Mill, Rotterdam" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-limburg-paper-mill ;
+    fx:sourceRecord "CRM:SN24067 'AQUALINE-80' (product name exact after normalising)" .
+
+fx:SN24068 a fx:Installation ;
+    rdfs:label "SN24068 at Noord Food Ingredients, Rotterdam" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24068 'FluxaPro 150' (product name exact after normalising)" .
+
+fx:SN24069 a fx:Installation ;
+    rdfs:label "SN24069 at Utrecht Data Cooling, Rotterdam" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-utrecht-data-cooling ;
+    fx:sourceRecord "CRM:SN24069 'ChemBoost 90' (product name exact after normalising)" .
+
+fx:SN24070 a fx:Installation ;
+    rdfs:label "SN24070 at Polder Utilities, Antwerp" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24070 'HYDRODRIVE-400' (product name exact after normalising)" .
+
+fx:SN24071 a fx:Installation ;
+    rdfs:label "SN24071 at Brabant Pharma Fill, Eindhoven" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24071 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24072 a fx:Installation ;
+    rdfs:label "SN24072 at Flevo Greenhouses, Utrecht" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24072 'HydroDrive 400' (product name exact after normalising)" .
+
+fx:SN24073 a fx:Installation ;
+    rdfs:label "SN24073 at Groningen District Heating, Groningen" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-groningen-district-heating ;
+    fx:sourceRecord "CRM:SN24073 'ChemBoost 50 pump unit' (product name exact after normalising)" .
+
+fx:SN24074 a fx:Installation ;
+    rdfs:label "SN24074 at Polder Utilities, Zwolle" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24074 'FluxaPro250' (product name exact after normalising)" .
+
+fx:SN24075 a fx:Installation ;
+    rdfs:label "SN24075 at Twente Textiles, Eindhoven" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-twente-textiles ;
+    fx:sourceRecord "CRM:SN24075 'Fluxa Pro 250' (product name exact after normalising)" .
+
+fx:SN24076 a fx:Installation ;
+    rdfs:label "SN24076 at Brabant Pharma Fill, Eindhoven" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24076 'FluxaPro 250 pump unit' (product name exact after normalising)" .
+
+fx:SN24077 a fx:Installation ;
+    rdfs:label "SN24077 at Brabant Pharma Fill, Venlo" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24077 'FLUXAPRO-200' (product name exact after normalising)" .
+
+fx:SN24078 a fx:Installation ;
+    rdfs:label "SN24078 at Drenthe Biogas, Venlo" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24078 'ChemBoost50' (product name exact after normalising)" .
+
+fx:SN24079 a fx:Installation ;
+    rdfs:label "SN24079 at Maasvlakte Chemicals, Groningen" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-maasvlakte-chemicals ;
+    fx:sourceRecord "CRM:SN24079 'AquaLine 80 pump unit' (product name exact after normalising)" .
+
+fx:SN24080 a fx:Installation ;
+    rdfs:label "SN24080 at Brabant Pharma Fill, Groningen" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24080 'FLUXAPRO-250' (product name exact after normalising)" .
+
+fx:SN24081 a fx:Installation ;
+    rdfs:label "SN24081 at Twente Textiles, Groningen" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-twente-textiles ;
+    fx:sourceRecord "CRM:SN24081 'HydroDrive 600' (product name exact after normalising)" .
+
+fx:SN24082 a fx:Installation ;
+    rdfs:label "SN24082 at Haven Terminals, Venlo" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24082 'SeaWater300' (product name exact after normalising)" .
+
+fx:SN24083 a fx:Installation ;
+    rdfs:label "SN24083 at Drenthe Biogas, Venlo" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24083 'ChemBoost 50 pump unit' (product name exact after normalising)" .
+
+fx:SN24084 a fx:Installation ;
+    rdfs:label "SN24084 at Schelde Shipyards, Rotterdam" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24084 'FluxaPro200' (product name exact after normalising)" .
+
+fx:SN24085 a fx:Installation ;
+    rdfs:label "SN24085 at Haven Terminals, Eindhoven" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24085 'CHEMBOOST-50' (product name exact after normalising)" .
+
+fx:SN24086 a fx:Installation ;
+    rdfs:label "SN24086 at Delta Fish Processing, Duisburg" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24086 'HydroDrive400' (product name exact after normalising)" .
+
+fx:SN24087 a fx:Installation ;
+    rdfs:label "SN24087 at Groningen District Heating, Duisburg" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-groningen-district-heating ;
+    fx:sourceRecord "CRM:SN24087 'FluxaPro 200 pump unit' (product name exact after normalising)" .
+
+fx:SN24088 a fx:Installation ;
+    rdfs:label "SN24088 at Haven Terminals, Groningen" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24088 'FluxaPro 150' (product name exact after normalising)" .
+
+fx:SN24089 a fx:Installation ;
+    rdfs:label "SN24089 at Kempen Breweries, Groningen" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-kempen-breweries ;
+    fx:sourceRecord "CRM:SN24089 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24090 a fx:Installation ;
+    rdfs:label "SN24090 at Haven Terminals, Groningen" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24090 'CHEMBOOST-90' (product name exact after normalising)" .
+
+fx:SN24091 a fx:Installation ;
+    rdfs:label "SN24091 at Delta Fish Processing, Antwerp" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24091 'FLUXAPRO-150' (product name exact after normalising)" .
+
+fx:SN24092 a fx:Installation ;
+    rdfs:label "SN24092 at Schelde Shipyards, Groningen" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24092 'Fluxa Pro 250' (product name exact after normalising)" .
+
+fx:SN24093 a fx:Installation ;
+    rdfs:label "SN24093 at Zeeland Desalination, Eindhoven" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-zeeland-desalination ;
+    fx:sourceRecord "CRM:SN24093 'FluxaPro 250' (product name exact after normalising)" .
+
+fx:SN24094 a fx:Installation ;
+    rdfs:label "SN24094 at Flevo Greenhouses, Groningen" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24094 'ChemBoost50' (product name exact after normalising)" .
+
+fx:SN24095 a fx:Installation ;
+    rdfs:label "SN24095 at Zeeland Desalination, Duisburg" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-zeeland-desalination ;
+    fx:sourceRecord "CRM:SN24095 'SeaWater300' (product name exact after normalising)" .
+
+fx:SN24096 a fx:Installation ;
+    rdfs:label "SN24096 at Waal Gravel Works, Utrecht" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-waal-gravel-works ;
+    fx:sourceRecord "CRM:SN24096 'FluxaPro 200' (product name exact after normalising)" .
+
+fx:SN24097 a fx:Installation ;
+    rdfs:label "SN24097 at Kempen Breweries, Duisburg" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-kempen-breweries ;
+    fx:sourceRecord "CRM:SN24097 'HydroDrive 400 pump unit' (product name exact after normalising)" .
+
+fx:SN24098 a fx:Installation ;
+    rdfs:label "SN24098 at Delta Fish Processing, Zwolle" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24098 'FluxaPro150' (product name exact after normalising)" .
+
+fx:SN24099 a fx:Installation ;
+    rdfs:label "SN24099 at Twente Textiles, Groningen" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-twente-textiles ;
+    fx:sourceRecord "CRM:SN24099 'AquaL ine 120' (product name exact after normalising)" .
+
+fx:SN24100 a fx:Installation ;
+    rdfs:label "SN24100 at Limburg Paper Mill, Venlo" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-limburg-paper-mill ;
+    fx:sourceRecord "CRM:SN24100 'Fluxa Pro 150' (product name exact after normalising)" .
+
+fx:SN24101 a fx:Installation ;
+    rdfs:label "SN24101 at IJssel Steelworks, Zwolle" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24101 'Fluxa Pro 150' (product name exact after normalising)" .
+
+fx:SN24102 a fx:Installation ;
+    rdfs:label "SN24102 at IJssel Steelworks, Antwerp" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24102 'FLUXAPRO-200' (product name exact after normalising)" .
+
+fx:SN24103 a fx:Installation ;
+    rdfs:label "SN24103 at Amstel Water Board, Rotterdam" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24103 'HYDRODRIVE-600' (product name exact after normalising)" .
+
+fx:SN24104 a fx:Installation ;
+    rdfs:label "SN24104 at Brabant Pharma Fill, Rotterdam" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24104 'ChemB oost 50' (product name exact after normalising)" .
+
+fx:SN24105 a fx:Installation ;
+    rdfs:label "SN24105 at Polder Utilities, Antwerp" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24105 'FluxaPro 250' (product name exact after normalising)" .
+
+fx:SN24106 a fx:Installation ;
+    rdfs:label "SN24106 at Limburg Paper Mill, Groningen" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-limburg-paper-mill ;
+    fx:sourceRecord "CRM:SN24106 'SeaWater 300' (product name exact after normalising)" .
+
+fx:SN24107 a fx:Installation ;
+    rdfs:label "SN24107 at Noord Food Ingredients, Rotterdam" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24107 'AquaLine 120' (product name exact after normalising)" .
+
+fx:SN24108 a fx:Installation ;
+    rdfs:label "SN24108 at Flevo Greenhouses, Rotterdam" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24108 'AquaL ine 80' (product name exact after normalising)" .
+
+fx:SN24109 a fx:Installation ;
+    rdfs:label "SN24109 at Brabant Pharma Fill, Antwerp" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24109 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24110 a fx:Installation ;
+    rdfs:label "SN24110 at Drenthe Biogas, Groningen" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24110 'HydroDrive 400' (product name exact after normalising)" .
+
+fx:SN24111 a fx:Installation ;
+    rdfs:label "SN24111 at Brabant Pharma Fill, Zwolle" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24111 'Fluxa Pro 200' (product name exact after normalising)" .
+
+fx:SN24112 a fx:Installation ;
+    rdfs:label "SN24112 at Drenthe Biogas, Eindhoven" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24112 'AquaLine 120' (product name exact after normalising)" .
+
+fx:SN24113 a fx:Installation ;
+    rdfs:label "SN24113 at Noord Food Ingredients, Antwerp" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24113 'FluxaPro250' (product name exact after normalising)" .
+
+fx:SN24114 a fx:Installation ;
+    rdfs:label "SN24114 at Brabant Pharma Fill, Utrecht" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24114 'SeaWater300' (product name exact after normalising)" .
+
+fx:SN24115 a fx:Installation ;
+    rdfs:label "SN24115 at Delta Fish Processing, Rotterdam" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24115 'HydroDrive 600 pump unit' (product name exact after normalising)" .
+
+fx:SN24116 a fx:Installation ;
+    rdfs:label "SN24116 at Kempen Breweries, Utrecht" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-kempen-breweries ;
+    fx:sourceRecord "CRM:SN24116 'HydroDrive400' (product name exact after normalising)" .
+
+fx:SN24117 a fx:Installation ;
+    rdfs:label "SN24117 at Amstel Water Board, Venlo" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24117 'HydroDrive 600 pump unit' (product name exact after normalising)" .
+
+fx:SN24118 a fx:Installation ;
+    rdfs:label "SN24118 at Kempen Breweries, Groningen" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-kempen-breweries ;
+    fx:sourceRecord "CRM:SN24118 'FLUXAPRO-150' (product name exact after normalising)" .
+
+fx:SN24119 a fx:Installation ;
+    rdfs:label "SN24119 at Polder Utilities, Venlo" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24119 'HydroDrive 600' (product name exact after normalising)" .
+
+fx:SN24120 a fx:Installation ;
+    rdfs:label "SN24120 at Veluwe Dairy Cooperative, Venlo" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24120 'FluxaPro 250 pump unit' (product name exact after normalising)" .
+
+fx:SN24121 a fx:Installation ;
+    rdfs:label "SN24121 at Polder Utilities, Antwerp" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-polder-utilities ;
+    fx:sourceRecord "CRM:SN24121 'ChemBoost90' (product name exact after normalising)" .
+
+fx:SN24122 a fx:Installation ;
+    rdfs:label "SN24122 at Brabant Pharma Fill, Rotterdam" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24122 'HydroDrive 600' (product name exact after normalising)" .
+
+fx:SN24123 a fx:Installation ;
+    rdfs:label "SN24123 at Flevo Greenhouses, Duisburg" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24123 'SeaWa ter 300' (product name exact after normalising)" .
+
+fx:SN24124 a fx:Installation ;
+    rdfs:label "SN24124 at Drenthe Biogas, Duisburg" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24124 'SeaWater 300' (product name exact after normalising)" .
+
+fx:SN24125 a fx:Installation ;
+    rdfs:label "SN24125 at Delta Fish Processing, Antwerp" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24125 'FluxaPro 150' (product name exact after normalising)" .
+
+fx:SN24126 a fx:Installation ;
+    rdfs:label "SN24126 at Haven Terminals, Venlo" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24126 'FluxaPro200' (product name exact after normalising)" .
+
+fx:SN24127 a fx:Installation ;
+    rdfs:label "SN24127 at Rijn Chemical Park, Duisburg" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-rijn-chemical-park ;
+    fx:sourceRecord "CRM:SN24127 'FluxaPro 150' (product name exact after normalising)" .
+
+fx:SN24128 a fx:Installation ;
+    rdfs:label "SN24128 at Noord Food Ingredients, Groningen" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-noord-food-ingredients ;
+    fx:sourceRecord "CRM:SN24128 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24129 a fx:Installation ;
+    rdfs:label "SN24129 at Schelde Shipyards, Duisburg" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24129 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24130 a fx:Installation ;
+    rdfs:label "SN24130 at Flevo Greenhouses, Antwerp" ;
+    fx:ofProduct fx:AL-120 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24130 'AquaLine 120' (product name exact after normalising)" .
+
+fx:SN24131 a fx:Installation ;
+    rdfs:label "SN24131 at Haven Terminals, Zwolle" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24131 'ChemB oost 90' (product name exact after normalising)" .
+
+fx:SN24132 a fx:Installation ;
+    rdfs:label "SN24132 at Twente Textiles, Utrecht" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-twente-textiles ;
+    fx:sourceRecord "CRM:SN24132 'SeaWater300' (product name exact after normalising)" .
+
+fx:SN24133 a fx:Installation ;
+    rdfs:label "SN24133 at Brabant Pharma Fill, Duisburg" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-brabant-pharma-fill ;
+    fx:sourceRecord "CRM:SN24133 'Hydro Drive 400' (product name exact after normalising)" .
+
+fx:SN24134 a fx:Installation ;
+    rdfs:label "SN24134 at Haven Terminals, Rotterdam" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24134 'ChemBoost50' (product name exact after normalising)" .
+
+fx:SN24135 a fx:Installation ;
+    rdfs:label "SN24135 at Zeeland Desalination, Utrecht" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-zeeland-desalination ;
+    fx:sourceRecord "CRM:SN24135 'AquaL ine 80' (product name exact after normalising)" .
+
+fx:SN24136 a fx:Installation ;
+    rdfs:label "SN24136 at IJssel Steelworks, Groningen" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24136 'FluxaPro150' (product name exact after normalising)" .
+
+fx:SN24137 a fx:Installation ;
+    rdfs:label "SN24137 at Kempen Breweries, Zwolle" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-kempen-breweries ;
+    fx:sourceRecord "CRM:SN24137 'CHEMBOOST-90' (product name exact after normalising)" .
+
+fx:SN24138 a fx:Installation ;
+    rdfs:label "SN24138 at Haven Terminals, Rotterdam" ;
+    fx:ofProduct fx:AL-80 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24138 'AquaLine 80' (product name exact after normalising)" .
+
+fx:SN24139 a fx:Installation ;
+    rdfs:label "SN24139 at Veluwe Dairy Cooperative, Venlo" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-veluwe-dairy-cooperative ;
+    fx:sourceRecord "CRM:SN24139 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24140 a fx:Installation ;
+    rdfs:label "SN24140 at Waal Gravel Works, Utrecht" ;
+    fx:ofProduct fx:FX-150 ;
+    fx:ownedBy fx:CUS-waal-gravel-works ;
+    fx:sourceRecord "CRM:SN24140 'FluxaPro 150 pump unit' (product name exact after normalising)" .
+
+fx:SN24141 a fx:Installation ;
+    rdfs:label "SN24141 at Waal Gravel Works, Antwerp" ;
+    fx:ofProduct fx:FX-200 ;
+    fx:ownedBy fx:CUS-waal-gravel-works ;
+    fx:sourceRecord "CRM:SN24141 'FluxaPro200' (product name exact after normalising)" .
+
+fx:SN24142 a fx:Installation ;
+    rdfs:label "SN24142 at IJssel Steelworks, Groningen" ;
+    fx:ofProduct fx:HD-400 ;
+    fx:ownedBy fx:CUS-ijssel-steelworks ;
+    fx:sourceRecord "CRM:SN24142 'HydroDrive400' (product name exact after normalising)" .
+
+fx:SN24143 a fx:Installation ;
+    rdfs:label "SN24143 at Flevo Greenhouses, Eindhoven" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-flevo-greenhouses ;
+    fx:sourceRecord "CRM:SN24143 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24144 a fx:Installation ;
+    rdfs:label "SN24144 at Delta Fish Processing, Eindhoven" ;
+    fx:ofProduct fx:FX-250 ;
+    fx:ownedBy fx:CUS-delta-fish-processing ;
+    fx:sourceRecord "CRM:SN24144 'FluxaPro 250' (product name exact after normalising)" .
+
+fx:SN24145 a fx:Installation ;
+    rdfs:label "SN24145 at Amstel Water Board, Eindhoven" ;
+    fx:ofProduct fx:CB-90 ;
+    fx:ownedBy fx:CUS-amstel-water-board ;
+    fx:sourceRecord "CRM:SN24145 'ChemBoost 90 pump unit' (product name exact after normalising)" .
+
+fx:SN24146 a fx:Installation ;
+    rdfs:label "SN24146 at Schelde Shipyards, Utrecht" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-schelde-shipyards ;
+    fx:sourceRecord "CRM:SN24146 'SEAWATER-300' (product name exact after normalising)" .
+
+fx:SN24147 a fx:Installation ;
+    rdfs:label "SN24147 at Drenthe Biogas, Utrecht" ;
+    fx:ofProduct fx:SW-300 ;
+    fx:ownedBy fx:CUS-drenthe-biogas ;
+    fx:sourceRecord "CRM:SN24147 'SeaWater 300 pump unit' (product name exact after normalising)" .
+
+fx:SN24148 a fx:Installation ;
+    rdfs:label "SN24148 at Haven Terminals, Venlo" ;
+    fx:ofProduct fx:CB-50 ;
+    fx:ownedBy fx:CUS-haven-terminals ;
+    fx:sourceRecord "CRM:SN24148 'CHEMBOOST-50' (product name exact after normalising)" .
+
+fx:SN24149 a fx:Installation ;
+    rdfs:label "SN24149 at Waal Gravel Works, Utrecht" ;
+    fx:ofProduct fx:HD-600 ;
+    fx:ownedBy fx:CUS-waal-gravel-works ;
+    fx:sourceRecord "CRM:SN24149 'HYDRODRIVE-600' (product name exact after normalising)" .
+
+fx:concerns a owl:ObjectProperty ;
+    rdfs:domain fx:QualityIssue ;
+    rdfs:range fx:Part .
+
+fx:defect a owl:DatatypeProperty ;
+    rdfs:domain fx:QualityIssue ;
+    rdfs:range xsd:string .
+
+fx:hasComponent a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:comment "BOM parent to child. Transitive: a product contains every part in its sub-assemblies." ;
+    rdfs:domain fx:Item ;
+    rdfs:range fx:Item .
+
+fx:ofProduct a owl:ObjectProperty ;
+    rdfs:domain fx:Installation ;
+    rdfs:range fx:Product .
+
+fx:ownedBy a owl:ObjectProperty ;
+    rdfs:domain fx:Installation ;
+    rdfs:range fx:Customer .
+
+fx:sourceRecord a owl:DatatypeProperty ;
+    rdfs:comment "Provenance: which source-system record was resolved to this entity, and how." .
+
+fx:status a owl:DatatypeProperty ;
+    rdfs:domain fx:QualityIssue ;
+    rdfs:range xsd:string .
+
+fx:suppliedBy a owl:ObjectProperty ;
+    rdfs:domain fx:Part ;
+    rdfs:range fx:Supplier .
+
+fx:ASM-0004 a fx:Assembly ;
+    rdfs:label "Assembly 0004" ;
+    fx:hasComponent fx:PRT-10002,
+        fx:PRT-10026,
+        fx:PRT-10041,
+        fx:PRT-10048,
+        fx:PRT-10078,
+        fx:PRT-10095 .
+
+fx:ASM-0005 a fx:Assembly ;
+    rdfs:label "Assembly 0005" ;
+    fx:hasComponent fx:PRT-10012,
+        fx:PRT-10018,
+        fx:PRT-10042 .
+
+fx:ASM-0009 a fx:Assembly ;
+    rdfs:label "Assembly 0009" ;
+    fx:hasComponent fx:PRT-10044,
+        fx:PRT-10053,
+        fx:PRT-10076,
+        fx:PRT-10082,
+        fx:PRT-10086,
+        fx:PRT-10088,
+        fx:PRT-10099 .
+
+fx:ASM-0014 a fx:Assembly ;
+    rdfs:label "Assembly 0014" ;
+    fx:hasComponent fx:PRT-10009,
+        fx:PRT-10011,
+        fx:PRT-10019,
+        fx:PRT-10047,
+        fx:PRT-10054,
+        fx:PRT-10067,
+        fx:PRT-10080,
+        fx:PRT-10100 .
+
+fx:ASM-0015 a fx:Assembly ;
+    rdfs:label "Assembly 0015" ;
+    fx:hasComponent fx:PRT-10013,
+        fx:PRT-10024,
+        fx:PRT-10033,
+        fx:PRT-10039,
+        fx:PRT-10061,
+        fx:PRT-10073,
+        fx:PRT-10097 .
+
+fx:ASM-0021 a fx:Assembly ;
+    rdfs:label "Assembly 0021" ;
+    fx:hasComponent fx:ASM-0002,
+        fx:ASM-0013,
+        fx:PRT-10021,
+        fx:PRT-10050 .
+
+fx:ASM-0028 a fx:Assembly ;
+    rdfs:label "Assembly 0028" ;
+    fx:hasComponent fx:ASM-0005,
+        fx:ASM-0012,
+        fx:PRT-10047 .
+
+fx:ASM-0029 a fx:Assembly ;
+    rdfs:label "Assembly 0029" ;
+    fx:hasComponent fx:ASM-0002,
+        fx:ASM-0017,
+        fx:ASM-0020 .
+
+fx:ASM-0030 a fx:Assembly ;
+    rdfs:label "Assembly 0030" ;
+    fx:hasComponent fx:ASM-0003,
+        fx:ASM-0011,
+        fx:PRT-10011,
+        fx:PRT-10066 .
+
+fx:PRT-10003 a fx:Part ;
+    rdfs:label "Mechanical seal 25mm carbon/SiC" ;
+    fx:sourceRecord "ERP:10003-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10004 a fx:Part ;
+    rdfs:label "Mechanical seal 65mm carbon/SiC" ;
+    fx:sourceRecord "ERP:10004-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10008 a fx:Part ;
+    rdfs:label "Frequency drive 10kW" ;
+    fx:sourceRecord "ERP:10008 (material number key)",
+        "ERP:10008-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-kempen-electronics-b-v,
+        fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10015 a fx:Part ;
+    rdfs:label "Fastener kit M6 galvanised" ;
+    fx:sourceRecord "ERP:10015-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10018 a fx:Part ;
+    rdfs:label "O-ring 90mm EPDM" ;
+    fx:sourceRecord "ERP:10018-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10020 a fx:Part ;
+    rdfs:label "O-ring 45mm FKM" ;
+    fx:sourceRecord "ERP:10020-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
+        fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10022 a fx:Part ;
+    rdfs:label "Volute casing DN50 stainless" ;
+    fx:sourceRecord "ERP:10022-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10027 a fx:Part ;
+    rdfs:label "Pressure sensor 0-25 bar" ;
+    fx:sourceRecord "ERP:10027-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10028 a fx:Part ;
+    rdfs:label "Mechanical seal 35mm carbon/SiC" ;
+    fx:sourceRecord "ERP:10028-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10032 a fx:Part ;
+    rdfs:label "Motor 45kW IE4 2-pole" ;
+    fx:sourceRecord "ERP:10032-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-brabant-motorworks-bv .
+
+fx:PRT-10038 a fx:Part ;
+    rdfs:label "Fastener kit M10 A4" ;
+    fx:sourceRecord "ERP:10038 (material number key)",
+        "ERP:10038-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10041 a fx:Part ;
+    rdfs:label "Impeller 220mm stainless" ;
+    fx:sourceRecord "ERP:10041 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-castings-ab .
+
+fx:PRT-10043 a fx:Part ;
+    rdfs:label "O-ring 90mm NBR" ;
+    fx:sourceRecord "ERP:10043-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10045 a fx:Part ;
+    rdfs:label "O-ring 32mm FKM" ;
+    fx:sourceRecord "ERP:10045 (material number key)" ;
+    fx:suppliedBy fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10046 a fx:Part ;
+    rdfs:label "Shaft 45mm duplex" ;
+    fx:sourceRecord "ERP:10046-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-coatings .
+
+fx:PRT-10055 a fx:Part ;
+    rdfs:label "Mechanical seal 25mm SiC/SiC" ;
+    fx:sourceRecord "ERP:10055-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
+        fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10057 a fx:Part ;
+    rdfs:label "Motor 15kW IE3 4-pole" ;
+    fx:sourceRecord "ERP:10057-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-brabant-motorworks-bv,
+        fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10061 a fx:Part ;
+    rdfs:label "Ball bearing 627-2RS" ;
+    fx:sourceRecord "ERP:10061-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10063 a fx:Part ;
+    rdfs:label "Volute casing DN150 cast iron" ;
+    fx:sourceRecord "ERP:10063-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10067 a fx:Part ;
+    rdfs:label "O-ring 32mm NBR" ;
+    fx:sourceRecord "ERP:10067-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10068 a fx:Part ;
+    rdfs:label "Motor 11kW IE3 4-pole" ;
+    fx:sourceRecord "ERP:10068-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-brabant-motorworks-bv .
+
+fx:PRT-10074 a fx:Part ;
+    rdfs:label "Motor 30kW IE4 2-pole" ;
+    fx:sourceRecord "ERP:10074-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-brabant-motorworks-bv,
+        fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10082 a fx:Part ;
+    rdfs:label "Volute casing DN80 cast iron" ;
+    fx:sourceRecord "ERP:10082-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-castings-ab,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10083 a fx:Part ;
+    rdfs:label "Pressure sensor 0-6 bar" ;
+    fx:sourceRecord "ERP:10083-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10085 a fx:Part ;
+    rdfs:label "Ball bearing 639-ZZ" ;
+    fx:sourceRecord "ERP:10085-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10088 a fx:Part ;
+    rdfs:label "Motor 4kW IE4 2-pole" ;
+    fx:sourceRecord "ERP:10088-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-brabant-motorworks-bv .
+
+fx:PRT-10090 a fx:Part ;
+    rdfs:label "Motor 15kW IE4 2-pole" ;
+    fx:sourceRecord "ERP:10090-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10093 a fx:Part ;
+    rdfs:label "Fastener kit M6 A4" ;
+    fx:sourceRecord "ERP:10093 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10100 a fx:Part ;
+    rdfs:label "Motor 7kW IE3 4-pole" ;
+    fx:sourceRecord "ERP:10100-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:ASM-0003 a fx:Assembly ;
+    rdfs:label "Assembly 0003" ;
+    fx:hasComponent fx:PRT-10027,
+        fx:PRT-10039,
+        fx:PRT-10043,
+        fx:PRT-10045,
+        fx:PRT-10055,
+        fx:PRT-10074,
+        fx:PRT-10078,
+        fx:PRT-10089,
+        fx:PRT-10092,
+        fx:PRT-10099 .
+
+fx:ASM-0007 a fx:Assembly ;
+    rdfs:label "Assembly 0007" ;
+    fx:hasComponent fx:PRT-10011,
+        fx:PRT-10015,
+        fx:PRT-10026,
+        fx:PRT-10030,
+        fx:PRT-10050,
+        fx:PRT-10058,
+        fx:PRT-10062,
+        fx:PRT-10066,
+        fx:PRT-10077 .
+
+fx:ASM-0008 a fx:Assembly ;
+    rdfs:label "Assembly 0008" ;
+    fx:hasComponent fx:PRT-10007,
+        fx:PRT-10021,
+        fx:PRT-10068,
+        fx:PRT-10094,
+        fx:PRT-10097 .
+
+fx:ASM-0010 a fx:Assembly ;
+    rdfs:label "Assembly 0010" ;
+    fx:hasComponent fx:PRT-10001,
+        fx:PRT-10035,
+        fx:PRT-10053,
+        fx:PRT-10084,
+        fx:PRT-10089 .
+
+fx:ASM-0012 a fx:Assembly ;
+    rdfs:label "Assembly 0012" ;
+    fx:hasComponent fx:PRT-10021,
+        fx:PRT-10037,
+        fx:PRT-10042,
+        fx:PRT-10046,
+        fx:PRT-10052,
+        fx:PRT-10059,
+        fx:PRT-10064,
+        fx:PRT-10070,
+        fx:PRT-10081 .
+
+fx:ASM-0017 a fx:Assembly ;
+    rdfs:label "Assembly 0017" ;
+    fx:hasComponent fx:PRT-10023,
+        fx:PRT-10030,
+        fx:PRT-10032 .
+
+fx:ASM-0020 a fx:Assembly ;
+    rdfs:label "Assembly 0020" ;
+    fx:hasComponent fx:PRT-10003,
+        fx:PRT-10005,
+        fx:PRT-10011,
+        fx:PRT-10017,
+        fx:PRT-10079,
+        fx:PRT-10084,
+        fx:PRT-10091,
+        fx:PRT-10096 .
+
+fx:ASM-0023 a fx:Assembly ;
+    rdfs:label "Assembly 0023" ;
+    fx:hasComponent fx:ASM-0004,
+        fx:ASM-0011,
+        fx:PRT-10077 .
+
+fx:ASM-0026 a fx:Assembly ;
+    rdfs:label "Assembly 0026" ;
+    fx:hasComponent fx:ASM-0016,
+        fx:ASM-0020,
+        fx:PRT-10031 .
+
+fx:PRT-10001 a fx:Part ;
+    rdfs:label "Shaft 35mm stainless" ;
+    fx:sourceRecord "ERP:10001-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-coatings .
+
+fx:PRT-10002 a fx:Part ;
+    rdfs:label "Controller PCB rev 16" ;
+    fx:sourceRecord "ERP:10002-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-kempen-electronics-b-v .
+
+fx:PRT-10007 a fx:Part ;
+    rdfs:label "Motor 7kW IE4 2-pole" ;
+    fx:sourceRecord "ERP:10007-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10009 a fx:Part ;
+    rdfs:label "Shaft 45mm stainless" ;
+    fx:sourceRecord "ERP:10009-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-lombardia-shafts-spa .
+
+fx:PRT-10010 a fx:Part ;
+    rdfs:label "O-ring 32mm EPDM" ;
+    fx:sourceRecord "ERP:10010-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10016 a fx:Part ;
+    rdfs:label "Frequency drive 16kW" ;
+    fx:sourceRecord "ERP:10016-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-bavaria-sensorik-ag .
+
+fx:PRT-10019 a fx:Part ;
+    rdfs:label "Fastener kit M20 galvanised" ;
+    fx:sourceRecord "ERP:10019-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10026 a fx:Part ;
+    rdfs:label "Frequency drive 6kW" ;
+    fx:sourceRecord "ERP:10026-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-kempen-electronics-b-v .
+
+fx:PRT-10029 a fx:Part ;
+    rdfs:label "Shaft 25mm stainless" ;
+    fx:sourceRecord "ERP:10029 (material number key)",
+        "ERP:10029-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-lombardia-shafts-spa,
+        fx:SUP-nordic-coatings .
+
+fx:PRT-10031 a fx:Part ;
+    rdfs:label "Fastener kit M10 galvanised" ;
+    fx:sourceRecord "ERP:10031-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10033 a fx:Part ;
+    rdfs:label "Controller PCB rev 40" ;
+    fx:sourceRecord "ERP:10033-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-kempen-electronics-b-v .
+
+fx:PRT-10034 a fx:Part ;
+    rdfs:label "Ball bearing 638-ZZ" ;
+    fx:sourceRecord "ERP:10034-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10035 a fx:Part ;
+    rdfs:label "Mechanical seal 55mm carbon/SiC" ;
+    fx:sourceRecord "ERP:10035-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10037 a fx:Part ;
+    rdfs:label "Mechanical seal 55mm SiC/SiC" ;
+    fx:sourceRecord "ERP:10037-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10039 a fx:Part ;
+    rdfs:label "Ball bearing 636-ZZ" ;
+    fx:sourceRecord "ERP:10039-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10044 a fx:Part ;
+    rdfs:label "Impeller 150mm bronze" ;
+    fx:sourceRecord "ERP:10044-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-castings-ab .
+
+fx:PRT-10048 a fx:Part ;
+    rdfs:label "Pressure sensor 0-40 bar" ;
+    fx:sourceRecord "ERP:10048-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-kempen-electronics-b-v,
+        fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10051 a fx:Part ;
+    rdfs:label "Ball bearing 626-2RS" ;
+    fx:sourceRecord "ERP:10051-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a,
+        fx:SUP-midlands-fasteners .
+
+fx:PRT-10060 a fx:Part ;
+    rdfs:label "Controller PCB rev 6" ;
+    fx:sourceRecord "ERP:10060-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10062 a fx:Part ;
+    rdfs:label "Motor 45kW IE3 4-pole" ;
+    fx:sourceRecord "ERP:10062 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10070 a fx:Part ;
+    rdfs:label "Pressure sensor 0-10 bar" ;
+    fx:sourceRecord "ERP:10070-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10071 a fx:Part ;
+    rdfs:label "Volute casing DN150 stainless" ;
+    fx:sourceRecord "ERP:10071-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10073 a fx:Part ;
+    rdfs:label "Fastener kit M8 A4" ;
+    fx:sourceRecord "ERP:10073 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10075 a fx:Part ;
+    rdfs:label "Motor 4kW IE3 4-pole" ;
+    fx:sourceRecord "ERP:10075-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10076 a fx:Part ;
+    rdfs:label "O-ring 75mm EPDM" ;
+    fx:sourceRecord "ERP:10076-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy .
+
+fx:PRT-10077 a fx:Part ;
+    rdfs:label "Ball bearing 624-2RS" ;
+    fx:sourceRecord "ERP:10077-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10078 a fx:Part ;
+    rdfs:label "Motor 30kW IE3 4-pole" ;
+    fx:sourceRecord "ERP:10078 (material number key)" ;
+    fx:suppliedBy fx:SUP-brabant-motorworks-bv .
+
+fx:PRT-10081 a fx:Part ;
+    rdfs:label "Ball bearing 633-ZZ" ;
+    fx:sourceRecord "ERP:10081-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10086 a fx:Part ;
+    rdfs:label "Impeller 180mm cast iron" ;
+    fx:sourceRecord "ERP:10086-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-coatings .
+
+fx:PRT-10091 a fx:Part ;
+    rdfs:label "Impeller 150mm stainless" ;
+    fx:sourceRecord "ERP:10091-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-baltic-impellers,
+        fx:SUP-nordic-coatings .
+
+fx:PRT-10092 a fx:Part ;
+    rdfs:label "Volute casing DN200 stainless" ;
+    fx:sourceRecord "ERP:10092-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10094 a fx:Part ;
+    rdfs:label "Mechanical seal 45mm carbon/SiC" ;
+    fx:sourceRecord "ERP:10094-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10095 a fx:Part ;
+    rdfs:label "O-ring 75mm NBR" ;
+    fx:sourceRecord "ERP:10095-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy .
+
+fx:PRT-10098 a fx:Part ;
+    rdfs:label "Volute casing DN50 cast iron" ;
+    fx:sourceRecord "ERP:10098-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10099 a fx:Part ;
+    rdfs:label "Controller PCB rev 10" ;
+    fx:sourceRecord "ERP:10099-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:SUP-baltic-impellers a fx:Supplier ;
+    rdfs:label "BALTIC IMPELLERS" ;
+    skos:altLabel "BALTIC IMPELLERS" ;
+    fx:sourceRecord "ERP:V0010 'BALTIC IMPELLERS' (vendor name cluster)" .
+
+fx:SUP-bavaria-sensorik-ag a fx:Supplier ;
+    rdfs:label "Bavaria Sensorik AG" ;
+    skos:altLabel "BAVARIA SENSORIK",
+        "Bavaria Sensorik AG" ;
+    fx:sourceRecord "ERP:V0021 'Bavaria Sensorik AG' (vendor name cluster)",
+        "ERP:V0022 'BAVARIA SENSORIK' (vendor name cluster)" .
+
+fx:ASM-0002 a fx:Assembly ;
+    rdfs:label "Assembly 0002" ;
+    fx:hasComponent fx:PRT-10002,
+        fx:PRT-10010,
+        fx:PRT-10014,
+        fx:PRT-10020,
+        fx:PRT-10021,
+        fx:PRT-10034,
+        fx:PRT-10056,
+        fx:PRT-10070,
+        fx:PRT-10072,
+        fx:PRT-10075,
+        fx:PRT-10085 .
+
+fx:ASM-0006 a fx:Assembly ;
+    rdfs:label "Assembly 0006" ;
+    fx:hasComponent fx:PRT-10006,
+        fx:PRT-10022,
+        fx:PRT-10028,
+        fx:PRT-10031,
+        fx:PRT-10040,
+        fx:PRT-10047,
+        fx:PRT-10059 .
+
+fx:ASM-0011 a fx:Assembly ;
+    rdfs:label "Assembly 0011" ;
+    fx:hasComponent fx:PRT-10025,
+        fx:PRT-10029,
+        fx:PRT-10038,
+        fx:PRT-10062,
+        fx:PRT-10063,
+        fx:PRT-10080,
+        fx:PRT-10083,
+        fx:PRT-10087 .
+
+fx:ASM-0016 a fx:Assembly ;
+    rdfs:label "Assembly 0016" ;
+    fx:hasComponent fx:PRT-10004,
+        fx:PRT-10008,
+        fx:PRT-10057,
+        fx:PRT-10064,
+        fx:PRT-10065,
+        fx:PRT-10091,
+        fx:PRT-10096 .
+
+fx:PRT-10005 a fx:Part ;
+    rdfs:label "Ball bearing 623-2RS" ;
+    fx:sourceRecord "ERP:10005-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10006 a fx:Part ;
+    rdfs:label "O-ring 20mm NBR" ;
+    fx:sourceRecord "ERP:10006-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10013 a fx:Part ;
+    rdfs:label "Motor 11kW IE4 2-pole" ;
+    fx:sourceRecord "ERP:10013-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10014 a fx:Part ;
+    rdfs:label "Ball bearing 629-2RS" ;
+    fx:sourceRecord "ERP:10014 (material number key)",
+        "ERP:10014-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a,
+        fx:SUP-midlands-fasteners .
+
+fx:PRT-10017 a fx:Part ;
+    rdfs:label "Ball bearing 6310-ZZ" ;
+    fx:sourceRecord "ERP:10017 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10036 a fx:Part ;
+    rdfs:label "Mechanical seal 45mm SiC/SiC" ;
+    fx:sourceRecord "ERP:10036-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10049 a fx:Part ;
+    rdfs:label "Fastener kit M16 A4" ;
+    fx:sourceRecord "ERP:10049-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10052 a fx:Part ;
+    rdfs:label "O-ring 60mm NBR" ;
+    fx:sourceRecord "ERP:10052-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10054 a fx:Part ;
+    rdfs:label "Controller PCB rev 25" ;
+    fx:sourceRecord "ERP:10054-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-bavaria-sensorik-ag,
+        fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10056 a fx:Part ;
+    rdfs:label "Impeller 300mm stainless" ;
+    fx:sourceRecord "ERP:10056-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-castings-ab .
+
+fx:PRT-10058 a fx:Part ;
+    rdfs:label "Fastener kit M20 A4" ;
+    fx:sourceRecord "ERP:10058-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10059 a fx:Part ;
+    rdfs:label "Volute casing DN100 stainless" ;
+    fx:sourceRecord "ERP:10059-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10065 a fx:Part ;
+    rdfs:label "Ball bearing 634-ZZ" ;
+    fx:sourceRecord "ERP:10065-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10069 a fx:Part ;
+    rdfs:label "O-ring 20mm FKM" ;
+    fx:sourceRecord "ERP:10069-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas,
+        fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10072 a fx:Part ;
+    rdfs:label "Impeller 180mm bronze" ;
+    fx:sourceRecord "ERP:10072-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-castings-ab .
+
+fx:PRT-10079 a fx:Part ;
+    rdfs:label "Fastener kit M12 galvanised" ;
+    fx:sourceRecord "ERP:10079 (material number key)",
+        "ERP:10079-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10080 a fx:Part ;
+    rdfs:label "Fastener kit M12 A4" ;
+    fx:sourceRecord "ERP:10080-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10084 a fx:Part ;
+    rdfs:label "Shaft 35mm duplex" ;
+    fx:sourceRecord "ERP:10084 (material number key)",
+        "ERP:10084-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-coatings,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10087 a fx:Part ;
+    rdfs:label "O-ring 60mm EPDM" ;
+    fx:sourceRecord "ERP:10087-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10097 a fx:Part ;
+    rdfs:label "Volute casing DN100 cast iron" ;
+    fx:sourceRecord "ERP:10097-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a,
+        fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:SUP-lombardia-shafts-spa a fx:Supplier ;
+    rdfs:label "Lombardia Shafts SpA" ;
+    skos:altLabel "Lombadria Shafts S.p.A.",
+        "Lombardia Shafts SpA" ;
+    fx:sourceRecord "ERP:V0015 'Lombadria Shafts S.p.A.' (vendor name cluster)",
+        "ERP:V0016 'Lombardia Shafts SpA' (vendor name cluster)" .
+
+fx:ASM-0013 a fx:Assembly ;
+    rdfs:label "Assembly 0013" ;
+    fx:hasComponent fx:PRT-10010,
+        fx:PRT-10013,
+        fx:PRT-10014,
+        fx:PRT-10023,
+        fx:PRT-10036,
+        fx:PRT-10051,
+        fx:PRT-10069,
+        fx:PRT-10071,
+        fx:PRT-10098 .
+
+fx:CUS-groningen-district-heating a fx:Customer ;
+    rdfs:label "Groningen District Heating" .
+
+fx:CUS-utrecht-data-cooling a fx:Customer ;
+    rdfs:label "Utrecht Data Cooling" .
+
+fx:PRT-10011 a fx:Part ;
+    rdfs:label "Volute casing DN125 stainless" ;
+    fx:sourceRecord "ERP:10011-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
+
+fx:PRT-10012 a fx:Part ;
+    rdfs:label "Shaft 25mm duplex" ;
+    fx:sourceRecord "ERP:10012-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-lombardia-shafts-spa .
+
+fx:PRT-10023 a fx:Part ;
+    rdfs:label "Impeller 250mm bronze" ;
+    fx:sourceRecord "ERP:10023 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-coatings .
+
+fx:PRT-10024 a fx:Part ;
+    rdfs:label "Impeller 150mm cast iron" ;
+    fx:sourceRecord "ERP:10024-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-baltic-impellers,
+        fx:SUP-nordic-castings-ab .
+
+fx:PRT-10030 a fx:Part ;
+    rdfs:label "Mechanical seal 35mm SiC/SiC" ;
+    fx:sourceRecord "ERP:10030-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy .
+
+fx:PRT-10040 a fx:Part ;
+    rdfs:label "Ball bearing 625-2RS" ;
+    fx:sourceRecord "ERP:10040-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
+
+fx:PRT-10042 a fx:Part ;
+    rdfs:label "Fastener kit M8 galvanised" ;
+    fx:sourceRecord "ERP:10042-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
+
+fx:PRT-10047 a fx:Part ;
+    rdfs:label "O-ring 45mm EPDM" ;
+    fx:sourceRecord "ERP:10047 (material number key)" ;
+    fx:suppliedBy fx:SUP-rhone-polymers-sas .
+
+fx:PRT-10050 a fx:Part ;
+    rdfs:label "Ball bearing 628-2RS" ;
+    fx:sourceRecord "ERP:10050-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10053 a fx:Part ;
+    rdfs:label "Fastener kit M16 galvanised" ;
+    fx:sourceRecord "ERP:10053-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-midlands-fasteners .
+
+fx:PRT-10064 a fx:Part ;
+    rdfs:label "Impeller 120mm bronze" ;
+    fx:sourceRecord "ERP:10064-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-castings-ab .
+
+fx:PRT-10066 a fx:Part ;
+    rdfs:label "Pressure sensor 0-16 bar" ;
+    fx:sourceRecord "ERP:10066 (material number key)" ;
+    fx:suppliedBy fx:SUP-twente-elektro-b-v .
+
+fx:PRT-10096 a fx:Part ;
+    rdfs:label "Mechanical seal 65mm SiC/SiC" ;
+    fx:sourceRecord "ERP:10096-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-ligure-valvole-s-p-a,
+        fx:SUP-vortex-seals-gmbh .
+
+fx:ASM-0025 a fx:Assembly ;
+    rdfs:label "Assembly 0025" ;
+    fx:hasComponent fx:ASM-0006,
+        fx:ASM-0015,
+        fx:ASM-0017 .
+
+fx:CUS-kempen-breweries a fx:Customer ;
+    rdfs:label "Kempen Breweries" .
+
+fx:CUS-maasvlakte-chemicals a fx:Customer ;
+    rdfs:label "Maasvlakte Chemicals" .
+
+fx:CUS-rijn-chemical-park a fx:Customer ;
+    rdfs:label "Rijn Chemical Park" .
+
+fx:Item a owl:Class ;
+    rdfs:comment "Anything that appears in a bill of materials." .
+
+fx:PRT-10025 a fx:Part ;
+    rdfs:label "O-ring 75mm FKM" ;
+    fx:sourceRecord "ERP:10025-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
+        fx:SUP-vortex-seals-gmbh .
+
+fx:SUP-kempen-electronics-b-v a fx:Supplier ;
+    rdfs:label "Kempen Electronics B.V." ;
+    skos:altLabel "KEMPEN ELECTRONICS B.V.",
+        "Kempen Electronics B.V." ;
+    fx:sourceRecord "ERP:V0023 'KEMPEN ELECTRONICS B.V.' (vendor name cluster)",
+        "ERP:V0024 'Kempen Electronics B.V.' (vendor name cluster)" .
+
+fx:CUS-limburg-paper-mill a fx:Customer ;
+    rdfs:label "Limburg Paper Mill" .
+
+fx:CUS-twente-textiles a fx:Customer ;
+    rdfs:label "Twente Textiles" .
+
+fx:CUS-waal-gravel-works a fx:Customer ;
+    rdfs:label "Waal Gravel Works" .
+
+fx:CUS-zeeland-desalination a fx:Customer ;
+    rdfs:label "Zeeland Desalination" .
+
+fx:PRT-10021 a fx:Part ;
+    rdfs:label "O-ring 45mm NBR" ;
+    fx:sourceRecord "ERP:10021-00 (material number key)" ;
+    fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
+        fx:SUP-vortex-seals-gmbh .
+
+fx:PRT-10089 a fx:Part ;
+    rdfs:label "Impeller 220mm bronze" ;
+    fx:sourceRecord "ERP:10089 (material number key)" ;
+    fx:suppliedBy fx:SUP-nordic-coatings .
+
+fx:SUP-brabant-motorworks-bv a fx:Supplier ;
+    rdfs:label "Brabant Motorworks BV" ;
+    skos:altLabel "Brabant Motorworks BV" ;
+    fx:sourceRecord "ERP:V0019 'Brabant Motorworks BV' (vendor name cluster)" .
+
+fx:CUS-ijssel-steelworks a fx:Customer ;
+    rdfs:label "IJssel Steelworks" .
+
+fx:CUS-noord-food-ingredients a fx:Customer ;
+    rdfs:label "Noord Food Ingredients" .
+
+fx:CUS-schelde-shipyards a fx:Customer ;
+    rdfs:label "Schelde Shipyards" .
+
+fx:SUP-nordic-castings-ab a fx:Supplier ;
+    rdfs:label "Nordic Castings AB" ;
+    skos:altLabel "Nordic Castings AB" ;
+    fx:sourceRecord "ERP:V0005 'Nordic Castings AB' (vendor name cluster)",
+        "ERP:V0006 'Nordic Castings AB' (vendor name cluster)" .
+
+fx:SUP-tampere-seal-systems-oy a fx:Supplier ;
+    rdfs:label "Tampere Seal Systems Oy" ;
+    skos:altLabel "Tampere Seal Systems",
+        "Tampere Seal Systems Oy" ;
+    fx:sourceRecord "ERP:V0002 'Tampere Seal Systems Oy' (vendor name cluster)",
+        "ERP:V0003 'Tampere Seal Systems' (vendor name cluster)" .
+
+fx:CUS-delta-fish-processing a fx:Customer ;
+    rdfs:label "Delta Fish Processing" .
+
+fx:CUS-veluwe-dairy-cooperative a fx:Customer ;
+    rdfs:label "Veluwe Dairy Cooperative" .
+
+fx:SUP-nordic-coatings a fx:Supplier ;
+    rdfs:label "Nordic Coatings" ;
+    skos:altLabel "NORDIC COATINGS",
+        "Nordic Coatings" ;
+    fx:sourceRecord "ERP:V0007 'Nordic Coatings' (vendor name cluster)",
+        "ERP:V0008 'NORDIC COATINGS' (vendor name cluster)" .
+
+fx:SUP-rhone-polymers-sas a fx:Supplier ;
+    rdfs:label "Rhone Polymers SAS" ;
+    skos:altLabel "Rhone Polymers SAS" ;
+    fx:sourceRecord "ERP:V0004 'Rhone Polymers SAS' (vendor name cluster)" .
+
+fx:CUS-amstel-water-board a fx:Customer ;
+    rdfs:label "Amstel Water Board" .
+
+fx:SUP-ardennes-bearings-s-a a fx:Supplier ;
+    rdfs:label "Ardennes Bearings S.A." ;
+    skos:altLabel "Ardennes Bearings S.A." ;
+    fx:sourceRecord "ERP:V0017 'Ardennes Bearings S.A.' (vendor name cluster)" .
+
+fx:AL-120 a fx:Product ;
+    rdfs:label "AquaLine 120" ;
+    fx:hasComponent fx:ASM-0002,
+        fx:ASM-0026,
+        fx:PRT-10024 .
+
+fx:CUS-flevo-greenhouses a fx:Customer ;
+    rdfs:label "Flevo Greenhouses" .
+
+fx:SUP-ligure-valvole-s-p-a a fx:Supplier ;
+    rdfs:label "LIGURE VALVOLE S.P.A." ;
+    skos:altLabel "LIGURE VALVOLE S.P.A." ;
+    fx:sourceRecord "ERP:V0011 'LIGURE VALVOLE S.P.A.' (vendor name cluster)",
+        "ERP:V0012 'LIGURE VALVOLE S.P.A.' (vendor name cluster)" .
+
+fx:CUS-drenthe-biogas a fx:Customer ;
+    rdfs:label "Drenthe Biogas" .
+
+fx:CUS-haven-terminals a fx:Customer ;
+    rdfs:label "Haven Terminals" .
+
+fx:CUS-polder-utilities a fx:Customer ;
+    rdfs:label "Polder Utilities" .
+
+fx:Product a owl:Class ;
+    rdfs:comment "A sellable pump model (PLM)." ;
+    rdfs:subClassOf fx:Item .
+
+fx:AL-80 a fx:Product ;
+    rdfs:label "AquaLine 80" ;
+    fx:hasComponent fx:ASM-0007,
+        fx:ASM-0016,
+        fx:ASM-0023,
+        fx:ASM-0025,
+        fx:PRT-10065,
+        fx:PRT-10079 .
+
+fx:SUP-vortex-seals-gmbh a fx:Supplier ;
+    rdfs:label "VORTEX SEALS GMBH" ;
+    skos:altLabel "VORTEX SEALS GMBH" ;
+    fx:sourceRecord "ERP:V0001 'VORTEX SEALS GMBH' (vendor name cluster)" .
+
+fx:FX-200 a fx:Product ;
+    rdfs:label "FluxaPro 200" ;
+    fx:hasComponent fx:ASM-0006,
+        fx:ASM-0028,
+        fx:PRT-10009 .
+
+fx:SUP-midlands-fasteners a fx:Supplier ;
+    rdfs:label "Midlands Fasteners" ;
+    skos:altLabel "Midlands Fasteners" ;
+    fx:sourceRecord "ERP:V0018 'Midlands Fasteners' (vendor name cluster)" .
+
+fx:CUS-brabant-pharma-fill a fx:Customer ;
+    rdfs:label "Brabant Pharma Fill" .
+
+fx:HD-400 a fx:Product ;
+    rdfs:label "HydroDrive 400" ;
+    fx:hasComponent fx:ASM-0011,
+        fx:ASM-0013,
+        fx:ASM-0023,
+        fx:ASM-0025,
+        fx:PRT-10034 .
+
+fx:CB-90 a fx:Product ;
+    rdfs:label "ChemBoost 90" ;
+    fx:hasComponent fx:ASM-0003,
+        fx:ASM-0026,
+        fx:PRT-10023,
+        fx:PRT-10030 .
+
+fx:HD-600 a fx:Product ;
+    rdfs:label "HydroDrive 600" ;
+    fx:hasComponent fx:ASM-0029,
+        fx:PRT-10058,
+        fx:PRT-10072 .
+
+fx:SUP-silesia-tseel-sp-z-o-o a fx:Supplier ;
+    rdfs:label "Silesia tSeel Sp. z o.o." ;
+    skos:altLabel "Silesia Steel Sp z oo",
+        "Silesia tSeel Sp. z o.o." ;
+    fx:sourceRecord "ERP:V0013 'Silesia tSeel Sp. z o.o.' (vendor name cluster)",
+        "ERP:V0014 'Silesia Steel Sp z oo' (vendor name cluster)" .
+
+fx:CB-50 a fx:Product ;
+    rdfs:label "ChemBoost 50" ;
+    fx:hasComponent fx:ASM-0012,
+        fx:ASM-0013,
+        fx:ASM-0025,
+        fx:PRT-10048,
+        fx:PRT-10049 .
+
+fx:FX-250 a fx:Product ;
+    rdfs:label "FluxaPro 250" ;
+    fx:hasComponent fx:ASM-0025,
+        fx:ASM-0030,
+        fx:PRT-10036,
+        fx:PRT-10079 .
+
+fx:Supplier a owl:Class ;
+    rdfs:comment "A company we buy parts from. ERP may hold several vendor records for one supplier." .
+
+fx:FX-150 a fx:Product ;
+    rdfs:label "FluxaPro 150" ;
+    fx:hasComponent fx:ASM-0021,
+        fx:PRT-10025 .
+
+fx:SUP-twente-elektro-b-v a fx:Supplier ;
+    rdfs:label "TWENTE ELEKTRO B.V." ;
+    skos:altLabel "TWENTE ELEKTRO B.V." ;
+    fx:sourceRecord "ERP:V0020 'TWENTE ELEKTRO B.V.' (vendor name cluster)" .
+
+fx:Customer a owl:Class ;
+    rdfs:comment "An account that owns installed pumps (CRM)." .
+
+fx:SW-300 a fx:Product ;
+    rdfs:label "SeaWater 300" ;
+    fx:hasComponent fx:ASM-0009,
+        fx:ASM-0010,
+        fx:ASM-0025,
+        fx:PRT-10001,
+        fx:PRT-10094 .
+
+fx:Assembly a owl:Class ;
+    rdfs:comment "A built unit made of parts or other assemblies (PLM)." ;
+    rdfs:subClassOf fx:Item .
+
+fx:QualityIssue a owl:Class ;
+    rdfs:comment "A nonconformance report against a part (MES)." .
+
+fx:Part a owl:Class ;
+    rdfs:comment "A purchased component (PLM, ERP, MES)." ;
+    rdfs:subClassOf fx:Item .
+
+fx:Installation a owl:Class ;
+    rdfs:comment "One serial-numbered pump at a customer site (CRM)." .
+

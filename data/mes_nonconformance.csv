@@ -1,0 +1,71 @@
+nc_id,part_ref,part_desc,status,defect
+NC-5001,PRT-10096,,open,face wear
+NC-5002,PRT-10024,,closed,porosity in casting
+NC-5003,PRT-10056,,closed,porosity in casting
+NC-5004,PRT-10012,,open,dimension out of tolerance
+NC-5005,,Fastener kit M8 galvanised,open,thread damage
+NC-5006,,CONTROLLER PCB REV 40,closed,sensor drift
+NC-5007,,O-RING 20MM FKM,closed,swelling after chemical exposure
+NC-5008,PRT-10050,,open,overheating
+NC-5009,prt10058,,open,thread damage
+NC-5010,prt10053,,open,thread damage
+NC-5011,PRT-10054,,open,sensor drift
+NC-5012,prt10089,,closed,porosity in casting
+NC-5013,PRT-10047,,open,leak at seal face
+NC-5014,PRT-10040,,closed,overheating
+NC-5015,,impeller 220mm bronze,open,cavitation erosion
+NC-5016,PRT-10021,,closed,leak at seal face
+NC-5017,PRT-10065,,open,bearing noise
+NC-5018,10081,,closed,bearing noise
+NC-5019,PRT-10089,,open,porosity in casting
+NC-5020,prt10040,,closed,overheating
+NC-5021,prt10051,,open,bearing noise
+NC-5022,,IMPELLER 250MM BRONZE,open,cavitation erosion
+NC-5023,10066,,open,PCB solder fault
+NC-5024,prt10019,,open,thread damage
+NC-5025,PRT-10013,,open,overheating
+NC-5026,PRT-10060,,closed,PCB solder fault
+NC-5027,10084,,open,dimension out of tolerance
+NC-5028,PRT-10092,,open,porosity in casting
+NC-5029,prt10005,,open,overheating
+NC-5030,prt10025,,open,leak at seal face
+NC-5031,prt10029,,open,corrosion
+NC-5032,PRT-10007,,closed,winding insulation fault
+NC-5033,,o-ring 20mm nbr,open,leak at seal face
+NC-5034,PRT-10059,,open,corrosion
+NC-5035,PRT-10064,,open,imbalance
+NC-5036,10087,,closed,swelling after chemical exposure
+NC-5037,PRT-10052,,closed,leak at seal face
+NC-5038,PRT-10012,,open,corrosion
+NC-5039,,Impeller 150mm CI,open,imbalance
+NC-5040,PRT-10069,,open,leak at seal face
+NC-5041,,Frequency drive 16kW,open,sensor drift
+NC-5042,PRT-10025,,open,leak at seal face
+NC-5043,PRT-10056,,open,porosity in casting
+NC-5044,PRT-10044,,open,porosity in casting
+NC-5045,PRT-10012,,open,dimension out of tolerance
+NC-5046,PRT-10072,,open,porosity in casting
+NC-5047,PRT-10021,,open,swelling after chemical exposure
+NC-5048,,fastener kit m16 a4,closed,thread damage
+NC-5049,10030,,open,face wear
+NC-5050,10076,,open,leak at seal face
+NC-5051,prt10017,,open,overheating
+NC-5052,PRT-10095,,open,leak at seal face
+NC-5053,PRT-10040,,open,bearing noise
+NC-5054,,Impeller 220 mm bronze,open,cavitation erosion
+NC-5055,10014,,open,overheating
+NC-5056,prt10025,,open,leak at seal face
+NC-5057,,mech. seal 55 mm sic/sic,open,leak at seal face
+NC-5058,PRT-10036,,open,face wear
+NC-5059,10053,,open,thread damage
+NC-5060,,o-ring 60 mm nbr,open,leak at seal face
+NC-5061,prt10035,,closed,face wear
+NC-5062,PRT-10006,,closed,leak at seal face
+NC-5063,PRT-10097,,open,porosity in casting
+NC-5064,prt10071,,open,porosity in casting
+NC-5065,10073,,open,corrosion
+NC-5066,prt10086,,closed,porosity in casting
+NC-5067,PRT-10098,,closed,porosity in casting
+NC-5068,prt10075,,closed,winding insulation fault
+NC-5069,PRT-10005,,open,overheating
+NC-5070,PRT-10096,,open,face wear

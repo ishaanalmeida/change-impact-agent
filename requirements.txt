@@ -1,0 +1,5 @@
+rdflib>=7.6
+rapidfuzz>=3.14
+mcp>=2.3
+anthropic[mcp]>=1.15
+pytest
