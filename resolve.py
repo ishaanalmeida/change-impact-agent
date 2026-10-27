@@ -38,6 +38,12 @@ def digits(s):
     return re.findall(r"\d+", s)
 
 
+def part_key(ref):
+    """PRT-10023, prt10023, 10023-00 -> PRT-10023. None when the reference holds no number."""
+    d = digits(ref)
+    return f"PRT-{d[0]}" if d else None
+
+
 def norm_vendor(name):
     tokens = re.sub(r"[.,]", " ", name.lower()).split()
     # legal forms are short trailing tokens; dropping any token of <= 4 chars also catches typos like "GbmH"
@@ -75,7 +81,8 @@ def cluster_vendors(vendors, mode):
     """vendor_id -> cluster key. Greedy single-pass clustering on normalised names.
 
     Two names join when one edit (a swapped, changed, added or dropped character) separates them.
-    A similarity ratio cannot do this: "castings" vs "coatings" scores 93 and they are different firms."""
+    A similarity ratio cannot do this: normalised "Nordic Castings" vs "Nordic Coatings" scores 93 and
+    they are different firms; the typo "Nordic Casitngs" is one edit from the first, the other firm two."""
     if mode == "keys":
         return {vid: name.lower() for vid, name in vendors.items()}
     reps, out = [], {}
@@ -106,6 +113,7 @@ def build(mode="full"):
         e = FX[it["item_id"]]
         g.add((e, RDF.type, cls[it["item_type"]]))
         g.add((e, RDFS.label, Literal(it["description"])))
+        g.add((e, FX.sourceRecord, Literal(f"PLM:{it['item_id']} (master record)")))
     for b in rows("plm_bom.csv"):
         g.add((FX[b["parent"]], FX.hasComponent, FX[b["child"]]))
     parts = {it["item_id"]: it["description"] for it in items if it["item_type"] == "part"}
@@ -120,9 +128,12 @@ def build(mode="full"):
         spellings.setdefault(key, []).append(vendors[vid])
     sup_uri = {}
     for key, names in spellings.items():
-        # canonical label: the spelling with most words (keeps legal form), then most common
-        label = max(names, key=lambda n: (len(n.split()), names.count(n), n))
-        sup_uri[key] = FX["SUP-" + slug(label)]
+        # canonical label: most words (keeps the legal form), then not shouted in capitals, then most common
+        label = max(names, key=lambda n: (len(n.split()), not n.isupper(), names.count(n), n))
+        uri, k = FX["SUP-" + slug(label)], 2
+        while uri in sup_uri.values():  # two clusters slugging alike must stay two suppliers
+            uri, k = FX[f"SUP-{slug(label)}-{k}"], k + 1
+        sup_uri[key] = uri
         g.add((sup_uri[key], RDF.type, FX.Supplier))
         g.add((sup_uri[key], RDFS.label, Literal(label)))
         for n in set(names):
@@ -130,7 +141,7 @@ def build(mode="full"):
     for vid, key in clusters.items():
         note(sup_uri[key], "ERP", f"{vid} '{vendors[vid]}'", "vendor name cluster" if mode == "full" else "exact name")
     for r in erp:
-        pid = "PRT-" + digits(r["erp_material"])[0]
+        pid = part_key(r["erp_material"])
         if pid in parts:
             g.add((FX[pid], FX.suppliedBy, sup_uri[clusters[r["vendor_id"]]]))
             note(FX[pid], "ERP", r["erp_material"], "material number key")
@@ -146,7 +157,7 @@ def build(mode="full"):
         g.add((qi, FX.status, Literal(r["status"])))
         g.add((qi, FX.defect, Literal(r["defect"])))
         if r["part_ref"]:
-            pid, method, score = "PRT-" + digits(r["part_ref"])[0], "part number key", ""
+            pid, method, score = part_key(r["part_ref"]), "part number key", ""
         elif mode == "full":
             pid, score = best_match(norm_desc(r["part_desc"]), desc_candidates, fuzz.token_sort_ratio, cutoff=85)
             method = "description match"
@@ -156,7 +167,7 @@ def build(mode="full"):
             g.add((qi, FX.concerns, FX[pid]))
             note(qi, "MES", f"{r['nc_id']} '{r['part_ref'] or r['part_desc']}'", method, score)
         else:
-            log.append({"entity": r["nc_id"], "system": "MES", "record": r["part_desc"], "method": "unresolved", "score": score})
+            log.append({"entity": r["nc_id"], "system": "MES", "record": r["part_ref"] or r["part_desc"], "method": "unresolved", "score": score})
 
     # CRM: installations -> product by typed name; accounts -> customers
     prod_norm = {norm_product(n): code for code, n in products.items()}
@@ -166,6 +177,7 @@ def build(mode="full"):
         g.add((inst, RDFS.label, Literal(f"{r['serial_no']} at {r['account']}, {r['site_city']}")))
         g.add((cust, RDF.type, FX.Customer))
         g.add((cust, RDFS.label, Literal(r["account"])))
+        g.add((cust, FX.sourceRecord, Literal(f"CRM:account '{r['account']}' (exact name)")))
         g.add((inst, FX.ownedBy, cust))
         if mode == "full":
             code = prod_norm.get(norm_product(r["product_name"]))

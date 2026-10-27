@@ -1,4 +1,6 @@
 """Questions the agent can ask of the graph. Every answer is a SPARQL query over the ontology."""
+import re
+
 from rapidfuzz import fuzz, process, utils
 from rapidfuzz.distance import OSA
 from rdflib import RDF, RDFS, URIRef
@@ -46,9 +48,10 @@ class ImpactGraph:
             hits = [(k, s) for _, s, k in process.extract(query, names, scorer=fuzz.WRatio,
                                                           processor=utils.default_process, limit=limit * 4)]
             # one edit away from the query beats a high fuzzy score: "Castings" must find "Castigns", not "Coatings"
-            norm = norm_vendor if entity_type == "Supplier" else (lambda s: utils.default_process(s).replace(" ", ""))
-            q = norm(query)
-            hits.sort(key=lambda h: (OSA.distance(q, norm(names[h[0]])) > 1, -h[1]))
+            plain = lambda s: utils.default_process(s).replace(" ", "")  # noqa: E731
+            norms = [norm_vendor] if entity_type == "Supplier" else [plain, norm_vendor]
+            one_edit = lambda text: any(OSA.distance(f(query), f(text)) <= 1 for f in norms)  # noqa: E731
+            hits.sort(key=lambda h: (not one_edit(names[h[0]]), -h[1]))
         out, seen = [], set()
         for key, score in hits:
             eid = key.split("|")[0]
@@ -61,6 +64,8 @@ class ImpactGraph:
     def describe(self, entity_id):
         """Type, label and direct neighbours of one entity."""
         e = FX[entity_id]
+        if self._type(e) is None:
+            return {"error": f"unknown entity {entity_id!r}; use find_entity first"}
         out = {"id": entity_id, "type": self._type(e), "label": str(self.g.value(e, RDFS.label) or "")}
         for p, o in self.g.predicate_objects(e):
             name = _id(p)
@@ -74,20 +79,28 @@ class ImpactGraph:
     def change_impact(self, entity_id):
         """Everything downstream of a change to a supplier, part or assembly."""
         kind = self._type(FX[entity_id])
+        if kind is None:
+            return {"error": f"unknown entity {entity_id!r}; use find_entity first"}
         if kind == "Supplier":
             parts = [r.part for r in self._rows("SELECT ?part WHERE { ?part fx:suppliedBy ?s }", s=entity_id)]
             sole = [r.part for r in self._rows(
                 "SELECT ?part WHERE { ?part fx:suppliedBy ?s . FILTER NOT EXISTS { ?part fx:suppliedBy ?o . FILTER(?o != ?s) } }",
                 s=entity_id)]
-        elif kind in ("Part", "Assembly"):
+        elif kind == "Part":
             parts, sole = [FX[entity_id]], []
+        elif kind == "Assembly":
+            # report the parts inside the changed assembly; walk upward from the assembly itself
+            parts = [r.p for r in self._rows("SELECT ?p WHERE { ?a fx:hasComponent+ ?p . ?p a fx:Part }", a=entity_id)]
+            sole = []
         else:
             return {"error": f"{entity_id} is a {kind}; change impact starts from a Supplier, Part or Assembly"}
 
         products, assemblies, installs, customers, issues = set(), set(), set(), set(), set()
-        for part in parts:
-            for r in self._rows(f"SELECT ?up WHERE {{ ?up {self.path} ?x }}", x=_id(part)):
+        starts = [FX[entity_id]] if kind == "Assembly" else parts
+        for item in starts:
+            for r in self._rows(f"SELECT ?up WHERE {{ ?up {self.path} ?x }}", x=_id(item)):
                 (products if (r.up, RDF.type, FX.Product) in self.g else assemblies).add(r.up)
+        for part in parts:
             for r in self._rows("SELECT ?qi WHERE { ?qi fx:concerns ?x ; fx:status 'open' }", x=_id(part)):
                 issues.add(r.qi)
         for prod in products:
@@ -110,7 +123,14 @@ class ImpactGraph:
         """Run a read-only SPARQL SELECT. Prefixes fx: and rdfs: are predefined."""
         if not query.lstrip().upper().startswith(("SELECT", "ASK", "PREFIX")):
             return {"error": "only SELECT or ASK queries are allowed"}
-        res = self.g.query(PREFIX + query)  # rdflib's query() cannot run SPARQL Update
+        if re.search(r"\bSERVICE\b", query, re.I):  # rdflib would make an HTTP call to the named endpoint
+            return {"error": "SERVICE (federated queries) is not allowed"}
+        try:
+            res = self.g.query(PREFIX + query)  # rdflib's query() cannot run SPARQL Update
+        except Exception as e:  # parse errors go back to the agent so it can fix the query
+            return {"error": f"query failed: {e}"}
+        if res.type not in ("SELECT", "ASK"):
+            return {"error": "only SELECT or ASK queries are allowed"}
         if res.type == "ASK":
             return {"answer": bool(res.askAnswer)}
         cols = [str(v) for v in res.vars]

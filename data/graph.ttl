@@ -12,36 +12,42 @@ fx:ASM-0001 a fx:Assembly ;
         fx:PRT-10064,
         fx:PRT-10066,
         fx:PRT-10090,
-        fx:PRT-10093 .
+        fx:PRT-10093 ;
+    fx:sourceRecord "PLM:ASM-0001 (master record)" .
 
 fx:ASM-0018 a fx:Assembly ;
     rdfs:label "Assembly 0018" ;
     fx:hasComponent fx:PRT-10049,
         fx:PRT-10054,
-        fx:PRT-10060 .
+        fx:PRT-10060 ;
+    fx:sourceRecord "PLM:ASM-0018 (master record)" .
 
 fx:ASM-0019 a fx:Assembly ;
     rdfs:label "Assembly 0019" ;
     fx:hasComponent fx:PRT-10080,
-        fx:PRT-10087 .
+        fx:PRT-10087 ;
+    fx:sourceRecord "PLM:ASM-0019 (master record)" .
 
 fx:ASM-0022 a fx:Assembly ;
     rdfs:label "Assembly 0022" ;
     fx:hasComponent fx:ASM-0007,
-        fx:ASM-0008 .
+        fx:ASM-0008 ;
+    fx:sourceRecord "PLM:ASM-0022 (master record)" .
 
 fx:ASM-0024 a fx:Assembly ;
     rdfs:label "Assembly 0024" ;
     fx:hasComponent fx:ASM-0008,
         fx:ASM-0010,
         fx:ASM-0014,
-        fx:PRT-10050 .
+        fx:PRT-10050 ;
+    fx:sourceRecord "PLM:ASM-0024 (master record)" .
 
 fx:ASM-0027 a fx:Assembly ;
     rdfs:label "Assembly 0027" ;
     fx:hasComponent fx:ASM-0006,
         fx:ASM-0013,
-        fx:ASM-0016 .
+        fx:ASM-0016 ;
+    fx:sourceRecord "PLM:ASM-0027 (master record)" .
 
 fx:NC-5001 a fx:QualityIssue ;
     fx:concerns fx:PRT-10096 ;
@@ -1403,13 +1409,15 @@ fx:ASM-0004 a fx:Assembly ;
         fx:PRT-10041,
         fx:PRT-10048,
         fx:PRT-10078,
-        fx:PRT-10095 .
+        fx:PRT-10095 ;
+    fx:sourceRecord "PLM:ASM-0004 (master record)" .
 
 fx:ASM-0005 a fx:Assembly ;
     rdfs:label "Assembly 0005" ;
     fx:hasComponent fx:PRT-10012,
         fx:PRT-10018,
-        fx:PRT-10042 .
+        fx:PRT-10042 ;
+    fx:sourceRecord "PLM:ASM-0005 (master record)" .
 
 fx:ASM-0009 a fx:Assembly ;
     rdfs:label "Assembly 0009" ;
@@ -1419,7 +1427,8 @@ fx:ASM-0009 a fx:Assembly ;
         fx:PRT-10082,
         fx:PRT-10086,
         fx:PRT-10088,
-        fx:PRT-10099 .
+        fx:PRT-10099 ;
+    fx:sourceRecord "PLM:ASM-0009 (master record)" .
 
 fx:ASM-0014 a fx:Assembly ;
     rdfs:label "Assembly 0014" ;
@@ -1430,7 +1439,8 @@ fx:ASM-0014 a fx:Assembly ;
         fx:PRT-10054,
         fx:PRT-10067,
         fx:PRT-10080,
-        fx:PRT-10100 .
+        fx:PRT-10100 ;
+    fx:sourceRecord "PLM:ASM-0014 (master record)" .
 
 fx:ASM-0015 a fx:Assembly ;
     rdfs:label "Assembly 0015" ;
@@ -1440,187 +1450,221 @@ fx:ASM-0015 a fx:Assembly ;
         fx:PRT-10039,
         fx:PRT-10061,
         fx:PRT-10073,
-        fx:PRT-10097 .
+        fx:PRT-10097 ;
+    fx:sourceRecord "PLM:ASM-0015 (master record)" .
 
 fx:ASM-0021 a fx:Assembly ;
     rdfs:label "Assembly 0021" ;
     fx:hasComponent fx:ASM-0002,
         fx:ASM-0013,
         fx:PRT-10021,
-        fx:PRT-10050 .
+        fx:PRT-10050 ;
+    fx:sourceRecord "PLM:ASM-0021 (master record)" .
 
 fx:ASM-0028 a fx:Assembly ;
     rdfs:label "Assembly 0028" ;
     fx:hasComponent fx:ASM-0005,
         fx:ASM-0012,
-        fx:PRT-10047 .
+        fx:PRT-10047 ;
+    fx:sourceRecord "PLM:ASM-0028 (master record)" .
 
 fx:ASM-0029 a fx:Assembly ;
     rdfs:label "Assembly 0029" ;
     fx:hasComponent fx:ASM-0002,
         fx:ASM-0017,
-        fx:ASM-0020 .
+        fx:ASM-0020 ;
+    fx:sourceRecord "PLM:ASM-0029 (master record)" .
 
 fx:ASM-0030 a fx:Assembly ;
     rdfs:label "Assembly 0030" ;
     fx:hasComponent fx:ASM-0003,
         fx:ASM-0011,
         fx:PRT-10011,
-        fx:PRT-10066 .
+        fx:PRT-10066 ;
+    fx:sourceRecord "PLM:ASM-0030 (master record)" .
 
 fx:PRT-10003 a fx:Part ;
     rdfs:label "Mechanical seal 25mm carbon/SiC" ;
-    fx:sourceRecord "ERP:10003-00 (material number key)" ;
+    fx:sourceRecord "ERP:10003-00 (material number key)",
+        "PLM:PRT-10003 (master record)" ;
     fx:suppliedBy fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10004 a fx:Part ;
     rdfs:label "Mechanical seal 65mm carbon/SiC" ;
-    fx:sourceRecord "ERP:10004-00 (material number key)" ;
+    fx:sourceRecord "ERP:10004-00 (material number key)",
+        "PLM:PRT-10004 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10008 a fx:Part ;
     rdfs:label "Frequency drive 10kW" ;
     fx:sourceRecord "ERP:10008 (material number key)",
-        "ERP:10008-00 (material number key)" ;
+        "ERP:10008-00 (material number key)",
+        "PLM:PRT-10008 (master record)" ;
     fx:suppliedBy fx:SUP-kempen-electronics-b-v,
         fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10015 a fx:Part ;
     rdfs:label "Fastener kit M6 galvanised" ;
-    fx:sourceRecord "ERP:10015-00 (material number key)" ;
+    fx:sourceRecord "ERP:10015-00 (material number key)",
+        "PLM:PRT-10015 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10018 a fx:Part ;
     rdfs:label "O-ring 90mm EPDM" ;
-    fx:sourceRecord "ERP:10018-00 (material number key)" ;
+    fx:sourceRecord "ERP:10018-00 (material number key)",
+        "PLM:PRT-10018 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10020 a fx:Part ;
     rdfs:label "O-ring 45mm FKM" ;
-    fx:sourceRecord "ERP:10020-00 (material number key)" ;
+    fx:sourceRecord "ERP:10020-00 (material number key)",
+        "PLM:PRT-10020 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
         fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10022 a fx:Part ;
     rdfs:label "Volute casing DN50 stainless" ;
-    fx:sourceRecord "ERP:10022-00 (material number key)" ;
+    fx:sourceRecord "ERP:10022-00 (material number key)",
+        "PLM:PRT-10022 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10027 a fx:Part ;
     rdfs:label "Pressure sensor 0-25 bar" ;
-    fx:sourceRecord "ERP:10027-00 (material number key)" ;
+    fx:sourceRecord "ERP:10027-00 (material number key)",
+        "PLM:PRT-10027 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10028 a fx:Part ;
     rdfs:label "Mechanical seal 35mm carbon/SiC" ;
-    fx:sourceRecord "ERP:10028-00 (material number key)" ;
+    fx:sourceRecord "ERP:10028-00 (material number key)",
+        "PLM:PRT-10028 (master record)" ;
     fx:suppliedBy fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10032 a fx:Part ;
     rdfs:label "Motor 45kW IE4 2-pole" ;
-    fx:sourceRecord "ERP:10032-00 (material number key)" ;
+    fx:sourceRecord "ERP:10032-00 (material number key)",
+        "PLM:PRT-10032 (master record)" ;
     fx:suppliedBy fx:SUP-brabant-motorworks-bv .
 
 fx:PRT-10038 a fx:Part ;
     rdfs:label "Fastener kit M10 A4" ;
     fx:sourceRecord "ERP:10038 (material number key)",
-        "ERP:10038-00 (material number key)" ;
+        "ERP:10038-00 (material number key)",
+        "PLM:PRT-10038 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10041 a fx:Part ;
     rdfs:label "Impeller 220mm stainless" ;
-    fx:sourceRecord "ERP:10041 (material number key)" ;
+    fx:sourceRecord "ERP:10041 (material number key)",
+        "PLM:PRT-10041 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-castings-ab .
 
 fx:PRT-10043 a fx:Part ;
     rdfs:label "O-ring 90mm NBR" ;
-    fx:sourceRecord "ERP:10043-00 (material number key)" ;
+    fx:sourceRecord "ERP:10043-00 (material number key)",
+        "PLM:PRT-10043 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10045 a fx:Part ;
     rdfs:label "O-ring 32mm FKM" ;
-    fx:sourceRecord "ERP:10045 (material number key)" ;
+    fx:sourceRecord "ERP:10045 (material number key)",
+        "PLM:PRT-10045 (master record)" ;
     fx:suppliedBy fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10046 a fx:Part ;
     rdfs:label "Shaft 45mm duplex" ;
-    fx:sourceRecord "ERP:10046-00 (material number key)" ;
+    fx:sourceRecord "ERP:10046-00 (material number key)",
+        "PLM:PRT-10046 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-coatings .
 
 fx:PRT-10055 a fx:Part ;
     rdfs:label "Mechanical seal 25mm SiC/SiC" ;
-    fx:sourceRecord "ERP:10055-00 (material number key)" ;
+    fx:sourceRecord "ERP:10055-00 (material number key)",
+        "PLM:PRT-10055 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
         fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10057 a fx:Part ;
     rdfs:label "Motor 15kW IE3 4-pole" ;
-    fx:sourceRecord "ERP:10057-00 (material number key)" ;
+    fx:sourceRecord "ERP:10057-00 (material number key)",
+        "PLM:PRT-10057 (master record)" ;
     fx:suppliedBy fx:SUP-brabant-motorworks-bv,
         fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10061 a fx:Part ;
     rdfs:label "Ball bearing 627-2RS" ;
-    fx:sourceRecord "ERP:10061-00 (material number key)" ;
+    fx:sourceRecord "ERP:10061-00 (material number key)",
+        "PLM:PRT-10061 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10063 a fx:Part ;
     rdfs:label "Volute casing DN150 cast iron" ;
-    fx:sourceRecord "ERP:10063-00 (material number key)" ;
+    fx:sourceRecord "ERP:10063-00 (material number key)",
+        "PLM:PRT-10063 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10067 a fx:Part ;
     rdfs:label "O-ring 32mm NBR" ;
-    fx:sourceRecord "ERP:10067-00 (material number key)" ;
+    fx:sourceRecord "ERP:10067-00 (material number key)",
+        "PLM:PRT-10067 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10068 a fx:Part ;
     rdfs:label "Motor 11kW IE3 4-pole" ;
-    fx:sourceRecord "ERP:10068-00 (material number key)" ;
+    fx:sourceRecord "ERP:10068-00 (material number key)",
+        "PLM:PRT-10068 (master record)" ;
     fx:suppliedBy fx:SUP-brabant-motorworks-bv .
 
 fx:PRT-10074 a fx:Part ;
     rdfs:label "Motor 30kW IE4 2-pole" ;
-    fx:sourceRecord "ERP:10074-00 (material number key)" ;
+    fx:sourceRecord "ERP:10074-00 (material number key)",
+        "PLM:PRT-10074 (master record)" ;
     fx:suppliedBy fx:SUP-brabant-motorworks-bv,
         fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10082 a fx:Part ;
     rdfs:label "Volute casing DN80 cast iron" ;
-    fx:sourceRecord "ERP:10082-00 (material number key)" ;
+    fx:sourceRecord "ERP:10082-00 (material number key)",
+        "PLM:PRT-10082 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-castings-ab,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10083 a fx:Part ;
     rdfs:label "Pressure sensor 0-6 bar" ;
-    fx:sourceRecord "ERP:10083-00 (material number key)" ;
+    fx:sourceRecord "ERP:10083-00 (material number key)",
+        "PLM:PRT-10083 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10085 a fx:Part ;
     rdfs:label "Ball bearing 639-ZZ" ;
-    fx:sourceRecord "ERP:10085-00 (material number key)" ;
+    fx:sourceRecord "ERP:10085-00 (material number key)",
+        "PLM:PRT-10085 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10088 a fx:Part ;
     rdfs:label "Motor 4kW IE4 2-pole" ;
-    fx:sourceRecord "ERP:10088-00 (material number key)" ;
+    fx:sourceRecord "ERP:10088-00 (material number key)",
+        "PLM:PRT-10088 (master record)" ;
     fx:suppliedBy fx:SUP-brabant-motorworks-bv .
 
 fx:PRT-10090 a fx:Part ;
     rdfs:label "Motor 15kW IE4 2-pole" ;
-    fx:sourceRecord "ERP:10090-00 (material number key)" ;
+    fx:sourceRecord "ERP:10090-00 (material number key)",
+        "PLM:PRT-10090 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10093 a fx:Part ;
     rdfs:label "Fastener kit M6 A4" ;
-    fx:sourceRecord "ERP:10093 (material number key)" ;
+    fx:sourceRecord "ERP:10093 (material number key)",
+        "PLM:PRT-10093 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10100 a fx:Part ;
     rdfs:label "Motor 7kW IE3 4-pole" ;
-    fx:sourceRecord "ERP:10100-00 (material number key)" ;
+    fx:sourceRecord "ERP:10100-00 (material number key)",
+        "PLM:PRT-10100 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:ASM-0003 a fx:Assembly ;
@@ -1634,7 +1678,8 @@ fx:ASM-0003 a fx:Assembly ;
         fx:PRT-10078,
         fx:PRT-10089,
         fx:PRT-10092,
-        fx:PRT-10099 .
+        fx:PRT-10099 ;
+    fx:sourceRecord "PLM:ASM-0003 (master record)" .
 
 fx:ASM-0007 a fx:Assembly ;
     rdfs:label "Assembly 0007" ;
@@ -1646,7 +1691,8 @@ fx:ASM-0007 a fx:Assembly ;
         fx:PRT-10058,
         fx:PRT-10062,
         fx:PRT-10066,
-        fx:PRT-10077 .
+        fx:PRT-10077 ;
+    fx:sourceRecord "PLM:ASM-0007 (master record)" .
 
 fx:ASM-0008 a fx:Assembly ;
     rdfs:label "Assembly 0008" ;
@@ -1654,7 +1700,8 @@ fx:ASM-0008 a fx:Assembly ;
         fx:PRT-10021,
         fx:PRT-10068,
         fx:PRT-10094,
-        fx:PRT-10097 .
+        fx:PRT-10097 ;
+    fx:sourceRecord "PLM:ASM-0008 (master record)" .
 
 fx:ASM-0010 a fx:Assembly ;
     rdfs:label "Assembly 0010" ;
@@ -1662,7 +1709,8 @@ fx:ASM-0010 a fx:Assembly ;
         fx:PRT-10035,
         fx:PRT-10053,
         fx:PRT-10084,
-        fx:PRT-10089 .
+        fx:PRT-10089 ;
+    fx:sourceRecord "PLM:ASM-0010 (master record)" .
 
 fx:ASM-0012 a fx:Assembly ;
     rdfs:label "Assembly 0012" ;
@@ -1674,13 +1722,15 @@ fx:ASM-0012 a fx:Assembly ;
         fx:PRT-10059,
         fx:PRT-10064,
         fx:PRT-10070,
-        fx:PRT-10081 .
+        fx:PRT-10081 ;
+    fx:sourceRecord "PLM:ASM-0012 (master record)" .
 
 fx:ASM-0017 a fx:Assembly ;
     rdfs:label "Assembly 0017" ;
     fx:hasComponent fx:PRT-10023,
         fx:PRT-10030,
-        fx:PRT-10032 .
+        fx:PRT-10032 ;
+    fx:sourceRecord "PLM:ASM-0017 (master record)" .
 
 fx:ASM-0020 a fx:Assembly ;
     rdfs:label "Assembly 0020" ;
@@ -1691,199 +1741,237 @@ fx:ASM-0020 a fx:Assembly ;
         fx:PRT-10079,
         fx:PRT-10084,
         fx:PRT-10091,
-        fx:PRT-10096 .
+        fx:PRT-10096 ;
+    fx:sourceRecord "PLM:ASM-0020 (master record)" .
 
 fx:ASM-0023 a fx:Assembly ;
     rdfs:label "Assembly 0023" ;
     fx:hasComponent fx:ASM-0004,
         fx:ASM-0011,
-        fx:PRT-10077 .
+        fx:PRT-10077 ;
+    fx:sourceRecord "PLM:ASM-0023 (master record)" .
 
 fx:ASM-0026 a fx:Assembly ;
     rdfs:label "Assembly 0026" ;
     fx:hasComponent fx:ASM-0016,
         fx:ASM-0020,
-        fx:PRT-10031 .
+        fx:PRT-10031 ;
+    fx:sourceRecord "PLM:ASM-0026 (master record)" .
 
 fx:PRT-10001 a fx:Part ;
     rdfs:label "Shaft 35mm stainless" ;
-    fx:sourceRecord "ERP:10001-00 (material number key)" ;
+    fx:sourceRecord "ERP:10001-00 (material number key)",
+        "PLM:PRT-10001 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-coatings .
 
 fx:PRT-10002 a fx:Part ;
     rdfs:label "Controller PCB rev 16" ;
-    fx:sourceRecord "ERP:10002-00 (material number key)" ;
+    fx:sourceRecord "ERP:10002-00 (material number key)",
+        "PLM:PRT-10002 (master record)" ;
     fx:suppliedBy fx:SUP-kempen-electronics-b-v .
 
 fx:PRT-10007 a fx:Part ;
     rdfs:label "Motor 7kW IE4 2-pole" ;
-    fx:sourceRecord "ERP:10007-00 (material number key)" ;
+    fx:sourceRecord "ERP:10007-00 (material number key)",
+        "PLM:PRT-10007 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10009 a fx:Part ;
     rdfs:label "Shaft 45mm stainless" ;
-    fx:sourceRecord "ERP:10009-00 (material number key)" ;
+    fx:sourceRecord "ERP:10009-00 (material number key)",
+        "PLM:PRT-10009 (master record)" ;
     fx:suppliedBy fx:SUP-lombardia-shafts-spa .
 
 fx:PRT-10010 a fx:Part ;
     rdfs:label "O-ring 32mm EPDM" ;
-    fx:sourceRecord "ERP:10010-00 (material number key)" ;
+    fx:sourceRecord "ERP:10010-00 (material number key)",
+        "PLM:PRT-10010 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10016 a fx:Part ;
     rdfs:label "Frequency drive 16kW" ;
-    fx:sourceRecord "ERP:10016-00 (material number key)" ;
+    fx:sourceRecord "ERP:10016-00 (material number key)",
+        "PLM:PRT-10016 (master record)" ;
     fx:suppliedBy fx:SUP-bavaria-sensorik-ag .
 
 fx:PRT-10019 a fx:Part ;
     rdfs:label "Fastener kit M20 galvanised" ;
-    fx:sourceRecord "ERP:10019-00 (material number key)" ;
+    fx:sourceRecord "ERP:10019-00 (material number key)",
+        "PLM:PRT-10019 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10026 a fx:Part ;
     rdfs:label "Frequency drive 6kW" ;
-    fx:sourceRecord "ERP:10026-00 (material number key)" ;
+    fx:sourceRecord "ERP:10026-00 (material number key)",
+        "PLM:PRT-10026 (master record)" ;
     fx:suppliedBy fx:SUP-kempen-electronics-b-v .
 
 fx:PRT-10029 a fx:Part ;
     rdfs:label "Shaft 25mm stainless" ;
     fx:sourceRecord "ERP:10029 (material number key)",
-        "ERP:10029-00 (material number key)" ;
+        "ERP:10029-00 (material number key)",
+        "PLM:PRT-10029 (master record)" ;
     fx:suppliedBy fx:SUP-lombardia-shafts-spa,
         fx:SUP-nordic-coatings .
 
 fx:PRT-10031 a fx:Part ;
     rdfs:label "Fastener kit M10 galvanised" ;
-    fx:sourceRecord "ERP:10031-00 (material number key)" ;
+    fx:sourceRecord "ERP:10031-00 (material number key)",
+        "PLM:PRT-10031 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10033 a fx:Part ;
     rdfs:label "Controller PCB rev 40" ;
-    fx:sourceRecord "ERP:10033-00 (material number key)" ;
+    fx:sourceRecord "ERP:10033-00 (material number key)",
+        "PLM:PRT-10033 (master record)" ;
     fx:suppliedBy fx:SUP-kempen-electronics-b-v .
 
 fx:PRT-10034 a fx:Part ;
     rdfs:label "Ball bearing 638-ZZ" ;
-    fx:sourceRecord "ERP:10034-00 (material number key)" ;
+    fx:sourceRecord "ERP:10034-00 (material number key)",
+        "PLM:PRT-10034 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10035 a fx:Part ;
     rdfs:label "Mechanical seal 55mm carbon/SiC" ;
-    fx:sourceRecord "ERP:10035-00 (material number key)" ;
+    fx:sourceRecord "ERP:10035-00 (material number key)",
+        "PLM:PRT-10035 (master record)" ;
     fx:suppliedBy fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10037 a fx:Part ;
     rdfs:label "Mechanical seal 55mm SiC/SiC" ;
-    fx:sourceRecord "ERP:10037-00 (material number key)" ;
+    fx:sourceRecord "ERP:10037-00 (material number key)",
+        "PLM:PRT-10037 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10039 a fx:Part ;
     rdfs:label "Ball bearing 636-ZZ" ;
-    fx:sourceRecord "ERP:10039-00 (material number key)" ;
+    fx:sourceRecord "ERP:10039-00 (material number key)",
+        "PLM:PRT-10039 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10044 a fx:Part ;
     rdfs:label "Impeller 150mm bronze" ;
-    fx:sourceRecord "ERP:10044-00 (material number key)" ;
+    fx:sourceRecord "ERP:10044-00 (material number key)",
+        "PLM:PRT-10044 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-castings-ab .
 
 fx:PRT-10048 a fx:Part ;
     rdfs:label "Pressure sensor 0-40 bar" ;
-    fx:sourceRecord "ERP:10048-00 (material number key)" ;
+    fx:sourceRecord "ERP:10048-00 (material number key)",
+        "PLM:PRT-10048 (master record)" ;
     fx:suppliedBy fx:SUP-kempen-electronics-b-v,
         fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10051 a fx:Part ;
     rdfs:label "Ball bearing 626-2RS" ;
-    fx:sourceRecord "ERP:10051-00 (material number key)" ;
+    fx:sourceRecord "ERP:10051-00 (material number key)",
+        "PLM:PRT-10051 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a,
         fx:SUP-midlands-fasteners .
 
 fx:PRT-10060 a fx:Part ;
     rdfs:label "Controller PCB rev 6" ;
-    fx:sourceRecord "ERP:10060-00 (material number key)" ;
+    fx:sourceRecord "ERP:10060-00 (material number key)",
+        "PLM:PRT-10060 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10062 a fx:Part ;
     rdfs:label "Motor 45kW IE3 4-pole" ;
-    fx:sourceRecord "ERP:10062 (material number key)" ;
+    fx:sourceRecord "ERP:10062 (material number key)",
+        "PLM:PRT-10062 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10070 a fx:Part ;
     rdfs:label "Pressure sensor 0-10 bar" ;
-    fx:sourceRecord "ERP:10070-00 (material number key)" ;
+    fx:sourceRecord "ERP:10070-00 (material number key)",
+        "PLM:PRT-10070 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10071 a fx:Part ;
     rdfs:label "Volute casing DN150 stainless" ;
-    fx:sourceRecord "ERP:10071-00 (material number key)" ;
+    fx:sourceRecord "ERP:10071-00 (material number key)",
+        "PLM:PRT-10071 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10073 a fx:Part ;
     rdfs:label "Fastener kit M8 A4" ;
-    fx:sourceRecord "ERP:10073 (material number key)" ;
+    fx:sourceRecord "ERP:10073 (material number key)",
+        "PLM:PRT-10073 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10075 a fx:Part ;
     rdfs:label "Motor 4kW IE3 4-pole" ;
-    fx:sourceRecord "ERP:10075-00 (material number key)" ;
+    fx:sourceRecord "ERP:10075-00 (material number key)",
+        "PLM:PRT-10075 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10076 a fx:Part ;
     rdfs:label "O-ring 75mm EPDM" ;
-    fx:sourceRecord "ERP:10076-00 (material number key)" ;
+    fx:sourceRecord "ERP:10076-00 (material number key)",
+        "PLM:PRT-10076 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy .
 
 fx:PRT-10077 a fx:Part ;
     rdfs:label "Ball bearing 624-2RS" ;
-    fx:sourceRecord "ERP:10077-00 (material number key)" ;
+    fx:sourceRecord "ERP:10077-00 (material number key)",
+        "PLM:PRT-10077 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10078 a fx:Part ;
     rdfs:label "Motor 30kW IE3 4-pole" ;
-    fx:sourceRecord "ERP:10078 (material number key)" ;
+    fx:sourceRecord "ERP:10078 (material number key)",
+        "PLM:PRT-10078 (master record)" ;
     fx:suppliedBy fx:SUP-brabant-motorworks-bv .
 
 fx:PRT-10081 a fx:Part ;
     rdfs:label "Ball bearing 633-ZZ" ;
-    fx:sourceRecord "ERP:10081-00 (material number key)" ;
+    fx:sourceRecord "ERP:10081-00 (material number key)",
+        "PLM:PRT-10081 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10086 a fx:Part ;
     rdfs:label "Impeller 180mm cast iron" ;
-    fx:sourceRecord "ERP:10086-00 (material number key)" ;
+    fx:sourceRecord "ERP:10086-00 (material number key)",
+        "PLM:PRT-10086 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-coatings .
 
 fx:PRT-10091 a fx:Part ;
     rdfs:label "Impeller 150mm stainless" ;
-    fx:sourceRecord "ERP:10091-00 (material number key)" ;
+    fx:sourceRecord "ERP:10091-00 (material number key)",
+        "PLM:PRT-10091 (master record)" ;
     fx:suppliedBy fx:SUP-baltic-impellers,
         fx:SUP-nordic-coatings .
 
 fx:PRT-10092 a fx:Part ;
     rdfs:label "Volute casing DN200 stainless" ;
-    fx:sourceRecord "ERP:10092-00 (material number key)" ;
+    fx:sourceRecord "ERP:10092-00 (material number key)",
+        "PLM:PRT-10092 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10094 a fx:Part ;
     rdfs:label "Mechanical seal 45mm carbon/SiC" ;
-    fx:sourceRecord "ERP:10094-00 (material number key)" ;
+    fx:sourceRecord "ERP:10094-00 (material number key)",
+        "PLM:PRT-10094 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10095 a fx:Part ;
     rdfs:label "O-ring 75mm NBR" ;
-    fx:sourceRecord "ERP:10095-00 (material number key)" ;
+    fx:sourceRecord "ERP:10095-00 (material number key)",
+        "PLM:PRT-10095 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy .
 
 fx:PRT-10098 a fx:Part ;
     rdfs:label "Volute casing DN50 cast iron" ;
-    fx:sourceRecord "ERP:10098-00 (material number key)" ;
+    fx:sourceRecord "ERP:10098-00 (material number key)",
+        "PLM:PRT-10098 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10099 a fx:Part ;
     rdfs:label "Controller PCB rev 10" ;
-    fx:sourceRecord "ERP:10099-00 (material number key)" ;
+    fx:sourceRecord "ERP:10099-00 (material number key)",
+        "PLM:PRT-10099 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:SUP-baltic-impellers a fx:Supplier ;
@@ -1910,7 +1998,8 @@ fx:ASM-0002 a fx:Assembly ;
         fx:PRT-10070,
         fx:PRT-10072,
         fx:PRT-10075,
-        fx:PRT-10085 .
+        fx:PRT-10085 ;
+    fx:sourceRecord "PLM:ASM-0002 (master record)" .
 
 fx:ASM-0006 a fx:Assembly ;
     rdfs:label "Assembly 0006" ;
@@ -1920,7 +2009,8 @@ fx:ASM-0006 a fx:Assembly ;
         fx:PRT-10031,
         fx:PRT-10040,
         fx:PRT-10047,
-        fx:PRT-10059 .
+        fx:PRT-10059 ;
+    fx:sourceRecord "PLM:ASM-0006 (master record)" .
 
 fx:ASM-0011 a fx:Assembly ;
     rdfs:label "Assembly 0011" ;
@@ -1931,7 +2021,8 @@ fx:ASM-0011 a fx:Assembly ;
         fx:PRT-10063,
         fx:PRT-10080,
         fx:PRT-10083,
-        fx:PRT-10087 .
+        fx:PRT-10087 ;
+    fx:sourceRecord "PLM:ASM-0011 (master record)" .
 
 fx:ASM-0016 a fx:Assembly ;
     rdfs:label "Assembly 0016" ;
@@ -1941,115 +2032,136 @@ fx:ASM-0016 a fx:Assembly ;
         fx:PRT-10064,
         fx:PRT-10065,
         fx:PRT-10091,
-        fx:PRT-10096 .
+        fx:PRT-10096 ;
+    fx:sourceRecord "PLM:ASM-0016 (master record)" .
 
 fx:PRT-10005 a fx:Part ;
     rdfs:label "Ball bearing 623-2RS" ;
-    fx:sourceRecord "ERP:10005-00 (material number key)" ;
+    fx:sourceRecord "ERP:10005-00 (material number key)",
+        "PLM:PRT-10005 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10006 a fx:Part ;
     rdfs:label "O-ring 20mm NBR" ;
-    fx:sourceRecord "ERP:10006-00 (material number key)" ;
+    fx:sourceRecord "ERP:10006-00 (material number key)",
+        "PLM:PRT-10006 (master record)" ;
     fx:suppliedBy fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10013 a fx:Part ;
     rdfs:label "Motor 11kW IE4 2-pole" ;
-    fx:sourceRecord "ERP:10013-00 (material number key)" ;
+    fx:sourceRecord "ERP:10013-00 (material number key)",
+        "PLM:PRT-10013 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10014 a fx:Part ;
     rdfs:label "Ball bearing 629-2RS" ;
     fx:sourceRecord "ERP:10014 (material number key)",
-        "ERP:10014-00 (material number key)" ;
+        "ERP:10014-00 (material number key)",
+        "PLM:PRT-10014 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a,
         fx:SUP-midlands-fasteners .
 
 fx:PRT-10017 a fx:Part ;
     rdfs:label "Ball bearing 6310-ZZ" ;
-    fx:sourceRecord "ERP:10017 (material number key)" ;
+    fx:sourceRecord "ERP:10017 (material number key)",
+        "PLM:PRT-10017 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10036 a fx:Part ;
     rdfs:label "Mechanical seal 45mm SiC/SiC" ;
-    fx:sourceRecord "ERP:10036-00 (material number key)" ;
+    fx:sourceRecord "ERP:10036-00 (material number key)",
+        "PLM:PRT-10036 (master record)" ;
     fx:suppliedBy fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10049 a fx:Part ;
     rdfs:label "Fastener kit M16 A4" ;
-    fx:sourceRecord "ERP:10049-00 (material number key)" ;
+    fx:sourceRecord "ERP:10049-00 (material number key)",
+        "PLM:PRT-10049 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10052 a fx:Part ;
     rdfs:label "O-ring 60mm NBR" ;
-    fx:sourceRecord "ERP:10052-00 (material number key)" ;
+    fx:sourceRecord "ERP:10052-00 (material number key)",
+        "PLM:PRT-10052 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10054 a fx:Part ;
     rdfs:label "Controller PCB rev 25" ;
-    fx:sourceRecord "ERP:10054-00 (material number key)" ;
+    fx:sourceRecord "ERP:10054-00 (material number key)",
+        "PLM:PRT-10054 (master record)" ;
     fx:suppliedBy fx:SUP-bavaria-sensorik-ag,
         fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10056 a fx:Part ;
     rdfs:label "Impeller 300mm stainless" ;
-    fx:sourceRecord "ERP:10056-00 (material number key)" ;
+    fx:sourceRecord "ERP:10056-00 (material number key)",
+        "PLM:PRT-10056 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-castings-ab .
 
 fx:PRT-10058 a fx:Part ;
     rdfs:label "Fastener kit M20 A4" ;
-    fx:sourceRecord "ERP:10058-00 (material number key)" ;
+    fx:sourceRecord "ERP:10058-00 (material number key)",
+        "PLM:PRT-10058 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10059 a fx:Part ;
     rdfs:label "Volute casing DN100 stainless" ;
-    fx:sourceRecord "ERP:10059-00 (material number key)" ;
+    fx:sourceRecord "ERP:10059-00 (material number key)",
+        "PLM:PRT-10059 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10065 a fx:Part ;
     rdfs:label "Ball bearing 634-ZZ" ;
-    fx:sourceRecord "ERP:10065-00 (material number key)" ;
+    fx:sourceRecord "ERP:10065-00 (material number key)",
+        "PLM:PRT-10065 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10069 a fx:Part ;
     rdfs:label "O-ring 20mm FKM" ;
-    fx:sourceRecord "ERP:10069-00 (material number key)" ;
+    fx:sourceRecord "ERP:10069-00 (material number key)",
+        "PLM:PRT-10069 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas,
         fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10072 a fx:Part ;
     rdfs:label "Impeller 180mm bronze" ;
-    fx:sourceRecord "ERP:10072-00 (material number key)" ;
+    fx:sourceRecord "ERP:10072-00 (material number key)",
+        "PLM:PRT-10072 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-castings-ab .
 
 fx:PRT-10079 a fx:Part ;
     rdfs:label "Fastener kit M12 galvanised" ;
     fx:sourceRecord "ERP:10079 (material number key)",
-        "ERP:10079-00 (material number key)" ;
+        "ERP:10079-00 (material number key)",
+        "PLM:PRT-10079 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10080 a fx:Part ;
     rdfs:label "Fastener kit M12 A4" ;
-    fx:sourceRecord "ERP:10080-00 (material number key)" ;
+    fx:sourceRecord "ERP:10080-00 (material number key)",
+        "PLM:PRT-10080 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10084 a fx:Part ;
     rdfs:label "Shaft 35mm duplex" ;
     fx:sourceRecord "ERP:10084 (material number key)",
-        "ERP:10084-00 (material number key)" ;
+        "ERP:10084-00 (material number key)",
+        "PLM:PRT-10084 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-coatings,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10087 a fx:Part ;
     rdfs:label "O-ring 60mm EPDM" ;
-    fx:sourceRecord "ERP:10087-00 (material number key)" ;
+    fx:sourceRecord "ERP:10087-00 (material number key)",
+        "PLM:PRT-10087 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10097 a fx:Part ;
     rdfs:label "Volute casing DN100 cast iron" ;
-    fx:sourceRecord "ERP:10097-00 (material number key)" ;
+    fx:sourceRecord "ERP:10097-00 (material number key)",
+        "PLM:PRT-10097 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a,
         fx:SUP-silesia-tseel-sp-z-o-o .
 
@@ -2070,78 +2182,94 @@ fx:ASM-0013 a fx:Assembly ;
         fx:PRT-10051,
         fx:PRT-10069,
         fx:PRT-10071,
-        fx:PRT-10098 .
+        fx:PRT-10098 ;
+    fx:sourceRecord "PLM:ASM-0013 (master record)" .
 
 fx:CUS-groningen-district-heating a fx:Customer ;
-    rdfs:label "Groningen District Heating" .
+    rdfs:label "Groningen District Heating" ;
+    fx:sourceRecord "CRM:account 'Groningen District Heating' (exact name)" .
 
 fx:CUS-utrecht-data-cooling a fx:Customer ;
-    rdfs:label "Utrecht Data Cooling" .
+    rdfs:label "Utrecht Data Cooling" ;
+    fx:sourceRecord "CRM:account 'Utrecht Data Cooling' (exact name)" .
 
 fx:PRT-10011 a fx:Part ;
     rdfs:label "Volute casing DN125 stainless" ;
-    fx:sourceRecord "ERP:10011-00 (material number key)" ;
+    fx:sourceRecord "ERP:10011-00 (material number key)",
+        "PLM:PRT-10011 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a .
 
 fx:PRT-10012 a fx:Part ;
     rdfs:label "Shaft 25mm duplex" ;
-    fx:sourceRecord "ERP:10012-00 (material number key)" ;
+    fx:sourceRecord "ERP:10012-00 (material number key)",
+        "PLM:PRT-10012 (master record)" ;
     fx:suppliedBy fx:SUP-lombardia-shafts-spa .
 
 fx:PRT-10023 a fx:Part ;
     rdfs:label "Impeller 250mm bronze" ;
-    fx:sourceRecord "ERP:10023 (material number key)" ;
+    fx:sourceRecord "ERP:10023 (material number key)",
+        "PLM:PRT-10023 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-coatings .
 
 fx:PRT-10024 a fx:Part ;
     rdfs:label "Impeller 150mm cast iron" ;
-    fx:sourceRecord "ERP:10024-00 (material number key)" ;
+    fx:sourceRecord "ERP:10024-00 (material number key)",
+        "PLM:PRT-10024 (master record)" ;
     fx:suppliedBy fx:SUP-baltic-impellers,
         fx:SUP-nordic-castings-ab .
 
 fx:PRT-10030 a fx:Part ;
     rdfs:label "Mechanical seal 35mm SiC/SiC" ;
-    fx:sourceRecord "ERP:10030-00 (material number key)" ;
+    fx:sourceRecord "ERP:10030-00 (material number key)",
+        "PLM:PRT-10030 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy .
 
 fx:PRT-10040 a fx:Part ;
     rdfs:label "Ball bearing 625-2RS" ;
-    fx:sourceRecord "ERP:10040-00 (material number key)" ;
+    fx:sourceRecord "ERP:10040-00 (material number key)",
+        "PLM:PRT-10040 (master record)" ;
     fx:suppliedBy fx:SUP-ardennes-bearings-s-a .
 
 fx:PRT-10042 a fx:Part ;
     rdfs:label "Fastener kit M8 galvanised" ;
-    fx:sourceRecord "ERP:10042-00 (material number key)" ;
+    fx:sourceRecord "ERP:10042-00 (material number key)",
+        "PLM:PRT-10042 (master record)" ;
     fx:suppliedBy fx:SUP-silesia-tseel-sp-z-o-o .
 
 fx:PRT-10047 a fx:Part ;
     rdfs:label "O-ring 45mm EPDM" ;
-    fx:sourceRecord "ERP:10047 (material number key)" ;
+    fx:sourceRecord "ERP:10047 (material number key)",
+        "PLM:PRT-10047 (master record)" ;
     fx:suppliedBy fx:SUP-rhone-polymers-sas .
 
 fx:PRT-10050 a fx:Part ;
     rdfs:label "Ball bearing 628-2RS" ;
-    fx:sourceRecord "ERP:10050-00 (material number key)" ;
+    fx:sourceRecord "ERP:10050-00 (material number key)",
+        "PLM:PRT-10050 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10053 a fx:Part ;
     rdfs:label "Fastener kit M16 galvanised" ;
-    fx:sourceRecord "ERP:10053-00 (material number key)" ;
+    fx:sourceRecord "ERP:10053-00 (material number key)",
+        "PLM:PRT-10053 (master record)" ;
     fx:suppliedBy fx:SUP-midlands-fasteners .
 
 fx:PRT-10064 a fx:Part ;
     rdfs:label "Impeller 120mm bronze" ;
-    fx:sourceRecord "ERP:10064-00 (material number key)" ;
+    fx:sourceRecord "ERP:10064-00 (material number key)",
+        "PLM:PRT-10064 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-castings-ab .
 
 fx:PRT-10066 a fx:Part ;
     rdfs:label "Pressure sensor 0-16 bar" ;
-    fx:sourceRecord "ERP:10066 (material number key)" ;
+    fx:sourceRecord "ERP:10066 (material number key)",
+        "PLM:PRT-10066 (master record)" ;
     fx:suppliedBy fx:SUP-twente-elektro-b-v .
 
 fx:PRT-10096 a fx:Part ;
     rdfs:label "Mechanical seal 65mm SiC/SiC" ;
-    fx:sourceRecord "ERP:10096-00 (material number key)" ;
+    fx:sourceRecord "ERP:10096-00 (material number key)",
+        "PLM:PRT-10096 (master record)" ;
     fx:suppliedBy fx:SUP-ligure-valvole-s-p-a,
         fx:SUP-vortex-seals-gmbh .
 
@@ -2149,23 +2277,28 @@ fx:ASM-0025 a fx:Assembly ;
     rdfs:label "Assembly 0025" ;
     fx:hasComponent fx:ASM-0006,
         fx:ASM-0015,
-        fx:ASM-0017 .
+        fx:ASM-0017 ;
+    fx:sourceRecord "PLM:ASM-0025 (master record)" .
 
 fx:CUS-kempen-breweries a fx:Customer ;
-    rdfs:label "Kempen Breweries" .
+    rdfs:label "Kempen Breweries" ;
+    fx:sourceRecord "CRM:account 'Kempen Breweries' (exact name)" .
 
 fx:CUS-maasvlakte-chemicals a fx:Customer ;
-    rdfs:label "Maasvlakte Chemicals" .
+    rdfs:label "Maasvlakte Chemicals" ;
+    fx:sourceRecord "CRM:account 'Maasvlakte Chemicals' (exact name)" .
 
 fx:CUS-rijn-chemical-park a fx:Customer ;
-    rdfs:label "Rijn Chemical Park" .
+    rdfs:label "Rijn Chemical Park" ;
+    fx:sourceRecord "CRM:account 'Rijn Chemical Park' (exact name)" .
 
 fx:Item a owl:Class ;
     rdfs:comment "Anything that appears in a bill of materials." .
 
 fx:PRT-10025 a fx:Part ;
     rdfs:label "O-ring 75mm FKM" ;
-    fx:sourceRecord "ERP:10025-00 (material number key)" ;
+    fx:sourceRecord "ERP:10025-00 (material number key)",
+        "PLM:PRT-10025 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
         fx:SUP-vortex-seals-gmbh .
 
@@ -2177,26 +2310,32 @@ fx:SUP-kempen-electronics-b-v a fx:Supplier ;
         "ERP:V0024 'Kempen Electronics B.V.' (vendor name cluster)" .
 
 fx:CUS-limburg-paper-mill a fx:Customer ;
-    rdfs:label "Limburg Paper Mill" .
+    rdfs:label "Limburg Paper Mill" ;
+    fx:sourceRecord "CRM:account 'Limburg Paper Mill' (exact name)" .
 
 fx:CUS-twente-textiles a fx:Customer ;
-    rdfs:label "Twente Textiles" .
+    rdfs:label "Twente Textiles" ;
+    fx:sourceRecord "CRM:account 'Twente Textiles' (exact name)" .
 
 fx:CUS-waal-gravel-works a fx:Customer ;
-    rdfs:label "Waal Gravel Works" .
+    rdfs:label "Waal Gravel Works" ;
+    fx:sourceRecord "CRM:account 'Waal Gravel Works' (exact name)" .
 
 fx:CUS-zeeland-desalination a fx:Customer ;
-    rdfs:label "Zeeland Desalination" .
+    rdfs:label "Zeeland Desalination" ;
+    fx:sourceRecord "CRM:account 'Zeeland Desalination' (exact name)" .
 
 fx:PRT-10021 a fx:Part ;
     rdfs:label "O-ring 45mm NBR" ;
-    fx:sourceRecord "ERP:10021-00 (material number key)" ;
+    fx:sourceRecord "ERP:10021-00 (material number key)",
+        "PLM:PRT-10021 (master record)" ;
     fx:suppliedBy fx:SUP-tampere-seal-systems-oy,
         fx:SUP-vortex-seals-gmbh .
 
 fx:PRT-10089 a fx:Part ;
     rdfs:label "Impeller 220mm bronze" ;
-    fx:sourceRecord "ERP:10089 (material number key)" ;
+    fx:sourceRecord "ERP:10089 (material number key)",
+        "PLM:PRT-10089 (master record)" ;
     fx:suppliedBy fx:SUP-nordic-coatings .
 
 fx:SUP-brabant-motorworks-bv a fx:Supplier ;
@@ -2205,13 +2344,16 @@ fx:SUP-brabant-motorworks-bv a fx:Supplier ;
     fx:sourceRecord "ERP:V0019 'Brabant Motorworks BV' (vendor name cluster)" .
 
 fx:CUS-ijssel-steelworks a fx:Customer ;
-    rdfs:label "IJssel Steelworks" .
+    rdfs:label "IJssel Steelworks" ;
+    fx:sourceRecord "CRM:account 'IJssel Steelworks' (exact name)" .
 
 fx:CUS-noord-food-ingredients a fx:Customer ;
-    rdfs:label "Noord Food Ingredients" .
+    rdfs:label "Noord Food Ingredients" ;
+    fx:sourceRecord "CRM:account 'Noord Food Ingredients' (exact name)" .
 
 fx:CUS-schelde-shipyards a fx:Customer ;
-    rdfs:label "Schelde Shipyards" .
+    rdfs:label "Schelde Shipyards" ;
+    fx:sourceRecord "CRM:account 'Schelde Shipyards' (exact name)" .
 
 fx:SUP-nordic-castings-ab a fx:Supplier ;
     rdfs:label "Nordic Castings AB" ;
@@ -2227,10 +2369,12 @@ fx:SUP-tampere-seal-systems-oy a fx:Supplier ;
         "ERP:V0003 'Tampere Seal Systems' (vendor name cluster)" .
 
 fx:CUS-delta-fish-processing a fx:Customer ;
-    rdfs:label "Delta Fish Processing" .
+    rdfs:label "Delta Fish Processing" ;
+    fx:sourceRecord "CRM:account 'Delta Fish Processing' (exact name)" .
 
 fx:CUS-veluwe-dairy-cooperative a fx:Customer ;
-    rdfs:label "Veluwe Dairy Cooperative" .
+    rdfs:label "Veluwe Dairy Cooperative" ;
+    fx:sourceRecord "CRM:account 'Veluwe Dairy Cooperative' (exact name)" .
 
 fx:SUP-nordic-coatings a fx:Supplier ;
     rdfs:label "Nordic Coatings" ;
@@ -2245,7 +2389,8 @@ fx:SUP-rhone-polymers-sas a fx:Supplier ;
     fx:sourceRecord "ERP:V0004 'Rhone Polymers SAS' (vendor name cluster)" .
 
 fx:CUS-amstel-water-board a fx:Customer ;
-    rdfs:label "Amstel Water Board" .
+    rdfs:label "Amstel Water Board" ;
+    fx:sourceRecord "CRM:account 'Amstel Water Board' (exact name)" .
 
 fx:SUP-ardennes-bearings-s-a a fx:Supplier ;
     rdfs:label "Ardennes Bearings S.A." ;
@@ -2256,10 +2401,12 @@ fx:AL-120 a fx:Product ;
     rdfs:label "AquaLine 120" ;
     fx:hasComponent fx:ASM-0002,
         fx:ASM-0026,
-        fx:PRT-10024 .
+        fx:PRT-10024 ;
+    fx:sourceRecord "PLM:AL-120 (master record)" .
 
 fx:CUS-flevo-greenhouses a fx:Customer ;
-    rdfs:label "Flevo Greenhouses" .
+    rdfs:label "Flevo Greenhouses" ;
+    fx:sourceRecord "CRM:account 'Flevo Greenhouses' (exact name)" .
 
 fx:SUP-ligure-valvole-s-p-a a fx:Supplier ;
     rdfs:label "LIGURE VALVOLE S.P.A." ;
@@ -2268,13 +2415,16 @@ fx:SUP-ligure-valvole-s-p-a a fx:Supplier ;
         "ERP:V0012 'LIGURE VALVOLE S.P.A.' (vendor name cluster)" .
 
 fx:CUS-drenthe-biogas a fx:Customer ;
-    rdfs:label "Drenthe Biogas" .
+    rdfs:label "Drenthe Biogas" ;
+    fx:sourceRecord "CRM:account 'Drenthe Biogas' (exact name)" .
 
 fx:CUS-haven-terminals a fx:Customer ;
-    rdfs:label "Haven Terminals" .
+    rdfs:label "Haven Terminals" ;
+    fx:sourceRecord "CRM:account 'Haven Terminals' (exact name)" .
 
 fx:CUS-polder-utilities a fx:Customer ;
-    rdfs:label "Polder Utilities" .
+    rdfs:label "Polder Utilities" ;
+    fx:sourceRecord "CRM:account 'Polder Utilities' (exact name)" .
 
 fx:Product a owl:Class ;
     rdfs:comment "A sellable pump model (PLM)." ;
@@ -2287,7 +2437,8 @@ fx:AL-80 a fx:Product ;
         fx:ASM-0023,
         fx:ASM-0025,
         fx:PRT-10065,
-        fx:PRT-10079 .
+        fx:PRT-10079 ;
+    fx:sourceRecord "PLM:AL-80 (master record)" .
 
 fx:SUP-vortex-seals-gmbh a fx:Supplier ;
     rdfs:label "VORTEX SEALS GMBH" ;
@@ -2298,7 +2449,8 @@ fx:FX-200 a fx:Product ;
     rdfs:label "FluxaPro 200" ;
     fx:hasComponent fx:ASM-0006,
         fx:ASM-0028,
-        fx:PRT-10009 .
+        fx:PRT-10009 ;
+    fx:sourceRecord "PLM:FX-200 (master record)" .
 
 fx:SUP-midlands-fasteners a fx:Supplier ;
     rdfs:label "Midlands Fasteners" ;
@@ -2306,7 +2458,8 @@ fx:SUP-midlands-fasteners a fx:Supplier ;
     fx:sourceRecord "ERP:V0018 'Midlands Fasteners' (vendor name cluster)" .
 
 fx:CUS-brabant-pharma-fill a fx:Customer ;
-    rdfs:label "Brabant Pharma Fill" .
+    rdfs:label "Brabant Pharma Fill" ;
+    fx:sourceRecord "CRM:account 'Brabant Pharma Fill' (exact name)" .
 
 fx:HD-400 a fx:Product ;
     rdfs:label "HydroDrive 400" ;
@@ -2314,20 +2467,23 @@ fx:HD-400 a fx:Product ;
         fx:ASM-0013,
         fx:ASM-0023,
         fx:ASM-0025,
-        fx:PRT-10034 .
+        fx:PRT-10034 ;
+    fx:sourceRecord "PLM:HD-400 (master record)" .
 
 fx:CB-90 a fx:Product ;
     rdfs:label "ChemBoost 90" ;
     fx:hasComponent fx:ASM-0003,
         fx:ASM-0026,
         fx:PRT-10023,
-        fx:PRT-10030 .
+        fx:PRT-10030 ;
+    fx:sourceRecord "PLM:CB-90 (master record)" .
 
 fx:HD-600 a fx:Product ;
     rdfs:label "HydroDrive 600" ;
     fx:hasComponent fx:ASM-0029,
         fx:PRT-10058,
-        fx:PRT-10072 .
+        fx:PRT-10072 ;
+    fx:sourceRecord "PLM:HD-600 (master record)" .
 
 fx:SUP-silesia-tseel-sp-z-o-o a fx:Supplier ;
     rdfs:label "Silesia tSeel Sp. z o.o." ;
@@ -2342,14 +2498,16 @@ fx:CB-50 a fx:Product ;
         fx:ASM-0013,
         fx:ASM-0025,
         fx:PRT-10048,
-        fx:PRT-10049 .
+        fx:PRT-10049 ;
+    fx:sourceRecord "PLM:CB-50 (master record)" .
 
 fx:FX-250 a fx:Product ;
     rdfs:label "FluxaPro 250" ;
     fx:hasComponent fx:ASM-0025,
         fx:ASM-0030,
         fx:PRT-10036,
-        fx:PRT-10079 .
+        fx:PRT-10079 ;
+    fx:sourceRecord "PLM:FX-250 (master record)" .
 
 fx:Supplier a owl:Class ;
     rdfs:comment "A company we buy parts from. ERP may hold several vendor records for one supplier." .
@@ -2357,7 +2515,8 @@ fx:Supplier a owl:Class ;
 fx:FX-150 a fx:Product ;
     rdfs:label "FluxaPro 150" ;
     fx:hasComponent fx:ASM-0021,
-        fx:PRT-10025 .
+        fx:PRT-10025 ;
+    fx:sourceRecord "PLM:FX-150 (master record)" .
 
 fx:SUP-twente-elektro-b-v a fx:Supplier ;
     rdfs:label "TWENTE ELEKTRO B.V." ;
@@ -2373,7 +2532,8 @@ fx:SW-300 a fx:Product ;
         fx:ASM-0010,
         fx:ASM-0025,
         fx:PRT-10001,
-        fx:PRT-10094 .
+        fx:PRT-10094 ;
+    fx:sourceRecord "PLM:SW-300 (master record)" .
 
 fx:Assembly a owl:Class ;
     rdfs:comment "A built unit made of parts or other assemblies (PLM)." ;

@@ -89,7 +89,8 @@ def resolution_quality():
     g, _ = build("full")
     from resolve import FX
     got = {nc: str(g.value(FX[nc], FX.concerns) or "").split("/")[-1] for nc in desc_rows}
-    out["MES description-only records matched correctly"] = sum(got[n] == issue_part[n] for n in desc_rows) / len(desc_rows)
+    out["MES description-only records matched correctly"] = (
+        sum(got[n] == issue_part[n] for n in desc_rows) / len(desc_rows) if desc_rows else 1.0)
     inst = {i["serial"]: i["product"] for i in truth["installations"]}
     got = {s: str(g.value(FX[s], FX.ofProduct) or "").split("/")[-1] for s in inst}
     out["CRM installations matched to the right product"] = sum(got[s] == inst[s] for s in inst) / len(inst)

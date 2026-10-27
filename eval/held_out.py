@@ -4,6 +4,7 @@ Seed 7 is the demo dataset and seeds 11-15 were used to find and fix resolver bu
 counts as a test. Restores seed 7 when done.
 """
 import json
+import re
 import subprocess
 import sys
 from collections import defaultdict
@@ -17,11 +18,13 @@ def run(*args):
     subprocess.run([sys.executable, *args], cwd=ROOT, check=True, capture_output=True)
 
 
-table, misses = defaultdict(list), []
+table, misses, counts = defaultdict(list), [], []
 for seed in SEEDS:
     run("generate_data.py", str(seed))
     run("eval/run_eval.py")
-    for line in (ROOT / "eval" / "results.md").read_text(encoding="utf-8").splitlines():
+    report = (ROOT / "eval" / "results.md").read_text(encoding="utf-8")
+    counts.append(int(re.search(r"(\d+) change-impact questions", report).group(1)))
+    for line in report.splitlines():
         cells = [c.strip() for c in line.strip("|").split("|")]
         if line.startswith("| ") and cells[0] not in ("Method", "Check") and "---" not in line:
             table[cells[0]].append([float(x) for c in cells[1:] for x in c.split(" / ")])
@@ -38,12 +41,21 @@ for seed in SEEDS:
         if len({e for e, _ in recs}) > 1:
             misses.append(f"seed {seed}: {sup} split across {sorted(r for _, r in recs)}")
 
-out = [f"# Held-out evaluation, seeds {SEEDS.start}-{SEEDS.stop - 1}\n", "Mean over seeds (worst seed in brackets).\n",
-       "| Method or check | Scores |", "|---|---|"]
+def cell(vals, i):
+    col = [v[i] for v in vals]
+    return f"{sum(col) / len(col):.2f} ({min(col):.2f})"
+
+
+out = [f"# Held-out evaluation, seeds {SEEDS.start}-{SEEDS.stop - 1}\n",
+       f"{sum(counts)} questions in total, {min(counts)} to {max(counts)} per seed. "
+       "Mean over seeds, worst seed in brackets.\n",
+       "| Method | Supplier parts P | R | Products P | R | Customers P | R | Open issues P | R |",
+       "|---|---|---|---|---|---|---|---|---|"]
+checks = ["\n| Resolver check | Score |", "|---|---|"]
 for name, vals in table.items():
-    means = [sum(c) / len(c) for c in zip(*vals)]
-    worst = [min(c) for c in zip(*vals)]
-    out.append(f"| {name} | " + "  ".join(f"{m:.2f} ({w:.2f})" for m, w in zip(means, worst)) + " |")
+    target, sep = (out, " | ") if len(vals[0]) == 8 else (checks, " / ")  # checks hold one score or a P / R pair
+    target.append(f"| {name} | " + sep.join(cell(vals, i) for i in range(len(vals[0]))) + " |")
+out += checks
 out += ["\n## Resolver misses\n"] + [f"- {m}" for m in misses or ["none"]]
 (ROOT / "eval" / "held_out.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))

@@ -31,3 +31,9 @@ def test_ambiguous_description_is_left_unresolved():
 def test_glossary_expands_shop_floor_abbreviations():
     assert norm_desc("MECH. SEAL 45 MM SIC/SIC") == "mechanical seal 45mm sic/sic"
     assert norm_desc("Volute DN80 CI") == "volute casing dn80 cast iron"
+
+
+def test_part_key_handles_every_format_and_garbage():
+    from resolve import part_key
+    assert part_key("PRT-10023") == part_key("prt10023") == part_key("10023-00") == "PRT-10023"
+    assert part_key("see drawing") is None

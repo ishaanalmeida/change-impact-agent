@@ -43,6 +43,8 @@ async def ask(question):
                 if block.type == "tool_use":
                     print(f"  -> {block.name}({block.input})", file=sys.stderr)
             final = message
+        if final is None:
+            return "No response from the model."
         if final.stop_reason == "refusal":
             return "The model declined this request."
         return "".join(b.text for b in final.content if b.type == "text")
